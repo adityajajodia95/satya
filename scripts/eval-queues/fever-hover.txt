@@ -1,0 +1,5 @@
+# dataset system split [sample]   — Satya and single-agent RAG on the same FEVER/HoVer test claims as the LLM-only baseline
+fever satya_full test 60
+hover satya_full test 40
+fever single_agent_rag test 60
+hover single_agent_rag test 40

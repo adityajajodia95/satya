@@ -1,0 +1,25 @@
+  step 1 of ~48  decompose                     step 3 of ~44  plan:c2                       step 11 of ~44  search:c2:q2:web              step 23 of ~44  fetch:c2:6                    step 25 of ~44  embed:c2                      step 27 of ~44  rerank:c2                     step 29 of ~44  argue:c2:r1:advocate          step 31 of ~44  argue:c2:r1:skeptic           step 33 of ~44  argue:c2:r2:advocate          step 35 of ~44  argue:c2:r2:skeptic           step 41 of ~44  judge:c2:s3                   step 43 of ~44  verdict:c2                    step 44 of ~44  aggregate                   
+[90m┌─────[39m[90m┬──────────────────────────────────────────────[39m[90m┬──────────────────[39m[90m┬───────[39m[90m┬────────────────────────────────────────────┐[39m
+[90m│[39m[1m #   [22m[90m│[39m[1m Claim                                        [22m[90m│[39m[1m Verdict          [22m[90m│[39m[1m Conf. [22m[90m│[39m[1m Cited evidence                             [22m[90m│[39m
+[90m├─────[39m[90m┼──────────────────────────────────────────────[39m[90m┼──────────────────[39m[90m┼───────[39m[90m┼────────────────────────────────────────────┤[39m
+[90m│[39m c1  [90m│[39m The Eiffel Tower was completed in 1889.      [90m│[39m SUPPORTED        [90m│[39m 1.00  [90m│[39m E1 wikipedia: Eiffel Tower                 [90m│[39m
+[90m│[39m     [90m│[39m                                              [90m│[39m                  [90m│[39m       [90m│[39m E2 web: The Construction of the Eiffel     [90m│[39m
+[90m│[39m     [90m│[39m                                              [90m│[39m                  [90m│[39m       [90m│[39m Tower — Google Arts & Culture              [90m│[39m
+[90m│[39m     [90m│[39m                                              [90m│[39m                  [90m│[39m       [90m│[39m E3 web: Eiffel Tower history,              [90m│[39m
+[90m│[39m     [90m│[39m                                              [90m│[39m                  [90m│[39m       [90m│[39m architecture, design & construction        [90m│[39m
+[90m│[39m     [90m│[39m                                              [90m│[39m                  [90m│[39m       [90m│[39m E4 web: Monuments Historiques #4: La Tour  [90m│[39m
+[90m│[39m     [90m│[39m                                              [90m│[39m                  [90m│[39m       [90m│[39m Eiffel - French Library                    [90m│[39m
+[90m├─────[39m[90m┼──────────────────────────────────────────────[39m[90m┼──────────────────[39m[90m┼───────[39m[90m┼────────────────────────────────────────────┤[39m
+[90m│[39m c2  [90m│[39m Eiffel Tower is in Berlin.                   [90m│[39m REFUTED          [90m│[39m 0.98  [90m│[39m E1 web: Eiffel Tower - Wikipedia           [90m│[39m
+[90m│[39m     [90m│[39m                                              [90m│[39m                  [90m│[39m       [90m│[39m E2 web: Instagram                          [90m│[39m
+[90m│[39m     [90m│[39m                                              [90m│[39m                  [90m│[39m       [90m│[39m E4 wikipedia: Berlin Radio Tower           [90m│[39m
+[90m│[39m     [90m│[39m                                              [90m│[39m                  [90m│[39m       [90m│[39m E5 web: Unusual sightseeing in Berlin:     [90m│[39m
+[90m│[39m     [90m│[39m                                              [90m│[39m                  [90m│[39m       [90m│[39m views of the Eiffel Tower from a Berlin    [90m│[39m
+[90m│[39m     [90m│[39m                                              [90m│[39m                  [90m│[39m       [90m│[39m brasserie                                  [90m│[39m
+[90m└─────[39m[90m┴──────────────────────────────────────────────[39m[90m┴──────────────────[39m[90m┴───────[39m[90m┴────────────────────────────────────────────┘[39m
+2 claims · 1 supported · 1 refuted · 0 not enough info · factuality 50%
+model qwen3:4b (ollama) · 17 LLM calls
+
+real	6m36.233s
+user	0m0.045s
+sys	0m0.198s

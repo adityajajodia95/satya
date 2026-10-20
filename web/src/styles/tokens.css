@@ -1,0 +1,55 @@
+/* Design tokens — Satya_Development.md §10.3 (values exactly as specified). */
+:root,
+:root[data-theme="light"] {
+  --bg: #f6f3ec; /* newsprint */
+  --surface: #fffdf8;
+  --surface-2: #efebe1;
+  --ink: #1c1b19;
+  --ink-2: #4a4740;
+  --muted: #7a7468;
+  --rule: #d9d3c5; /* hairlines */
+  --accent: #1f3a5f; /* editor's navy */
+  --ok: #2f6b4f; /* supported */
+  --bad: #a23b2a; /* refuted */
+  --unsure: #a87a1f; /* not enough info */
+  --ok-bg: #e4efe7;
+  --bad-bg: #f5e3df;
+  --unsure-bg: #f4ecd8;
+  --focus: #1f3a5f;
+}
+:root[data-theme="dark"] {
+  --bg: #151412;
+  --surface: #1c1b18;
+  --surface-2: #24221e;
+  --ink: #ece7dc;
+  --ink-2: #bdb6a8;
+  --muted: #8c8576;
+  --rule: #34312b;
+  --accent: #8fb0d9;
+  --ok: #7fb894;
+  --bad: #e08a78;
+  --unsure: #d9b15f;
+  --ok-bg: #1f2d24;
+  --bad-bg: #3a221d;
+  --unsure-bg: #33291a;
+  --focus: #8fb0d9;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme]) {
+    --bg: #151412;
+    --surface: #1c1b18;
+    --surface-2: #24221e;
+    --ink: #ece7dc;
+    --ink-2: #bdb6a8;
+    --muted: #8c8576;
+    --rule: #34312b;
+    --accent: #8fb0d9;
+    --ok: #7fb894;
+    --bad: #e08a78;
+    --unsure: #d9b15f;
+    --ok-bg: #1f2d24;
+    --bad-bg: #3a221d;
+    --unsure-bg: #33291a;
+    --focus: #8fb0d9;
+  }
+}

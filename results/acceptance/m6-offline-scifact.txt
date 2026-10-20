@@ -1,0 +1,10 @@
+M6 offline closed-corpus check 2026-10-13T17:01:45.328Z
+command: NODE_OPTIONS=--require ./scripts/offline-guard.cjs npx satya verify --corpus scifact "ADAR1 binds to Dicer to cleave pre-miRNA."
+SciFact dev claim 49, gold label SUPPORT, gold doc 5953485
+guard: 0 blocked connection attempts; elapsed 309 s
+verdict: SUPPORTED confidence 1.000 cited E1
+  E1 doc 5953485 rerank 6.58 ADAR1 Forms a Complex with Dicer to Promote MicroRNA Processing and RNA-Induced Gene Silencing
+  E2 doc 5702790 rerank 0.90 Phosphate and R2D2 restrict the substrate specificity of Dicer-2, an ATP-driven ribonuclease.
+  E3 doc 23913146 rerank -1.10 Molecular mechanisms that funnel RNA precursors into endogenous small-interfering RNA and microRNA biogenesis pathways in Drosophila.
+  E4 doc 86602746 rerank -1.63 MicroRNAs: small RNAs with a big role in gene regulation
+  E5 doc 18654430 rerank -2.91 Prediction of guide strand of microRNAs from its sequence and secondary structure

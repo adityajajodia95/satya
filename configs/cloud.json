@@ -1,0 +1,9 @@
+{
+  "maxInputChars": 2000,
+  "maxClaims": 6,
+  "perStepTimeoutS": { "llm": 90, "tool": 20 },
+  "stepRetries": 3,
+  "estNeuronsPerClaim": 700,
+  "archiveDays": 30,
+  "tavilyMonthlyGuard": 900
+}

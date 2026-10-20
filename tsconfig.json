@@ -1,0 +1,12 @@
+{
+  "files": [],
+  "references": [
+    { "path": "packages/core" },
+    { "path": "packages/core/test" },
+    { "path": "packages/tools" },
+    { "path": "packages/tools/test" },
+    { "path": "packages/mcp" },
+    { "path": "packages/mcp/test" },
+    { "path": "apps/cli" }
+  ]
+}

@@ -1,0 +1,262 @@
+{
+  "title": "A misattributed quote",
+  "runId": "d5aad5ea-a270-4795-8afc-1bce9f3e4e24",
+  "inputText": "Albert Einstein said that insanity is doing the same thing over and over again and expecting different results.",
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Albert Einstein said that insanity is doing the same thing over and over again and expecting different results.",
+      "quote": "Albert Einstein said that insanity is doing the same thing over and over again and expecting different results",
+      "span": [
+        0,
+        110
+      ],
+      "checkworthy": true
+    }
+  ],
+  "evidence": {
+    "c1": [
+      {
+        "id": "E1",
+        "passage": {
+          "id": "cfb2569b62c017a294be03c3fa1614a9de8081f9",
+          "source": "web",
+          "url": "https://www.businessinsider.com/misattributed-quotes-2013-10",
+          "title": "Misattributed Quotes - Business Insider",
+          "text": "Becker traced the original back to Rita Mae Brown, the mystery novelist. In her 1983 book \"Sudden Death,\" she attributes the quote to a fictional \"Jane Fulton,\" writing, \"Unfortunately, Susan didn’t remember what Jane Fulton once said. 'Insanity is doing the same thing over and over again, but expecting different results.'\" Now, go throw away half your coffee mugs and inspirational posters. Jump to [...] We've all heard Albert Einstein's famous line: \"Insanity is doing the same thing over and over again and expecting different results.\" As it turns out, insanity might be crediting that quote to Einstein over and over again. He never said it. Misattributions like this happen pretty often. One person quotes someone else without a shoutout, and all of a sudden, they become the original speaker. Or we just decide a quote sounds like something Mark Twain would say. [...] 12. \"Insanity is doing the same thing over and over again and expecting different results.\" — not Albert Einstein Different versions of this quote appear everywhere (doing the same thing twice, expecting the same result, etc.), and we owe none of them to Einstein. After Michael Becker, an editor at the Bozeman Daily Chronicle (a local paper in Montana), let the wrong version slide into an editorial, he did some research on his personal blog.",
+          "published": null
+        },
+        "bm25Rank": 1,
+        "denseRank": 8,
+        "rrf": 0.031099324975891997,
+        "rerank": 8.738075511493086
+      },
+      {
+        "id": "E2",
+        "passage": {
+          "id": "b7dc2b4e9d95779262f9a8fea11d519c1114acea",
+          "source": "web",
+          "url": "https://www.history.com/articles/here-are-6-things-albert-einstein-never-said",
+          "title": "Here Are 6 Things Albert Einstein Never Said | HISTORY",
+          "text": "“The definition of insanity is doing the same thing over and over again and expecting different results.” A favorite of politicians (and pretty much everybody else), this quote has been wrongly attributed to Benjamin Franklin as well as—but there’s no evidence either of them said it. “The Ultimate Quotable Einstein,” an authoritative complication of his most memorable utterances, identified the quote as a misattribution, and mentioned its use in the 1983 novel “Sudden Death” by Rita Mae Brown. [...] ## Albert Einstein The ambitious Albert Einstein challenges centuries of scientific thought with his new controversial idea, the General Theory of Relativity. 2:55m watch For example, take these often repeated and reprinted Albert Einstein quotes—none of which the great physicist actually said: “Not everything that counts can be counted.” “The definition of insanity is doing the same thing over and over again and expecting different results.” [...] by Rita Mae Brown. On his website, Quote Investigator, O’Toole traced, the link between insanity and repetition back to at least the 19th century, but noted its use in a Narcotics Anonymous pamphlet as well as novels (including Brown’s), TV shows and various other sources.",
+          "published": null
+        },
+        "bm25Rank": 2,
+        "denseRank": 1,
+        "rrf": 0.03252247488101534,
+        "rerank": 8.474519714846826
+      },
+      {
+        "id": "E3",
+        "passage": {
+          "id": "5cbde85e7a46588bbff79c6e472b36e4cfbc2269",
+          "source": "web",
+          "url": "https://quoteinvestigator.com/2017/03/23/same/",
+          "title": "Quote Origin: Insanity Is Doing the Same Thing Over and Over Again and Expecting Different Results – Quote Investigator®",
+          "text": "is the standard of paranoid societies. The 1988 book “Raising Self-Reliant Children in a Self-Indulgent World” included an instance:13 Flexibility is the ability to bend when we find ourselves in unworkable positions. A universal characteristic of insanity is inflexibly doing the same thing over and over while hoping for different results. Flexibility in the face of changing circumstances, by contrast, is a hallmark of mental health. By 1990 the saying was being attributed to Einstein. For example, the “Austin American-Statesman” of Austin, Texas published the following remark made by Travis County District Attorney Ronnie Earle:14 Einstein once said that insanity is doing the same thing over and over and expecting a different result. In 1991 “The Seattle Times” printed the thoughts of an Indiana judge who ascribed another version of the saying to Einstein:15 The jurist from the Hoosier State subscribes to Albert Einstein’s definition of insanity: “doing the same thing over and over and expecting a different outcome.” In 2000 a columnist working for the Knight Ridder News Service ascribed a version of the saying to the influential lecturer and trainer Werner Erhard although the name was misspelled as “Erhart”:16 Werner Erhart described insanity as ‘repeating identical behavior and expecting a different result.’ If we repeatedly have difficulties in an area of life, doesn’t it make sense that our",
+          "published": null
+        },
+        "bm25Rank": 3,
+        "denseRank": 4,
+        "rrf": 0.03149801587301587,
+        "rerank": 7.696677696029881
+      },
+      {
+        "id": "E4",
+        "passage": {
+          "id": "5b5a79238ebff489f939720bc7bbc16aba3218de",
+          "source": "web",
+          "url": "https://quoteinvestigator.com/2017/03/23/same",
+          "title": "Quote Origin: Insanity Is Doing the Same Thing Over and Over Again and Expecting Different Results – Quote Investigator®",
+          "text": "> Flexibility is the ability to bend when we find ourselves in unworkable positions. A universal characteristic of insanity is inflexibly doing the same thing over and over while hoping for different results. Flexibility in the face of changing circumstances, by contrast, is a hallmark of mental health. [...] Skip to content Quote Investigator® Tracing Quotations # Quote Origin: Insanity Is Doing the Same Thing Over and Over Again and Expecting Different Results Posted byquoteresearch Albert Einstein? Al-Anon? Narcotics Anonymous? Max Nordau? George Bernard Shaw? Samuel Beckett? George A. Kelly? Rita Mae Brown? John Larroquette? Jessie Potter? Werner Erhard? Question for Quote Investigator: It’s foolish to repeat ineffective actions. One popular formulation presents this point harshly: [...] > The definition of insanity is doing the same thing over and over again and expecting a different result. These words are usually credited to the acclaimed genius Albert Einstein. What do you think? Reply from Quote Investigator: There is no substantive evidence that Einstein wrote or spoke the statement above. It is listed within a section called “Misattributed to Einstein” in the comprehensive reference “The Ultimate Quotable Einstein” from Princeton University Press.1",
+          "published": null
+        },
+        "bm25Rank": 4,
+        "denseRank": 3,
+        "rrf": 0.03149801587301587,
+        "rerank": 7.338088993033643
+      },
+      {
+        "id": "E5",
+        "passage": {
+          "id": "af738ac284d4a1611156ba7edda88be3081cddf2",
+          "source": "web",
+          "url": "https://medium.com/understanding-games/the-definition-of-insanity-667b9aa7b083",
+          "title": "The Definition of Insanity",
+          "text": "Sitemap Open in app Sign up Sign in > “Insanity is doing the same thing over and over again and expecting different results.” [...] This quote is frequently attributed to Albert Einstein, but this attribution is incorrect. The earliest appearance of this quote is found in the 1983 book _Sudden Death_ by Rita Mae Brown, where it is presented as a nugget of wisdom by the character Jane Fulton. Brown’s novel, a murder mystery intertwined with a critique of the professional tennis circuit, offers this line as a reflection on the characters’ repeated, yet fruitless, actions, which ultimately do not lead to the desired outcomes. [...] The quote’s essence captures a fundamental principle of human behavior and learning, highlighting the irrationality of repeating the same actions while expecting different results. This concept is particularly resonant in the context of problem-solving and innovation, where it serves as a caution against stagnation and a prompt for creative thinking.",
+          "published": null
+        },
+        "bm25Rank": 10,
+        "denseRank": 2,
+        "rrf": 0.0304147465437788,
+        "rerank": 7.261011341723004
+      }
+    ]
+  },
+  "debate": {
+    "c1": [
+      {
+        "claimId": "c1",
+        "side": "advocate",
+        "round": 1,
+        "text": "The provided evidence consistently identifies the quote as a misattribution and traces its origin to Rita Mae Brown's 1983 novel, not to Albert Einstein.",
+        "cited": [
+          "E1",
+          "E2",
+          "E3",
+          "E5"
+        ]
+      },
+      {
+        "claimId": "c1",
+        "side": "skeptic",
+        "round": 1,
+        "text": "The claim that Albert Einstein said the quote is contradicted by the evidence. Multiple sources trace the saying to Rita Mae Brown’s 1983 novel *Sudden Death* and label it a misattribution to Einstein (e.g., [E1], [E2], [E5]). No source provides a genuine Einstein origin; instead they note that the attribution appears only after the 1980s and is unsupported. Therefore the claim is not supported by the evidence.",
+        "cited": [
+          "E1",
+          "E2",
+          "E5"
+        ]
+      },
+      {
+        "claimId": "c1",
+        "side": "advocate",
+        "round": 2,
+        "text": "The claim that Albert Einstein said the quote is not supported. All provided sources identify the saying as a misattribution and trace its origin to Rita Mae Brown’s 1983 novel, not to Einstein.",
+        "cited": [
+          "E1",
+          "E2",
+          "E5"
+        ]
+      },
+      {
+        "claimId": "c1",
+        "side": "skeptic",
+        "round": 2,
+        "text": "contradicted",
+        "cited": [
+          "E1",
+          "E2",
+          "E5"
+        ]
+      }
+    ]
+  },
+  "verdicts": {
+    "c1": {
+      "claimId": "c1",
+      "label": "REFUTED",
+      "rawLabel": "REFUTED",
+      "confidence": 0.9999518990516663,
+      "abstained": false,
+      "rationale": "The provided sources identify the quote as a misattribution and trace its origin to Rita Mae Brown’s 1983 novel, indicating Einstein never said it.",
+      "cited": [
+        "E1",
+        "E2"
+      ],
+      "samples": [
+        "REFUTED",
+        "REFUTED",
+        "REFUTED"
+      ]
+    }
+  },
+  "factuality": 0,
+  "trace": [
+    {
+      "step": "decompose",
+      "model": "@cf/openai/gpt-oss-120b",
+      "provider": "workersai",
+      "inTok": 165,
+      "outTok": 390,
+      "neurons": 31.840869903564453,
+      "ms": 3441,
+      "ok": true
+    },
+    {
+      "step": "plan:c1",
+      "model": "@cf/openai/gpt-oss-120b",
+      "provider": "workersai",
+      "inTok": 151,
+      "outTok": 352,
+      "neurons": 28.80451011657715,
+      "ms": 2693,
+      "ok": true
+    },
+    {
+      "step": "argue:c1:r1:advocate",
+      "model": "@cf/openai/gpt-oss-120b",
+      "provider": "workersai",
+      "inTok": 1173,
+      "outTok": 184,
+      "neurons": 49.86796569824219,
+      "ms": 5412,
+      "ok": true
+    },
+    {
+      "step": "argue:c1:r1:skeptic",
+      "model": "@cf/openai/gpt-oss-120b",
+      "provider": "workersai",
+      "inTok": 1226,
+      "outTok": 179,
+      "neurons": 51.213409423828125,
+      "ms": 2641,
+      "ok": true
+    },
+    {
+      "step": "argue:c1:r2:advocate",
+      "model": "@cf/openai/gpt-oss-120b",
+      "provider": "workersai",
+      "inTok": 1312,
+      "outTok": 215,
+      "neurons": 56.404296875,
+      "ms": 4670,
+      "ok": true
+    },
+    {
+      "step": "argue:c1:r2:skeptic",
+      "model": "@cf/openai/gpt-oss-120b",
+      "provider": "workersai",
+      "inTok": 1381,
+      "outTok": 113,
+      "neurons": 51.645198822021484,
+      "ms": 2963,
+      "ok": true
+    },
+    {
+      "step": "judge:c1:s3",
+      "model": "@cf/openai/gpt-oss-120b",
+      "provider": "workersai",
+      "inTok": 1403,
+      "outTok": 219,
+      "neurons": 59.57246398925781,
+      "ms": 4798,
+      "ok": true
+    },
+    {
+      "step": "judge:c1:s1",
+      "model": "@cf/openai/gpt-oss-120b",
+      "provider": "workersai",
+      "inTok": 1403,
+      "outTok": 220,
+      "neurons": 59.640647888183594,
+      "ms": 4828,
+      "ok": true
+    },
+    {
+      "step": "judge:c1:s2",
+      "model": "@cf/openai/gpt-oss-120b",
+      "provider": "workersai",
+      "inTok": 1403,
+      "outTok": 201,
+      "neurons": 58.345191955566406,
+      "ms": 5138,
+      "ok": true
+    }
+  ],
+  "model": "gpt-oss-120b",
+  "provider": "workersai",
+  "createdAt": "2026-10-13T20:15:56.799Z",
+  "executor": "cloud",
+  "partial": false
+}

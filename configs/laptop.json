@@ -1,0 +1,22 @@
+{
+  "llm": {
+    "provider": "ollama",
+    "model": "qwen3:4b",
+    "baseUrl": "http://localhost:11434",
+    "numCtx": 8192,
+    "think": {
+      "judge": true,
+      "decomposer": true,
+      "default": false
+    }
+  },
+  "embed": {
+    "provider": "ollama",
+    "model": "bge-m3"
+  },
+  "rerank": {
+    "provider": "transformers",
+    "model": "Xenova/bge-reranker-base",
+    "dtype": "fp32"
+  }
+}

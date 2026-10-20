@@ -1,0 +1,725 @@
+{
+  "title": "A sports record",
+  "runId": "bf08cc70-8d36-4a12-ad43-f738a643981b",
+  "inputText": "Usain Bolt set the 100 metres world record of 9.58 seconds at the 2009 World Championships in Berlin. Sachin Tendulkar scored 100 centuries in international cricket.",
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Usain Bolt set the 100 metres world record of 9.58 seconds.",
+      "quote": "Usain Bolt set the 100 metres world record of 9.58 seconds",
+      "span": [
+        0,
+        58
+      ],
+      "checkworthy": true
+    },
+    {
+      "id": "c2",
+      "text": "Usain Bolt set the 100 metres world record at the 2009 World Championships in Berlin.",
+      "quote": "at the 2009 World Championships in Berlin",
+      "span": [
+        59,
+        100
+      ],
+      "checkworthy": true
+    },
+    {
+      "id": "c3",
+      "text": "Sachin Tendulkar scored 100 centuries in international cricket.",
+      "quote": "Sachin Tendulkar scored 100 centuries in international cricket",
+      "span": [
+        102,
+        164
+      ],
+      "checkworthy": true
+    }
+  ],
+  "evidence": {
+    "c1": [
+      {
+        "id": "E1",
+        "passage": {
+          "id": "532dd38bee1ca7c3a338bc6786a09bd84192ef66",
+          "source": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Usain_Bolt",
+          "title": "Usain Bolt",
+          "text": "Usain St. Leo Bolt ( YOO-sayn; born 21 August 1986) is a Jamaican retired sprinter. Widely regarded as the greatest sprinter of all time, he is an eight-time Olympic gold medalist and the world record holder in the 100 metres, 200 metres, and 4 × 100 metres relay. Bolt is the only sprinter to win Olympic 100 m and 200 m titles at three consecutive Olympics (2008, 2012, and 2016). He also won two 4 × 100 relay gold medals. He gained worldwide fame for his double sprint victory in world record times at the 2008 Beijing Olympics, which made him the first person to hold both records since fully automatic time became mandatory. An eleven-time World Champion, Bolt won consecutive World Championship 100 m, 200 m and 4 × 100 metres relay gold medals from 2009 to 2015, with the exception of a 100 m false start in 2011. He is the most successful male athlete of the World Championships. He is the first athlete to win four World Championship titles in the 200 m and is one of the most successful in the 100 m with three titles, being the first person to run sub-9.7s and sub-9.6s races. Bolt improved upon his second 100 m world record of 9.69 with 9.58 seconds in 2009 – the biggest improvement",
+          "published": null
+        },
+        "bm25Rank": 4,
+        "denseRank": 6,
+        "rrf": 0.030776515151515152,
+        "rerank": 10.307562170551341
+      },
+      {
+        "id": "E2",
+        "passage": {
+          "id": "1eaea7bb04b7cdc39e54a0d14d2ad97faaf7065e",
+          "source": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Usain_Bolt",
+          "title": "Usain Bolt",
+          "text": "the most successful in the 100 m with three titles, being the first person to run sub-9.7s and sub-9.6s races. Bolt improved upon his second 100 m world record of 9.69 with 9.58 seconds in 2009 – the biggest improvement since the start of electronic timing. He has twice broken the 200 metres world record, setting 19.30 in 2008 and 19.19 in 2009. He has helped Jamaica to three 4 × 100 metres relay world records, with the current record being 36.84 seconds set in 2012. Bolt's most successful event is the 200 m, with three Olympic and four World titles. The 2008 Olympics was his international debut over 100 m; he had earlier won numerous 200 m medals (including 2007 World Championship silver) and held the world under-20 and world under-18 records for the event until being surpassed by Erriyon Knighton in 2021. His achievements as a sprinter have earned him the media nickname \"Lightning Bolt\", and his awards include the IAAF World Athlete of the Year, Track & Field Athlete of the Year, BBC Overseas Sports Personality of the Year (three times), and Laureus World Sportsman of the Year (four times). Bolt was included in Time magazine's 100 Most Influential People of 2016. Bolt retired after the 2017 World Championships, when he finished third in his last solo",
+          "published": null
+        },
+        "bm25Rank": 2,
+        "denseRank": 1,
+        "rrf": 0.03252247488101534,
+        "rerank": 9.350624513521668
+      },
+      {
+        "id": "E3",
+        "passage": {
+          "id": "4ff755e1eb1f2c5ce7abb9d634b4f9ce38b25313",
+          "source": "web",
+          "url": "https://worldathletics.org/news/news/bolt-again-958-world-record-in-berlin-updat",
+          "title": "Bolt again! 9.58 World record in Berlin! - UPDATED | NEWS | World Athletics",
+          "text": "Inside World Athletics Museum Library Home News Press Releases News Reports Previews Features Series Watch Competitions Calendar Tickets Hosting Our Sport Innovations Rules & Regulations Competition Performance Ranking Competitions Archive Athletes World Rankings Profiles Awards Spikes Athletes' Representatives Transfer of Allegiance Athletes Commission Stats Results Toplists Records Send Competition Results World Rankings Road to WCH Beijing 27 Ultimate RUN X Shop All News Press Releases Reports Previews Features Series Register for Press Releases News16 Aug 2009 Bolt again! 9.58 World record in Berlin! - UPDATED Usain Bolt of Jamaica celebrates winning the gold medal in the men's 100m with a world record of 9.58 seconds (© Getty Images) 16 August 2009Berlin, GermanyWith a performance that defies the imagination, Usain Bolt set a new 100m World record of 9.58 on the second evening of the 12th IAAF World Championships in Athletics at the Olympic Stadium in Berlin.The 22-year-old Jamaican knocked a mind-numbing 0.11 second from the 9.69 record he set at the Olympic Games in Beijing exactly one year ago today. One can only imagine where he’ll be and how fast he’ll run on 16 August of next year. \"I was definitely ready for the World record and I did it,\" Bolt said. \"I didn't think I could run a tenth (of a second) faster than my World record, but for",
+          "published": null
+        },
+        "bm25Rank": 8,
+        "denseRank": 4,
+        "rrf": 0.030330882352941176,
+        "rerank": 8.170824462762392
+      },
+      {
+        "id": "E4",
+        "passage": {
+          "id": "61c7d9f7a4c50337499361450908ada9101dd8f7",
+          "source": "web",
+          "url": "https://www.olympics.com/en/news/usain-bolt-says-could-have-broken-100m-world-record",
+          "title": "Usain Bolt reveals: I could have run faster than my 100m world record",
+          "text": "# Usain Bolt reveals: I could have run faster than my 100m world record Speaking on The Fix podcast, Bolt rued injuries during his 2011 season when he was \"floating\". He also tipped Oblique Seville to return Jamaica to the forefront of men's sprinting. Picture by 2009 Getty Images By Rory Jiwani It is over 15 years since Usain Bolt set the current 100m world record of 9.58 seconds at the 2009 World Championships in Berlin. [...] No one has come close to it in recent years with Trayvon Bromell and Fred Kerley the fastest men this decade at 9.76. But the Jamaican sprint legend, coached by Glen Mills, believes he could have gone even quicker. Bolt spoke at length on a range of subjects on The Fix podcast earlier this month, and revealed that he felt he could have broken his Berlin mark in 2011. [...] “Oblique can do it,\" said Bolt. \"If he can stay fit through the season and get it right, he can do it because I’m sure there’s something there, the ability to do it. “Some of the time, Oblique is kind of fragile. I don’t know if it’s the work situation, if he’s doing enough work, but he can do it. He’s not missed a final yet, so he has to just to get",
+          "published": null
+        },
+        "bm25Rank": 18,
+        "denseRank": 20,
+        "rrf": 0.02532051282051282,
+        "rerank": 7.251707105627331
+      },
+      {
+        "id": "E5",
+        "passage": {
+          "id": "40e6644bcdbd2a2cedd9172fe9e78640b64c4ae8",
+          "source": "web",
+          "url": "https://www.facebook.com/FitzDunk/posts/17-years-later-958-still-doesnt-look-real-on-august-16-2009-usain-bolt-produced-/1415693583709172",
+          "title": "Fitzroy Dunkley - 17 years later, 9.58 still doesn’t look...",
+          "text": "## Fitzroy Dunkley's post ### Fitzroy Dunkley 16 August · 17 years later, 9.58 still doesn’t look real. 🇯🇲⚡ On August 16, 2009, Usain Bolt produced one of the greatest performances in track and field history, storming to 9.58 seconds (+0.9 m/s) to win the 100m World Championship in Berlin. In just 100 metres, he took a massive 0.11 seconds off the 9.69 world record he had set exactly one year earlier at the Beijing Olympics. [...] And this wasn’t a weak field. Tyson Gay ran 9.71, then a U.S. record, for silver, while fellow Jamaican Asafa Powell took bronze in 9.84. Bolt simply made some of the fastest men in history look ordinary that night. Seventeen years later, Bolt’s 9.58 remains the men’s 100m world record and the fastest legal 100m ever recorded. No other man has even run 9.68 or faster. For Jamaica, it was another moment when a small Caribbean nation became the centre of the sporting world. 🇯🇲 [...] View all 7 replies Ester Dawkins I believe Sir Bolt could have ran better than 9.58 during that same period. Can this record be broken? That is a question that can only be answered if and when it, 9.58, is equalled or surpassed. 7w 9",
+          "published": null
+        },
+        "bm25Rank": 1,
+        "denseRank": 10,
+        "rrf": 0.030679156908665108,
+        "rerank": 7.113736967891915
+      }
+    ],
+    "c2": [
+      {
+        "id": "E1",
+        "passage": {
+          "id": "532dd38bee1ca7c3a338bc6786a09bd84192ef66",
+          "source": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Usain_Bolt",
+          "title": "Usain Bolt",
+          "text": "Usain St. Leo Bolt ( YOO-sayn; born 21 August 1986) is a Jamaican retired sprinter. Widely regarded as the greatest sprinter of all time, he is an eight-time Olympic gold medalist and the world record holder in the 100 metres, 200 metres, and 4 × 100 metres relay. Bolt is the only sprinter to win Olympic 100 m and 200 m titles at three consecutive Olympics (2008, 2012, and 2016). He also won two 4 × 100 relay gold medals. He gained worldwide fame for his double sprint victory in world record times at the 2008 Beijing Olympics, which made him the first person to hold both records since fully automatic time became mandatory. An eleven-time World Champion, Bolt won consecutive World Championship 100 m, 200 m and 4 × 100 metres relay gold medals from 2009 to 2015, with the exception of a 100 m false start in 2011. He is the most successful male athlete of the World Championships. He is the first athlete to win four World Championship titles in the 200 m and is one of the most successful in the 100 m with three titles, being the first person to run sub-9.7s and sub-9.6s races. Bolt improved upon his second 100 m world record of 9.69 with 9.58 seconds in 2009 – the biggest improvement",
+          "published": null
+        },
+        "bm25Rank": 9,
+        "denseRank": 10,
+        "rrf": 0.02877846790890269,
+        "rerank": 10.27939033987804
+      },
+      {
+        "id": "E2",
+        "passage": {
+          "id": "b924d1b3fcbba60688b3c2cc653457dfc67878d5",
+          "source": "web",
+          "url": "https://www.history.com/this-day-in-history/august-16/usain-bolt-100-meter-run-world-record",
+          "title": "Usain Bolt sets 100-meter dash world record | August 16, 2009 | HISTORY",
+          "text": "# Usain Bolt sets 100-meter dash world record On August 16, 2009, under the lights of Berlin’s Olympic Stadium at the World Championships, 22-year-old Usain Bolt strikes a lightning-bolt pose and grins before taking his mark. Then the Jamaican, already the fastest man in the world, shatters his own world record in the 100-meter dash, winning the event in 9.58 seconds. He becomes the first to run the event in less than 9.6 seconds. [...] Although his starts were considered a weakness, Bolt started strongly and got better over the course of the sprint. Even as Gay ran the race of his life, finishing in 9.71 seconds, Bolt pulled away from him, winning by more than a meter. As an exuberant Bolt continued running along the curve of the track, thumping his chest and receiving adulation from the crowd, his official time was announced. [...] It happened the next year, in the same stadium where trailblazing sprinter Jesse Owens had covered himself in glory at the 1936 Olympics. After sailing through the preliminary heats, Bolt lined up for the 100-meter final alongside Tyson Gay, an American sprinter considered his main challenger at the time. On Gay’s other side was Bolt’s countryman, Asafa Powell—together, they were the three fastest men in the world.",
+          "published": null
+        },
+        "bm25Rank": 7,
+        "denseRank": 4,
+        "rrf": 0.03055037313432836,
+        "rerank": 9.483970811114851
+      },
+      {
+        "id": "E3",
+        "passage": {
+          "id": "4ff755e1eb1f2c5ce7abb9d634b4f9ce38b25313",
+          "source": "web",
+          "url": "https://worldathletics.org/news/news/bolt-again-958-world-record-in-berlin-updat",
+          "title": "Bolt again! 9.58 World record in Berlin! - UPDATED | NEWS | World Athletics",
+          "text": "Inside World Athletics Museum Library Home News Press Releases News Reports Previews Features Series Watch Competitions Calendar Tickets Hosting Our Sport Innovations Rules & Regulations Competition Performance Ranking Competitions Archive Athletes World Rankings Profiles Awards Spikes Athletes' Representatives Transfer of Allegiance Athletes Commission Stats Results Toplists Records Send Competition Results World Rankings Road to WCH Beijing 27 Ultimate RUN X Shop All News Press Releases Reports Previews Features Series Register for Press Releases News16 Aug 2009 Bolt again! 9.58 World record in Berlin! - UPDATED Usain Bolt of Jamaica celebrates winning the gold medal in the men's 100m with a world record of 9.58 seconds (© Getty Images) 16 August 2009Berlin, GermanyWith a performance that defies the imagination, Usain Bolt set a new 100m World record of 9.58 on the second evening of the 12th IAAF World Championships in Athletics at the Olympic Stadium in Berlin.The 22-year-old Jamaican knocked a mind-numbing 0.11 second from the 9.69 record he set at the Olympic Games in Beijing exactly one year ago today. One can only imagine where he’ll be and how fast he’ll run on 16 August of next year. \"I was definitely ready for the World record and I did it,\" Bolt said. \"I didn't think I could run a tenth (of a second) faster than my World record, but for",
+          "published": null
+        },
+        "bm25Rank": 4,
+        "denseRank": 3,
+        "rrf": 0.03149801587301587,
+        "rerank": 8.762920768554658
+      },
+      {
+        "id": "E4",
+        "passage": {
+          "id": "4d491cc0027f997e104130e26a28837cdca4567a",
+          "source": "web",
+          "url": "https://www.youtube.com/watch?v=DiJKCQSkjOw",
+          "title": "Usain Bolt's 100m world record in Berlin 👀🔥  | World Athletics Championships Berlin 2009",
+          "text": "[16:57] and there is the historic photo of the fastest time we've ever seen for a 100 meters by a huge margin even Prince [17:05] Albert can scarce believe it that's a reaction of a dedicated Athletics fan wow [17:14] the result of the men's 100 meters that fantastic world record to Usain Bolt 9.58 Tyson Gay smashing the American [17:22] record to take the silver medal a Safa Powell running 984 Bailey and Thompson more Caribbean athletes under 10 seconds [...] [4:25] that in Beijing what is he going to do today as he goes through his familiar warm-up Usain Bolt the world record [4:32] holder at 9.69 goes in lane four next to him the defending Champion the [4:42] double champion from Osaka 2007 the American record holder he equaled up this year it's Tyson Gay third quickest [4:51] of all time at 9.77 didn't look quite as good as both in his [4:59] semi-final but he still won and we're finishing with great power and great speed [...] ### Transcript [0:00] the fastest men on the world are down there at the end of the strait for the final the men's 100 meters [0:09] the world record set by Usain Bolt in Beijing 9.69 the world lead this year [0:16] set by Tyson Gay 9.77 the three",
+          "published": null
+        },
+        "bm25Rank": 2,
+        "denseRank": 6,
+        "rrf": 0.03128054740957967,
+        "rerank": 8.302254467246932
+      },
+      {
+        "id": "E5",
+        "passage": {
+          "id": "265729cac4a4c776834c671c57e9073685ab8c3d",
+          "source": "web",
+          "url": "https://www.youtube.com/watch?v=DiJKCQSkjOw",
+          "title": "Usain Bolt's 100m world record in Berlin 👀🔥  | World Athletics Championships Berlin 2009",
+          "text": "are down there at the end of the strait for the final the men's 100 meters [0:09] the world record set by Usain Bolt in Beijing 9.69 the world lead this year [0:16] set by Tyson Gay 9.77 the three fastest 100-meter men of [0:23] all time are here in the 100 meters here is the man who set four World Records asafa Powell here's the U.S record [0:31] holder Tyson Gay 9.77 twice he's run the defending Champion one of the all-time greats and",
+          "published": null
+        },
+        "bm25Rank": 1,
+        "denseRank": 1,
+        "rrf": 0.03278688524590164,
+        "rerank": 8.22187663652435
+      }
+    ],
+    "c3": [
+      {
+        "id": "E1",
+        "passage": {
+          "id": "3a150d79f097a2cb38c58736c41d5e8f49f0d160",
+          "source": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Sachin_Tendulkar",
+          "title": "Sachin Tendulkar",
+          "text": "Sachin Ramesh Tendulkar ( ; Marathi: [sətɕin t̪eɳɖulkəɾ]; born 24 April 1973) is an Indian former international cricketer who captained the Indian national team. Tendulkar is widely regarded as one of the greatest cricketers in the history of cricket. He holds several world records, including being the all-time highest run-scorer in international cricket, receiving the most player of the match awards in international cricket, and being the only batsman to score 100 international centuries. Tendulkar was a Member of Parliament, Rajya Sabha by presidential nomination from 2012 to 2018. Tendulkar took up cricket at the age of eleven, made his Test match debut on 15 November 1989 against Pakistan in Karachi at the age of sixteen, and went on to represent Mumbai domestically and India internationally for over 24 years. In 2002, halfway through his career, Wisden ranked him the second-greatest Test batsman of all time, behind Don Bradman, and the second-greatest ODI batsman of all time, behind Viv Richards. The same year, Tendulkar was a part of the team that was one of the joint-winners of the 2002 ICC Champions Trophy. Later in his career, Tendulkar was part of the Indian team that won the 2011 Cricket World Cup, his first win in six World Cup appearances for India. He had previously been named \"Player of the Tournament\" at",
+          "published": null
+        },
+        "bm25Rank": 11,
+        "denseRank": 5,
+        "rrf": 0.02946912242686891,
+        "rerank": 10.286359247620869
+      },
+      {
+        "id": "E2",
+        "passage": {
+          "id": "9e70c66c7d60b7dd2b5b7512865df6d3608cba2c",
+          "source": "web",
+          "url": "https://thecricscope.com/cricket-statistics/sachin-tendulkar-centuries",
+          "title": "Sachin Tendulkar's 100 International Centuries: Complete List Across Test, ODI & T20I - Cricscope",
+          "text": "🏆 Sachin Tendulkar holds 100 international centuries — a milestone he became the first cricketer to reach when he scored an unbeaten 114 against Bangladesh on 16 March 2012. The number remains unique in cricket. As of 2026, the closest active batter is Virat Kohli at 85, still 15 short. The breakdown across formats: [...] Bottom line: Sachin Tendulkar’s 100 international centuries are more than a milestone — they are the single most durable record in cricket, built over 24 years across two formats, against every Full Member opponent, in every Full Member country, in the highest-stakes contexts the era offered. [...] The wait was its own story. Tendulkar reached 99 international centuries on 2 January 2011 with 146 against South Africa at Cape Town. The 100th was expected within months. Instead, 33 innings passed without a century, including a tour of England, an Australia tour, and a home series.",
+          "published": null
+        },
+        "bm25Rank": 2,
+        "denseRank": 3,
+        "rrf": 0.03200204813108039,
+        "rerank": 9.285565879572012
+      },
+      {
+        "id": "E3",
+        "passage": {
+          "id": "9e64b8220153401e704500699d38087608576091",
+          "source": "web",
+          "url": "https://testbook.com/question-answer/sachin-tendulkar-scored-his-100th-international-ce--6758100643e2f85719dc01c2",
+          "title": "[Solved] Sachin Tendulkar scored his 100th international century agai",
+          "text": "Pass Skill Academy Free Live Classes Free Live Tests & Quizzes Previous Year Papers Doubts Practice Refer & Earn All Exams Our Selections Careers Home General Knowledge Sports Question Sachin Tendulkar scored his 100th international century against which country? Australia England Pakistan Bangladesh Answer (Detailed Solution Below) Detailed Solution The correct answer is Bangladesh. Key Points Sachin Tendulkar scored his 100th international century against Bangladesh on March 16, 2012, during the Asia Cup. This milestone century was achieved at the Shere Bangla National Stadium in Mirpur, Dhaka. Tendulkar's 100th century included 114 runs off 147 balls, featuring 12 boundaries and 1 six. With this century, Tendulkar became the first cricketer in history to score 100 international centuries. The match ended with Bangladesh winning by 5 wickets, despite Tendulkar's landmark achievement. Additional Information Sachin Tendulkar's Career Highlights: Sachin Tendulkar is widely regarded as one of the greatest batsmen in the history of cricket. He holds numerous records in both Test and One-Day International (ODI) cricket, including the most runs in both formats. He made his international debut for India at the age of 16 in a Test match against Pakistan in Karachi in 1989. Tendulkar retired from international cricket in 2013, leaving behind a legacy of extraordinary achievements. Asia Cup 2012: The Asia Cup 2012 was held in Bangladesh from March",
+          "published": null
+        },
+        "bm25Rank": 7,
+        "denseRank": 8,
+        "rrf": 0.029631255487269532,
+        "rerank": 9.165773608494252
+      },
+      {
+        "id": "E4",
+        "passage": {
+          "id": "0879a46185c77c88a6b9ffd4c93dc66da9f21a63",
+          "source": "web",
+          "url": "https://testbook.com/question-answer/sachin-tendulkar-scored-his-100th-international-ce--6758100643e2f85719dc01c2",
+          "title": "[Solved] Sachin Tendulkar scored his 100th international century agai",
+          "text": "age of 16 in a Test match against Pakistan in Karachi in 1989. Tendulkar retired from international cricket in 2013, leaving behind a legacy of extraordinary achievements. Asia Cup 2012: The Asia Cup 2012 was held in Bangladesh from March 11 to March 22. India, Pakistan, Sri Lanka, and Bangladesh competed in the tournament. Pakistan won the Asia Cup 2012, defeating Bangladesh in the final by 2 runs. Shakib Al Hasan was named the Player of the Series for his all-round performance. Shere Bangla National Stadium: The Shere Bangla National Stadium is located in Mirpur, Dhaka, Bangladesh. It is one of the premier cricket venues in Bangladesh, hosting both international and domestic matches. The stadium has a seating capacity of approximately 25,000 spectators. It is named after A.K. Fazlul Huq, a prominent Bengali political leader. Tendulkar's Milestones: Sachin Tendulkar scored his first international century against England at Old Trafford in 1990. He is the only player to have scored one hundred international centuries. He is also the first player to score a double century in an ODI, achieved against South Africa in 2010. Tendulkar was awarded the Bharat Ratna, India's highest civilian award, in 2014. Last updated on Sep 1, 2026 -> SSC MTS PET PST Exam Date 2026 has been released on the official website, i.e. ssc.gov.in. -> SSC",
+          "published": null
+        },
+        "bm25Rank": 13,
+        "denseRank": 9,
+        "rrf": 0.02819138376017471,
+        "rerank": 8.603638537804194
+      },
+      {
+        "id": "E5",
+        "passage": {
+          "id": "691e562df2238f2819ce681f548e0fda8e1a7208",
+          "source": "web",
+          "url": "https://sports.yahoo.com/articles/sachin-tendulkar-100th-international-century-131100158.html",
+          "title": "Sachin Tendulkar’s 100th international century: The milestone that stunned the cricket world - Yahoo Sports",
+          "text": "Advertisement Advertisement On March 16, 2012, cricket witnessed one of its most iconic milestones when Sachin Tendulkar scored his 100th international century during the Asia Cup 2012 match between the India national cricket team and the Bangladesh national cricket team at the Sher-e-Bangla National Cricket Stadium. The historic knock not only ended a long wait for the landmark but also further cemented Tendulkar's legacy as one of the greatest cricketers to ever play the game. [...] Tendulkar's 100th century was more than just a statistical milestone, it represented the culmination of decades of dedication, consistency, and excellence. No other cricketer has come close to matching the record of 100 international centuries, making it one of the most extraordinary achievements in the history of sports. [...] Advertisement Advertisement Advertisement ### Tendulkar's Unmatched Records Over the course of his legendary career, Tendulkar set numerous records that still stand today. 100 international centuries (51 in Tests, 49 in ODIs) 34,357 international runs, the most by any player 15,921 runs in Test cricket, the highest in the format 18,426 runs in ODIs, another world record First cricketer to score a double century in ODI cricket (200)\\ Played 200 Test matches, the most by any player",
+          "published": null
+        },
+        "bm25Rank": 3,
+        "denseRank": 2,
+        "rrf": 0.03200204813108039,
+        "rerank": 8.098624837847396
+      }
+    ]
+  },
+  "debate": {
+    "c1": [
+      {
+        "claimId": "c1",
+        "side": "advocate",
+        "round": 1,
+        "text": "SUPPORTED",
+        "cited": [
+          "E2",
+          "E3",
+          "E5"
+        ]
+      },
+      {
+        "claimId": "c1",
+        "side": "skeptic",
+        "round": 1,
+        "text": "supported",
+        "cited": [
+          "E2",
+          "E3",
+          "E4",
+          "E5"
+        ]
+      },
+      {
+        "claimId": "c1",
+        "side": "advocate",
+        "round": 2,
+        "text": "SUPPORTED",
+        "cited": [
+          "E2",
+          "E3"
+        ]
+      },
+      {
+        "claimId": "c1",
+        "side": "skeptic",
+        "round": 2,
+        "text": "supported",
+        "cited": [
+          "E2",
+          "E3",
+          "E4",
+          "E5"
+        ]
+      }
+    ],
+    "c2": [
+      {
+        "claimId": "c2",
+        "side": "advocate",
+        "round": 1,
+        "text": "Usain Bolt set the 100 m world record at the 2009 World Championships in Berlin, running 9.58 s, as documented in contemporary reports.",
+        "cited": [
+          "E2",
+          "E3"
+        ]
+      },
+      {
+        "claimId": "c2",
+        "side": "skeptic",
+        "round": 1,
+        "text": "supported",
+        "cited": [
+          "E2",
+          "E3"
+        ]
+      },
+      {
+        "claimId": "c2",
+        "side": "advocate",
+        "round": 2,
+        "text": "Multiple contemporary sources report that on August 16, 2009, at Berlin’s Olympic Stadium during the World Championships, Usain Bolt ran 9.58 seconds to set a new 100 m world record. This directly confirms the claim.",
+        "cited": [
+          "E2",
+          "E3"
+        ]
+      },
+      {
+        "claimId": "c2",
+        "side": "skeptic",
+        "round": 2,
+        "text": "Supported",
+        "cited": [
+          "E2",
+          "E3"
+        ]
+      }
+    ],
+    "c3": [
+      {
+        "claimId": "c3",
+        "side": "advocate",
+        "round": 1,
+        "text": "SUPPORTED",
+        "cited": [
+          "E1",
+          "E2",
+          "E3"
+        ]
+      },
+      {
+        "claimId": "c3",
+        "side": "skeptic",
+        "round": 1,
+        "text": "supported",
+        "cited": [
+          "E1",
+          "E2",
+          "E3",
+          "E5"
+        ]
+      },
+      {
+        "claimId": "c3",
+        "side": "advocate",
+        "round": 2,
+        "text": "Sachin Tendulkar is documented as the only batsman to have scored 100 international centuries, achieving the milestone on 16 March 2012 against Bangladesh, confirming the claim.",
+        "cited": [
+          "E1",
+          "E2",
+          "E3",
+          "E5"
+        ]
+      },
+      {
+        "claimId": "c3",
+        "side": "skeptic",
+        "round": 2,
+        "text": "supported",
+        "cited": [
+          "E1",
+          "E2",
+          "E3",
+          "E5"
+        ]
+      }
+    ]
+  },
+  "verdicts": {
+    "c1": {
+      "claimId": "c1",
+      "label": "SUPPORTED",
+      "rawLabel": "SUPPORTED",
+      "confidence": 0.9999739289283751,
+      "abstained": false,
+      "rationale": "Evidence indicates that Usain Bolt set the 100 metres world record with a time of 9.58 seconds in 2009.",
+      "cited": [
+        "E2",
+        "E3",
+        "E4",
+        "E5"
+      ],
+      "samples": [
+        "SUPPORTED",
+        "SUPPORTED",
+        "SUPPORTED"
+      ]
+    },
+    "c2": {
+      "claimId": "c2",
+      "label": "SUPPORTED",
+      "rawLabel": "SUPPORTED",
+      "confidence": 0.9999771833419799,
+      "abstained": false,
+      "rationale": "Evidence E2 and E3 state that on August 16, 2009, at the World Championships in Berlin, Usain Bolt ran 9.58 seconds, setting a new 100 m world record.",
+      "cited": [
+        "E2",
+        "E3"
+      ],
+      "samples": [
+        "SUPPORTED",
+        "SUPPORTED",
+        "SUPPORTED"
+      ]
+    },
+    "c3": {
+      "claimId": "c3",
+      "label": "SUPPORTED",
+      "rawLabel": "SUPPORTED",
+      "confidence": 0.9999897718429565,
+      "abstained": false,
+      "rationale": "Evidence shows Sachin Tendulkar is the only batsman to have scored 100 international centuries, confirming the claim.",
+      "cited": [
+        "E1",
+        "E2",
+        "E3",
+        "E5"
+      ],
+      "samples": [
+        "SUPPORTED",
+        "SUPPORTED",
+        "SUPPORTED"
+      ]
+    }
+  },
+  "factuality": 1,
+  "trace": [
+    {
+      "step": "decompose",
+      "model": "@cf/openai/gpt-oss-120b",
+      "provider": "workersai",
+      "inTok": 185,
+      "outTok": 625,
+      "neurons": 48.49995422363281,
+      "ms": 5002,
+      "ok": true
+    },
+    {
+      "step": "plan:c2",
+      "model": "@cf/openai/gpt-oss-120b",
+      "provider": "workersai",
+      "inTok": 152,
+      "outTok": 306,
+      "neurons": 25.699966430664062,
+      "ms": 2894,
+      "ok": true
+    },
+    {
+      "step": "plan:c1",
+      "model": "@cf/openai/gpt-oss-120b",
+      "provider": "workersai",
+      "inTok": 149,
+      "outTok": 194,
+      "neurons": 17.968151092529297,
+      "ms": 3505,
+      "ok": true
+    },
+    {
+      "step": "argue:c1:r1:advocate",
+      "model": "@cf/openai/gpt-oss-120b",
+      "provider": "workersai",
+      "inTok": 1339,
+      "outTok": 153,
+      "neurons": 53.03611755371094,
+      "ms": 1864,
+      "ok": true
+    },
+    {
+      "step": "argue:c2:r1:advocate",
+      "model": "@cf/openai/gpt-oss-120b",
+      "provider": "workersai",
+      "inTok": 1236,
+      "outTok": 150,
+      "neurons": 49.55431365966797,
+      "ms": 6612,
+      "ok": true
+    },
+    {
+      "step": "argue:c1:r1:skeptic",
+      "model": "@cf/openai/gpt-oss-120b",
+      "provider": "workersai",
+      "inTok": 1364,
+      "outTok": 99,
+      "neurons": 50.149749755859375,
+      "ms": 1429,
+      "ok": true
+    },
+    {
+      "step": "argue:c2:r1:skeptic",
+      "model": "@cf/openai/gpt-oss-120b",
+      "provider": "workersai",
+      "inTok": 1293,
+      "outTok": 202,
+      "neurons": 54.913394927978516,
+      "ms": 4064,
+      "ok": true
+    },
+    {
+      "step": "argue:c1:r2:advocate",
+      "model": "@cf/openai/gpt-oss-120b",
+      "provider": "workersai",
+      "inTok": 1355,
+      "outTok": 121,
+      "neurons": 51.36338424682617,
+      "ms": 1157,
+      "ok": true
+    },
+    {
+      "step": "argue:c2:r2:advocate",
+      "model": "@cf/openai/gpt-oss-120b",
+      "provider": "workersai",
+      "inTok": 1284,
+      "outTok": 126,
+      "neurons": 49.445213317871094,
+      "ms": 27904,
+      "ok": true
+    },
+    {
+      "step": "argue:c1:r2:skeptic",
+      "model": "@cf/openai/gpt-oss-120b",
+      "provider": "workersai",
+      "inTok": 1384,
+      "outTok": 149,
+      "neurons": 54.19519805908203,
+      "ms": 1299,
+      "ok": true
+    },
+    {
+      "step": "argue:c2:r2:skeptic",
+      "model": "@cf/openai/gpt-oss-120b",
+      "provider": "workersai",
+      "inTok": 1360,
+      "outTok": 180,
+      "neurons": 55.545204162597656,
+      "ms": 25591,
+      "ok": true
+    },
+    {
+      "step": "judge:c2:s3",
+      "model": "@cf/openai/gpt-oss-120b",
+      "provider": "workersai",
+      "inTok": 1381,
+      "outTok": 219,
+      "neurons": 58.872467041015625,
+      "ms": 2215,
+      "ok": true
+    },
+    {
+      "step": "judge:c1:s2",
+      "model": "@cf/openai/gpt-oss-120b",
+      "provider": "workersai",
+      "inTok": 1405,
+      "outTok": 257,
+      "neurons": 62.227012634277344,
+      "ms": 2462,
+      "ok": true
+    },
+    {
+      "step": "judge:c1:s1",
+      "model": "@cf/openai/gpt-oss-120b",
+      "provider": "workersai",
+      "inTok": 1405,
+      "outTok": 180,
+      "neurons": 56.977012634277344,
+      "ms": 2532,
+      "ok": true
+    },
+    {
+      "step": "judge:c2:s2",
+      "model": "@cf/openai/gpt-oss-120b",
+      "provider": "workersai",
+      "inTok": 1381,
+      "outTok": 284,
+      "neurons": 63.304283142089844,
+      "ms": 2973,
+      "ok": true
+    },
+    {
+      "step": "judge:c1:s3",
+      "model": "@cf/openai/gpt-oss-120b",
+      "provider": "workersai",
+      "inTok": 1405,
+      "outTok": 339,
+      "neurons": 67.81791687011719,
+      "ms": 5609,
+      "ok": true
+    },
+    {
+      "step": "judge:c2:s1",
+      "model": "@cf/openai/gpt-oss-120b",
+      "provider": "workersai",
+      "inTok": 1381,
+      "outTok": 369,
+      "neurons": 69.09973907470703,
+      "ms": 10034,
+      "ok": true
+    },
+    {
+      "step": "plan:c3",
+      "model": "@cf/openai/gpt-oss-120b",
+      "provider": "workersai",
+      "inTok": 145,
+      "outTok": 219,
+      "neurons": 19.54542350769043,
+      "ms": 2421,
+      "ok": true
+    },
+    {
+      "step": "argue:c3:r1:advocate",
+      "model": "@cf/openai/gpt-oss-120b",
+      "provider": "workersai",
+      "inTok": 1263,
+      "outTok": 105,
+      "neurons": 47.345218658447266,
+      "ms": 3824,
+      "ok": true
+    },
+    {
+      "step": "argue:c3:r1:skeptic",
+      "model": "@cf/openai/gpt-oss-120b",
+      "provider": "workersai",
+      "inTok": 1288,
+      "outTok": 172,
+      "neurons": 52.7088508605957,
+      "ms": 5840,
+      "ok": true
+    },
+    {
+      "step": "argue:c3:r2:advocate",
+      "model": "@cf/openai/gpt-oss-120b",
+      "provider": "workersai",
+      "inTok": 1279,
+      "outTok": 264,
+      "neurons": 58.695213317871094,
+      "ms": 2465,
+      "ok": true
+    },
+    {
+      "step": "argue:c3:r2:skeptic",
+      "model": "@cf/openai/gpt-oss-120b",
+      "provider": "workersai",
+      "inTok": 1343,
+      "outTok": 174,
+      "neurons": 54.5952033996582,
+      "ms": 6491,
+      "ok": true
+    },
+    {
+      "step": "judge:c3:s3",
+      "model": "@cf/openai/gpt-oss-120b",
+      "provider": "workersai",
+      "inTok": 1364,
+      "outTok": 233,
+      "neurons": 59.286109924316406,
+      "ms": 1704,
+      "ok": true
+    },
+    {
+      "step": "judge:c3:s1",
+      "model": "@cf/openai/gpt-oss-120b",
+      "provider": "workersai",
+      "inTok": 1364,
+      "outTok": 223,
+      "neurons": 58.60429000854492,
+      "ms": 1732,
+      "ok": true
+    },
+    {
+      "step": "judge:c3:s2",
+      "model": "@cf/openai/gpt-oss-120b",
+      "provider": "workersai",
+      "inTok": 1364,
+      "outTok": 250,
+      "neurons": 60.44519805908203,
+      "ms": 3054,
+      "ok": true
+    }
+  ],
+  "model": "gpt-oss-120b",
+  "provider": "workersai",
+  "createdAt": "2026-10-14T01:03:09.151Z",
+  "executor": "cloud",
+  "partial": false
+}

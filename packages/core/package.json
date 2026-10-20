@@ -1,0 +1,17 @@
+{
+  "name": "@satya/core",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Runtime-agnostic Satya pipeline core",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts",
+    "./testing": "./src/testing/index.ts"
+  },
+  "scripts": {
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "zod": "^4.6.7"
+  }
+}

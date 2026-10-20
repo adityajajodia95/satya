@@ -1,0 +1,42 @@
+[
+  {
+    "slug": "news-wrong-number",
+    "title": "A news paragraph with one wrong number",
+    "text": "Chandrayaan-3 landed near the Moon's south pole on 23 August 2023, making India the first country to land in that region. The mission was launched from Sriharikota in July 2021."
+  },
+  {
+    "slug": "science-claim",
+    "title": "A science claim",
+    "text": "At sea level, pure water boils at 100 degrees Celsius. Sunlight takes about eight minutes to reach the Earth."
+  },
+  {
+    "slug": "indian-history",
+    "title": "An Indian-history paragraph",
+    "text": "The Indian National Congress was founded in 1885. Mahatma Gandhi led the Salt March in 1930. India became a republic on 26 January 1947."
+  },
+  {
+    "slug": "misattributed-quote",
+    "title": "A misattributed quote",
+    "text": "Albert Einstein said that insanity is doing the same thing over and over again and expecting different results."
+  },
+  {
+    "slug": "health-myth",
+    "title": "A health myth",
+    "text": "Humans use only 10 percent of their brains. Regular vitamin C supplements prevent most people from catching colds."
+  },
+  {
+    "slug": "sports-record",
+    "title": "A sports record",
+    "text": "Usain Bolt set the 100 metres world record of 9.58 seconds at the 2009 World Championships in Berlin. Sachin Tendulkar scored 100 centuries in international cricket."
+  },
+  {
+    "slug": "company-fact",
+    "title": "A company fact",
+    "text": "Infosys was founded in 1981 in Pune. The company is headquartered in Mumbai."
+  },
+  {
+    "slug": "multi-hop",
+    "title": "A multi-hop claim",
+    "text": "The director of the film Inception was born in London."
+  }
+]

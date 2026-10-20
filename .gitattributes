@@ -1,0 +1,4 @@
+* text=auto eol=lf
+*.png binary
+*.f32 binary
+packages/tools/test/fixtures/** -text

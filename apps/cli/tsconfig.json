@@ -1,0 +1,15 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "rootDir": ".",
+    "outDir": "../../.tsbuild/cli",
+    "lib": ["ES2023", "DOM"],
+    "types": ["node"]
+  },
+  "include": ["src", "test"],
+  "references": [
+    { "path": "../../packages/core" },
+    { "path": "../../packages/tools" },
+    { "path": "../../packages/mcp" }
+  ]
+}

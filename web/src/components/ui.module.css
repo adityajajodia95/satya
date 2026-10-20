@@ -1,0 +1,162 @@
+.stamp {
+  display: inline-block;
+  border: 1.5px solid currentColor;
+  border-radius: 2px;
+  padding: 2px 10px;
+  font: 600 14px/20px var(--sans);
+  font-variant: small-caps;
+  letter-spacing: 0.06em;
+  text-transform: lowercase;
+}
+.stampNote {
+  font-weight: 400;
+  font-variant: normal;
+  text-transform: none;
+  letter-spacing: 0;
+}
+.supported {
+  color: var(--ok);
+  background: var(--ok-bg);
+}
+.refuted {
+  color: var(--bad);
+  background: var(--bad-bg);
+}
+.nei {
+  color: var(--unsure);
+  background: var(--unsure-bg);
+}
+.pending,
+.unchecked {
+  color: var(--ink-2);
+  background: var(--surface-2);
+}
+.confidence {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.track {
+  flex: 1;
+  height: 4px;
+  background: var(--surface-2);
+  border-radius: 2px;
+  overflow: hidden;
+}
+.fill {
+  height: 100%;
+  background: var(--ink-2);
+}
+.fill_supported {
+  background: var(--ok);
+}
+.fill_refuted {
+  background: var(--bad);
+}
+.fill_nei {
+  background: var(--unsure);
+}
+.chip {
+  display: inline-block;
+  font: 400 13px/18px var(--mono);
+  border: 1px solid var(--rule);
+  border-radius: 2px;
+  background: var(--surface-2);
+  color: var(--ink);
+  padding: 0 6px;
+  margin: 0 4px 4px 0;
+}
+button.chip {
+  cursor: pointer;
+}
+button.chip:hover {
+  border-color: var(--accent);
+}
+.empty {
+  font: 400 16px/24px var(--sans);
+  color: var(--ink-2);
+  border: 1px dashed var(--rule);
+  border-radius: var(--radius);
+  padding: 16px;
+  margin: 0;
+}
+.error {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  font: 400 15px/22px var(--sans);
+  background: var(--bad-bg);
+  color: var(--ink);
+  border: 1px solid var(--rule);
+  border-left: 3px solid var(--bad);
+  border-radius: var(--radius);
+  padding: 10px 12px;
+  margin: 0 0 16px;
+}
+.error button {
+  font: 600 14px var(--sans);
+  border: 1px solid var(--rule);
+  background: var(--surface);
+  border-radius: var(--radius);
+  padding: 4px 10px;
+  cursor: pointer;
+}
+.tableWrap {
+  overflow-x: auto;
+}
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  font: 400 15px/22px var(--sans);
+}
+.table th {
+  text-align: left;
+  font: 600 13px/18px var(--sans);
+  font-variant: small-caps;
+  letter-spacing: 0.04em;
+  text-transform: lowercase;
+  color: var(--ink-2);
+  border-bottom: 1px solid var(--ink-2);
+  padding: 8px 10px;
+  white-space: nowrap;
+}
+.table td {
+  border-bottom: 1px solid var(--rule);
+  padding: 8px 10px;
+  vertical-align: top;
+}
+.num {
+  text-align: right !important;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+.clickable {
+  cursor: pointer;
+}
+.clickable:hover td {
+  background: var(--surface);
+}
+.chart {
+  margin: 0;
+  border: 1px solid var(--rule);
+  border-radius: var(--radius);
+  background: var(--surface);
+  padding: 16px;
+}
+.chart figcaption p {
+  margin: 4px 0 0;
+  font: 400 14px/20px var(--sans);
+  color: var(--ink-2);
+}
+.chartBody {
+  margin-top: 12px;
+  height: 280px;
+  font: 400 13px var(--sans);
+}
+
+/* chart titles are h2 for a correct heading outline, styled at h3 size */
+.frameTitle {
+  font-size: 20px;
+  line-height: 28px;
+}

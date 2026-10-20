@@ -1,0 +1,20 @@
+{
+  "name": "@satya/mcp",
+  "version": "0.1.0",
+  "private": true,
+  "description": "MCP server factory for Satya's evidence tools",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/client": "^2.3.1",
+    "@modelcontextprotocol/server": "^2.3.1",
+    "@satya/core": "*",
+    "@satya/tools": "*",
+    "zod": "^4.6.7"
+  }
+}

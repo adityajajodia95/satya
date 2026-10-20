@@ -1,0 +1,715 @@
+{
+  "title": "An Indian-history paragraph",
+  "runId": "1ec051db-832f-4e02-9e1c-02a555807c5d",
+  "inputText": "The Indian National Congress was founded in 1885. Mahatma Gandhi led the Salt March in 1930. India became a republic on 26 January 1947.",
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The Indian National Congress was founded in 1885.",
+      "quote": "founded in 1885",
+      "span": [
+        33,
+        48
+      ],
+      "checkworthy": true
+    },
+    {
+      "id": "c2",
+      "text": "Mahatma Gandhi led the Salt March in 1930.",
+      "quote": "led the Salt March in 1930",
+      "span": [
+        65,
+        91
+      ],
+      "checkworthy": true
+    },
+    {
+      "id": "c3",
+      "text": "India became a republic on 26 January 1947.",
+      "quote": "became a republic on 26 January 1947",
+      "span": [
+        99,
+        135
+      ],
+      "checkworthy": true
+    }
+  ],
+  "evidence": {
+    "c1": [
+      {
+        "id": "E1",
+        "passage": {
+          "id": "766bf826df739f6c48ccc40da821b494ac3c5e3c",
+          "source": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Indian_National_Congress",
+          "title": "Indian National Congress",
+          "text": "The Indian National Congress (INC), also known as the Congress Party, or simply the Congress, is a big tent political party in India. It is India's oldest political party and is widely regarded as one of the world's oldest continuously active political parties, outside Europe and North America. Founded on 28 December 1885, it was the first modern nationalist movement to emerge in the British Empire in Asia and Africa. From the late 19th century, and especially after 1920, under the leadership of Mahatma Gandhi, the Congress became the principal leader of the Indian independence movement. The Congress was one of the parties that led India to independence from the United Kingdom, and significantly influenced other anti-colonial nationalist movements in the British Empire. The INC is a \"big tent\" party that has been described as sitting on the centre of the Indian political spectrum. The party held its first session in 1885 in Bombay where W. C. Bannerjee presided over it. After Indian independence in 1947, Congress emerged as a catch-all, Indian nationalist and secular party, dominating Indian politics for the next 50 years. The party's first prime minister, Jawaharlal Nehru, led the Congress to support socialist policies by creating the Planning Commission, introducing Five-Year Plans, implementing a mixed economy, and establishing a secular state. After Nehru's death and the",
+          "published": null
+        },
+        "bm25Rank": 15,
+        "denseRank": 7,
+        "rrf": 0.028258706467661692,
+        "rerank": 10.307562170551341
+      },
+      {
+        "id": "E2",
+        "passage": {
+          "id": "4aacd4a4863b9a6702382b2816f8bdde1f8f779b",
+          "source": "web",
+          "url": "https://www.ebsco.com/research-starters/history/indian-national-congress-founded",
+          "title": "Indian National Congress Is Founded | History | Research Starters | EBSCOhost",
+          "text": "Start your research Markets we serve Company Contact us RESEARCH STARTER Indian National Congress Is Founded The Indian National Congress (INC) was founded in 1885 during a significant period of political awakening in British India. The establishment of the INC emerged from a growing awareness among educated Indians regarding their political rights and the need for an all-India platform to address their aspirations. Influenced by Western ideas and education, urban Indians began to critically assess their social and political circumstances, leading to the formation of various political associations in the preceding decades. Prominent figures like Surendranath Banerjea played crucial roles in organizing early nationalist conferences, which ultimately set the stage for the INC's formation. The inaugural session took place in Bombay, gathering delegates from various regions to promote mutual understanding and advocate for parliamentary inquiry into Indian affairs. Although the INC started as a platform for discussion and friendship rather than a political party, it expanded its influence over the following decades. The organization would later become pivotal in mobilizing the Indian population against colonial rule, particularly during the struggle for independence in the 1920s and 1930s, highlighting its significance in India's journey toward self-governance. Authored by: Sil, Narasingha P. 1 of 4 Published in: 2023 2 of 4 3 of 4 4 of 4 On this page Full article",
+          "published": null
+        },
+        "bm25Rank": 14,
+        "denseRank": 3,
+        "rrf": 0.029386529386529386,
+        "rerank": 9.869288880608277
+      },
+      {
+        "id": "E3",
+        "passage": {
+          "id": "ba249dd5f1635ce0ba898b395fdcaa291a23b829",
+          "source": "web",
+          "url": "https://www.britannica.com/topic/Indian-National-Congress",
+          "title": "Indian National Congress | History, Ideology, Presidents, Gandhi, Elections, & Facts | Britannica",
+          "text": "The Indian National Congress was founded in 1885, initially with the goal of pursuing moderate reform under the British raj in India. Its roots are in the early Indian nationalist movement that arose from the Indian Rebellion of 1857. ### Who has led the Indian National Congress? [...] Indian National Congress, broadly based political party of India. Founded in 1885, it dominated the Indian movement for independence from Great Britain. It subsequently formed most of India’s governments from the time of independence and often had a strong presence in many state governments. Since 2014 it has been out of power at the central government level. (Read Indira Gandhi’s 1975 Britannica essay on global underprivilege.) ## History ## The pre-independence period [...] On January 2, 1978, she and her followers seceded and formed a new opposition party, popularly called Congress (I)—the I signifying Indira. Over the next year, her new party attracted enough members of the legislature to become the official opposition, and in 1981 the national election commission declared it to be the “real” Indian National Congress. (In 1996 the I designation was dropped.) In November 1979 Gandhi regained a parliamentary seat, and the following year she was again elected prime",
+          "published": null
+        },
+        "bm25Rank": 6,
+        "denseRank": 2,
+        "rrf": 0.03128054740957967,
+        "rerank": 9.686573001156734
+      },
+      {
+        "id": "E4",
+        "passage": {
+          "id": "fc4829b1837c111927d03c04057ea03c8e45f44d",
+          "source": "web",
+          "url": "https://bittergrounds.com/cryptoreleases/indian-national-congress",
+          "title": "Indian National Congress founded 1885 - Bitter Grounds Magazine",
+          "text": "> The Indian National Congress (INC), founded in 1885, is one of India’s oldest and most prominent political parties. Initially formed as a platform for moderate political reforms and Indian representation under British colonial rule, it evolved into the central force in India’s freedom struggle. The INC played a key role in India’s independence movement, particularly under the leadership of Mahatma Gandhi, who introduced non-violent resistance strategies like civil disobedience and the Quit [...] The Indian National Congress was founded on December 28, 1885. 72 delegates gathered in Mumbai to establish the political party with a goal to create “polite dialogue” between Indians and the colonial British government. [...] Bitter Grounds Header #### Bitter Grounds is now ad free Consider a donation to help cover the costs of research and writing. Buy me a coffee offers single donations + modest subscriptions. You can also choose to pay using Stripe for a secure donation. Return to This day in stamps calendar. Smart phone users, please use the LIST view to see the calendar. #### Indian National Congress founded 1885",
+          "published": null
+        },
+        "bm25Rank": 1,
+        "denseRank": 1,
+        "rrf": 0.03278688524590164,
+        "rerank": 9.225691907636415
+      },
+      {
+        "id": "E5",
+        "passage": {
+          "id": "381f69ea46e5d8ece2eb3645b023e9b7bfc72428",
+          "source": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/History_of_the_Indian_National_Congress",
+          "title": "History of the Indian National Congress",
+          "text": "be affiliated with the government and act as a platform to voice Indian public opinion. Hume and a group of educated Indians came together on 12 October and published \"An Appeal from the People of India to the Electors of Great Britain and Ireland\" which asked British voters in the 1885 British general election to support candidates sympathetic to the positions of Indians. These included opposition to taxation of India to finance British campaigns in Afghanistan, and support for legislative reform in India. The appeal however, was a failure, and was interpreted by many Indians as \"a rude shock, but a true realization that they had to fight their battles alone.\" On 28 December 1885, the Indian National Congress was founded at Gokuldas Tejpal Sanskrit College in Bombay, with 72 delegates in attendance. Hume assumed office as the General Secretary, and Womesh Chunder Bonnerjee of Calcutta was elected president. Besides Hume, two additional British members (both Scottish civil servants) were members of the founding group, William Wedderburn and Justice (later, Sir) John Jardine. The other members were mostly Hindus from the Bombay and Madras Presidencies. Policies of Indian National Congress during 1885–1905 Between 1885 and 1905, the Indian National Congress passed several resolutions in its annual sessions. Through the resolutions, the humble demands made by Congress included civil rights, administrative,",
+          "published": null
+        },
+        "bm25Rank": 7,
+        "denseRank": 4,
+        "rrf": 0.03055037313432836,
+        "rerank": 7.5940544980462965
+      }
+    ],
+    "c2": [
+      {
+        "id": "E1",
+        "passage": {
+          "id": "a44679476976c708a0c098ff5193f05ad6a7f81e",
+          "source": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Salt_March",
+          "title": "Salt March",
+          "text": "The Salt March, also known as the Salt Satyagraha, Dandi March, and the Dandi Satyagraha, was an act of nonviolent civil disobedience in colonial India, led by Mahatma Gandhi. The 24-day march (padayatra) lasted from 12 March 1930 to 6 April 1930 as a direct action campaign of tax resistance and nonviolent protest against the British salt monopoly. Another reason for this march was that the Civil Disobedience Movement needed a strong inauguration that would inspire more people to follow Gandhi's example. Gandhi started this march with 78 of his trusted volunteers. The march spanned 387 kilometres (240 mi), from Sabarmati Ashram to Dandi, which was called Navsari at that time (now in the state of Gujarat). Growing numbers of Indians joined them along the way. When Gandhi broke the British Raj salt laws at 8:30 am on 6 April 1930, it sparked large-scale acts of civil disobedience against the salt laws by millions of Indians. After making the salt by evaporation at Dandi, Gandhi continued southward along the coast, making salt and addressing meetings on the way. The Congress Party planned to stage a satyagraha at the Dharasana Salt Works, 40 km (25 mi) south of Dandi. However, Gandhi was arrested on the midnight of 4–5 May 1930, just days before the planned action at Dharasana. The Dandi March",
+          "published": null
+        },
+        "bm25Rank": 6,
+        "denseRank": 8,
+        "rrf": 0.029857397504456328,
+        "rerank": 10.286359247620869
+      },
+      {
+        "id": "E2",
+        "passage": {
+          "id": "4e37df6410b4940111918dd0ae44f49ea3b672d8",
+          "source": "web",
+          "url": "https://www.ebsco.com/research-starters/history/gandhi-leads-salt-march",
+          "title": "Gandhi Leads the Salt March | History | Research Starters | EBSCOhost",
+          "text": "Start your research Markets we serve Company Contact us RESEARCH STARTER Gandhi Leads the Salt March The Salt March, led by Mahatma Gandhi from March 12 to April 5, 1930, was a pivotal act of civil disobedience against British rule in India. This 240-mile march to the coastal village of Dandi was initiated in response to the oppressive salt laws, which taxed salt, a staple commodity for Indians. Gandhi, who had recently re-engaged with the Indian National Congress after a period of political retirement, aimed to revive the nationalist movement by choosing salt as a symbol for protest, highlighting the injustices of British colonial policies. During the march, Gandhi and his followers made salt from seawater, openly defying British law and sparking widespread civil disobedience across the nation. The movement galvanized millions, including women and children, and inspired acts of defiance against British authority, such as boycotts of foreign cloth and tax resistance. The Salt March not only reinvigorated the Indian independence movement but also marked a significant shift in Indian society, as it encouraged diverse segments of the population to participate in the struggle for rights and self-rule. Ultimately, the Salt March played a crucial role in undermining British legitimacy and paved the way for future negotiations that would lead to India's independence. Authored by: Long, Roger D. 1",
+          "published": null
+        },
+        "bm25Rank": 8,
+        "denseRank": 1,
+        "rrf": 0.031099324975891997,
+        "rerank": 10.21876357221842
+      },
+      {
+        "id": "E3",
+        "passage": {
+          "id": "b0018759c2baea590a76e36d59cd9903ef284ab6",
+          "source": "web",
+          "url": "https://www.britannica.com/event/Salt-March",
+          "title": "Salt March (1930) | Definition, Causes, Location, & Significance | Britannica",
+          "text": "The Salt March, a pivotal nonviolent protest in India led by Mahatma Gandhi in March–April 1930, was a key act of civil disobedience against British rule. Indians were prohibited from producing or selling salt and were required to buy expensive, heavily taxed salt from the British. [...] Mahatma Gandhi, holding a walking stick, walks beside Sarojini Naidu during the Salt March protest in 1930, with several men following behind them.The Gyarah Murti statue in New Delhi, India, shows Mahatma Gandhi leading a group of followers during the 1930 Dandi March, set outdoors with trees and sky in the background.Collage of raised-fist silhouettes over a halftone orange, yellow, and green background, featuring historic newspaper text and faint crowd imagery. Mahatma Gandhi and the Salt [...] This answer is created from Britannica articles using AI. AI can make mistakes, so verify using Britannica articles. Salt March, major nonviolent protest action in India led by Mahatma Gandhi in March–April 1930. The march was the first act in an even-larger campaign of civil disobedience (satyagraha) that Gandhi waged against British rule in India that extended into early 1931 and garnered Gandhi widespread support among the Indian populace and considerable worldwide attention.",
+          "published": null
+        },
+        "bm25Rank": 1,
+        "denseRank": 3,
+        "rrf": 0.032266458495966696,
+        "rerank": 9.17724281630272
+      },
+      {
+        "id": "E4",
+        "passage": {
+          "id": "31ae8ced191152c6636f70356687cba6a25b8a93",
+          "source": "web",
+          "url": "https://www.ebsco.com/research-starters/history/gandhi-leads-salt-march",
+          "title": "Gandhi Leads the Salt March | History | Research Starters | EBSCOhost",
+          "text": "to participate in the struggle for rights and self-rule. Ultimately, the Salt March played a crucial role in undermining British legitimacy and paved the way for future negotiations that would lead to India's independence. Authored by: Long, Roger D. 1 of 4 Published in: 2021 2 of 4 3 of 4 4 of 4 On this page Full article DATE March 12-April 5, 1930 Mahatma Gandhi organized the Salt March in 1930 to protest British actions in India and to start a mass campaign of noncooperation that would inspire many future leaders, including American civil rights activist Martin Luther King, Jr. LOCALE India Key Figures Mahatma Gandhi (1869-1948), Hindu leader of the Indian nationalist movement Subhas Chandra Bose (1897-1945), radical member of the Indian National Congress who saw that opposition to Gandhi was impossible Lord Halifax (Edward Frederick Lindley Wood; 1881-1959), viceroy of India, 1926-1931 Jawaharlal Nehru (1889-1964), Indian socialist and believer in Western science and technology Motilal Nehru (1861-1931), founder of the Nehru dynasty who gave up his moderate politics to join Gandhi in the Salt March Summary of Event Mohandas Karamchand Gandhi was released from prison in 1924 after having been incarcerated for nearly two years for his part in the illegal activities of the noncooperation movement, which he started in 1920 in a successful attempt to arouse",
+          "published": null
+        },
+        "bm25Rank": 15,
+        "denseRank": 2,
+        "rrf": 0.02946236559139785,
+        "rerank": 9.13323783738662
+      },
+      {
+        "id": "E5",
+        "passage": {
+          "id": "f7a2eff764ae0a0316a08fc7d465de7fb24a749c",
+          "source": "web",
+          "url": "https://www.ebsco.com/research-starters/history/gandhi-leads-salt-march",
+          "title": "Gandhi Leads the Salt March | History | Research Starters | EBSCOhost",
+          "text": "Collected Works of Mahatma Gandhi: A Brief History.Published in: Gandhi Marg, 2025, v. 47, n. 2. P. 135Authored by: Weber, ThomasPublication type: Academic Journal Full article DATE March 12-April 5, 1930 Mahatma Gandhi organized the Salt March in 1930 to protest British actions in India and to start a mass campaign of noncooperation that would inspire many future leaders, including American civil rights activist Martin Luther King, Jr. LOCALE India Key Figures Mahatma Gandhi (1869-1948), Hindu leader of the Indian nationalist movement Subhas Chandra Bose (1897-1945), radical member of the Indian National Congress who saw that opposition to Gandhi was impossible Lord Halifax (Edward Frederick Lindley Wood; 1881-1959), viceroy of India, 1926-1931 Jawaharlal Nehru (1889-1964), Indian socialist and believer in Western science and technology Motilal Nehru (1861-1931), founder of the Nehru dynasty who gave up his moderate politics to join Gandhi in the Salt March Summary of Event Mohandas Karamchand Gandhi was released from prison in 192",
+          "published": null
+        },
+        "bm25Rank": 12,
+        "denseRank": 4,
+        "rrf": 0.029513888888888888,
+        "rerank": 8.909625818603695
+      }
+    ],
+    "c3": [
+      {
+        "id": "E1",
+        "passage": {
+          "id": "fb9a8f206e829b53ef0f7ba2170f81c942242e10",
+          "source": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Republic_Day_(India)",
+          "title": "Republic Day (India)",
+          "text": "Republic Day is a national holiday in India commemorating the adoption of the Constitution of the Republic of India and the country's transition to a republic which came into effect on 26 January 1950. The constitution replaced the Government of India Act 1935 as the governing document of India, thus turning the nation from a dominion into a republic, following its independence from the British Raj in 1947. The constitution was adopted by the Constituent Assembly of India on 26 November 1949 and came into effect on 26 January 1950. The date was chosen because the Indian National Congress had proclaimed Purna Swaraj (complete independence) on that date in 1930. Republic Day is commonly associated with parades, political speeches, cultural events and ceremonies, in addition to various other public and private events celebrating the history, government, and the traditions of India. == Background == India achieved independence from the British Raj on 15 August 1947 following the success of the Indian independence movement which was led by Indian National Congress. The Indian National Congress (INC) was the largest and, especially under Gandhi, the most influential organization in the final phase of the independence movement—but it was not the only organization or group that fought against British rule. It is more accurate to view Indian independence as the result of many",
+          "published": null
+        },
+        "bm25Rank": 9,
+        "denseRank": 3,
+        "rrf": 0.03036576949620428,
+        "rerank": 6.030339797402865
+      },
+      {
+        "id": "E2",
+        "passage": {
+          "id": "d9958910a3e3316a789942b8d365eff4ca5b1572",
+          "source": "web",
+          "url": "https://www.ndtv.com/india-news/how-india-emerged-as-a-republic-on-january-26-1950-7554586",
+          "title": "Explained: How India Became A Republic On January 26, 1950",
+          "text": "India is gearing up to celebrate its 76th Republic Day on Sunday, January 26, when the iconic Republic Day parade, featuring tableaux from different states and contingents of the Indian armed forces, will take place in the national capital. India became an independent nation on August 15, 1947, ending nearly 200 years of British rule. But it got its Constitution on January 26, 1950. ### How India Became A Republic In 1950? [...] img NDTV Profit img img img img img img img img img img INDIA World # Explained: How India Became A Republic On January 26, 1950 ## While India became an independent nation on August 15, 1947, it got its Constitution on January 26, 1950. trusted source trusted source Explained: How India Became A Republic On January 26, 1950 [...] January 26, 1950, marks a major milestone in India's rich history since it saw the Constitution of India replacing the colonial-era Government of India Act of 1935. This led to the birth of the Indian Republic, while Dr Rajendra Prasad assumed the presidency.",
+          "published": null
+        },
+        "bm25Rank": 1,
+        "denseRank": 1,
+        "rrf": 0.03278688524590164,
+        "rerank": 5.786652461868346
+      },
+      {
+        "id": "E3",
+        "passage": {
+          "id": "833a008aca0c647fa1145f3d29abff4ef00edbeb",
+          "source": "web",
+          "url": "https://www.cfr.org/articles/we-people-indias-republic-day",
+          "title": "\"We the People\"--India’s Republic Day | Council on Foreign Relations",
+          "text": "India formally became a republic on January 26, 1950, the day the constitution came into force. The constitution itself had been ratified by the constituent assembly, a group of 299 representatives selected for the specific task of drafting a new constitution for the newly independent country, in November 1949. Before this day, India’s head of state was an appointed governor-general, not an (indirectly) elected president. [...] Indians celebrate Republic Day on January 26, a commemoration of the day the country formally became a republic in 1950—not to be confused with Independence Day, celebrated on August 15, marking the day the country achieved independence from the British in 1947.",
+          "published": null
+        },
+        "bm25Rank": 3,
+        "denseRank": 2,
+        "rrf": 0.03200204813108039,
+        "rerank": 5.219844179437479
+      },
+      {
+        "id": "E4",
+        "passage": {
+          "id": "f5cb8599d1cd7fdf42398e7d6df86a7823ba86c2",
+          "source": "web",
+          "url": "https://www.ebsco.com/research-starters/politics-and-government/republic-day-india",
+          "title": "Republic Day (India) | Politics and Government | Research Starters | EBSCOhost",
+          "text": "fallen soldiers have been held at the newly inaugurated National War Memorial, reflecting the significance of the day in commemorating India's sovereignty and diverse heritage. Published in: 2020 1 of 3 2 of 3 3 of 3 On this page Full article Republic Day (India) Republic Day is held on January 26 of every year and honors the formation of the Republic of India, with a written constitution and an elected legislature, on January 26, 1950. India actually achieved independence on August 15, 1947, which is why August 15 is recognized as Independence Day. It took more than two years, however, for the Constituent Assembly of India to draft a constitution upon which the delegates could agree, so that achievement is honored separately as Republic Day. The origins of Republic Day can be traced to a meeting of the Indian National Congress in late December 1929. India was still a British colonial possession and organizations like the Indian National Congress were fighting for independence. At that session, a prototype of the modern Indian flag was revealed and the delegates took a pledge to always work for the freedom of India. Mahatma Gandhi and other leaders finally achieved that independence after World War II, thanks to a combination of factors, such as a successful policy of passive resistance and developing sympathy",
+          "published": null
+        },
+        "bm25Rank": 13,
+        "denseRank": 6,
+        "rrf": 0.028850145288501453,
+        "rerank": 4.924756538008238
+      },
+      {
+        "id": "E5",
+        "passage": {
+          "id": "ee5d421e2203820ebebda2fa857a8f2f88af5985",
+          "source": "web",
+          "url": "https://www.britannica.com/topic/Republic-Day-India",
+          "title": "Republic Day | India, History, Celebrations, & Facts",
+          "text": "to the Constituent Assembly, which publicly debated and adjusted the text over the following year. January 26 was selected as the date of the Constitution’s promulgation, in recognition of the Purna Swaraj (“Complete Self-Governance”) resolution, a call for India’s complete independence, adopted by the Indian National Congress on January 26, 1930. The Constitution, one of the longest and most detailed in the world, established India as a democratic republic and a union of states. [...] Republic Day, in India, national holiday celebrated annually on January 26 to commemorate the entry into force of the Constitution of India on that day in 1950, marking the transition of India to a sovereigndemocraticrepublic. Distinct from Independence Day, which annually commemorates India’s liberation from British rule on August 15, 1947, Republic Day highlights the establishment of a government by the people, for the people. ## History [...] The roots of Republic Day trace back to the Indian Independence Act of July 18, 1947, which ended British rule and transferred legislative authority to the Constituent Assembly of India. The Constituent Assembly, tasked with drafting the constitution of the country, formed a drafting committee chaired by Bhimrao Ramji Ambedkar, the country’s first law minister, often referred to as the “Father of the Indian Constitution.” A draft of the document was submitted in November 1948 to the",
+          "published": null
+        },
+        "bm25Rank": 6,
+        "denseRank": 9,
+        "rrf": 0.02964426877470356,
+        "rerank": 4.91518692943608
+      }
+    ]
+  },
+  "debate": {
+    "c1": [
+      {
+        "claimId": "c1",
+        "side": "advocate",
+        "round": 1,
+        "text": "The claim that the Indian National Congress was founded in 1885 is supported. Multiple reputable sources state that the INC was established on 28 December 1885, marking its origin as the first modern nationalist movement in British India.",
+        "cited": [
+          "E1",
+          "E2",
+          "E3",
+          "E4",
+          "E5"
+        ]
+      },
+      {
+        "claimId": "c1",
+        "side": "skeptic",
+        "round": 1,
+        "text": "The claim is clearly supported: multiple sources state the Indian National Congress was founded on 28 December 1885.",
+        "cited": [
+          "E1",
+          "E2",
+          "E3",
+          "E4",
+          "E5"
+        ]
+      },
+      {
+        "claimId": "c1",
+        "side": "advocate",
+        "round": 2,
+        "text": "The claim is supported. Authoritative sources state that the Indian National Congress was founded on 28 December 1885, confirming the 1885 founding year.",
+        "cited": [
+          "E1",
+          "E2",
+          "E3",
+          "E4",
+          "E5"
+        ]
+      },
+      {
+        "claimId": "c1",
+        "side": "skeptic",
+        "round": 2,
+        "text": "The claim is clearly supported: multiple reputable sources state the Indian National Congress was founded on 28 December 1885, confirming the 1885 founding year.",
+        "cited": [
+          "E1",
+          "E2",
+          "E3",
+          "E4",
+          "E5"
+        ]
+      }
+    ],
+    "c2": [
+      {
+        "claimId": "c2",
+        "side": "advocate",
+        "round": 1,
+        "text": "The claim is supported. Multiple sources explicitly state that Mahatma Gandhi led the Salt March in 1930, describing it as a nonviolent civil disobedience campaign he organized and headed from March 12 to April 5, 1930.",
+        "cited": [
+          "E1",
+          "E2",
+          "E3"
+        ]
+      },
+      {
+        "claimId": "c2",
+        "side": "skeptic",
+        "round": 1,
+        "text": "The claim is supported. All provided sources state that Mahatma Gandhi led the Salt March in 1930.",
+        "cited": [
+          "E1",
+          "E2",
+          "E3",
+          "E4"
+        ]
+      },
+      {
+        "claimId": "c2",
+        "side": "advocate",
+        "round": 2,
+        "text": "The claim is supported. Multiple sources explicitly state that Mahatma Gandhi led the Salt March in 1930, describing it as a nonviolent civil disobedience campaign he organized and headed from March 12 to April 5, 1930.",
+        "cited": [
+          "E1",
+          "E2",
+          "E3"
+        ]
+      },
+      {
+        "claimId": "c2",
+        "side": "skeptic",
+        "round": 2,
+        "text": "The claim is supported. All provided evidence explicitly states that Mahatma Gandhi led the Salt March in 1930.",
+        "cited": [
+          "E1",
+          "E2",
+          "E3",
+          "E4",
+          "E5"
+        ]
+      }
+    ],
+    "c3": [
+      {
+        "claimId": "c3",
+        "side": "advocate",
+        "round": 1,
+        "text": "The claim that India became a republic on 26 January 1947 is not supported. All provided evidence states that India became a republic on 26 January 1950, after the Constitution came into force, while independence was on 15 August 1947. Therefore the claim is false.",
+        "cited": [
+          "E1",
+          "E2",
+          "E3",
+          "E4",
+          "E5"
+        ]
+      },
+      {
+        "claimId": "c3",
+        "side": "skeptic",
+        "round": 1,
+        "text": "All evidence indicates India became a republic on 26 January 1950, not 1947. The Constitution came into effect on that date, while independence was on 15 August 1947. Thus the claim that India became a republic on 26 January 1947 contradicts the sources.",
+        "cited": [
+          "E1",
+          "E2",
+          "E3",
+          "E4",
+          "E5"
+        ]
+      },
+      {
+        "claimId": "c3",
+        "side": "advocate",
+        "round": 2,
+        "text": "The claim that India became a republic on 26 January 1947 is not supported by the provided evidence. All sources state that India became a republic on 26 January 1950, when the Constitution came into force, while independence occurred on 15 August 1947. Therefore the claim is false.",
+        "cited": [
+          "E1",
+          "E2",
+          "E3",
+          "E4",
+          "E5"
+        ]
+      },
+      {
+        "claimId": "c3",
+        "side": "skeptic",
+        "round": 2,
+        "text": "All sources state that India became a republic on 26 January 1950, not 1947. The Constitution came into effect on that date, while independence was on 15 August 1947. Thus the claim that India became a republic on 26 January 1947 contradicts the evidence.",
+        "cited": [
+          "E1",
+          "E2",
+          "E3",
+          "E4",
+          "E5"
+        ]
+      }
+    ]
+  },
+  "verdicts": {
+    "c1": {
+      "claimId": "c1",
+      "label": "SUPPORTED",
+      "rawLabel": "SUPPORTED",
+      "confidence": 0.9999899864196777,
+      "abstained": false,
+      "rationale": "Multiple sources explicitly state that the Indian National Congress was founded on 28 December 1885, confirming the 1885 founding year.",
+      "cited": [
+        "E1",
+        "E3"
+      ],
+      "samples": [
+        "SUPPORTED",
+        "SUPPORTED",
+        "SUPPORTED"
+      ]
+    },
+    "c2": {
+      "claimId": "c2",
+      "label": "SUPPORTED",
+      "rawLabel": "SUPPORTED",
+      "confidence": 0.9999897718429565,
+      "abstained": false,
+      "rationale": "Multiple provided sources explicitly state that Mahatma Gandhi organized and led the Salt March, which took place from March 12 to April 5/6, 1930, confirming the claim.",
+      "cited": [
+        "E1",
+        "E2",
+        "E3"
+      ],
+      "samples": [
+        "SUPPORTED",
+        "SUPPORTED",
+        "SUPPORTED"
+      ]
+    },
+    "c3": {
+      "claimId": "c3",
+      "label": "REFUTED",
+      "rawLabel": "REFUTED",
+      "confidence": 0.9992803275585174,
+      "abstained": false,
+      "rationale": "All provided evidence states that India became a republic on 26 January 1950, not 1947. For example, E1 notes the Constitution came into effect on 26 January 1950, establishing the Republic of India.",
+      "cited": [
+        "E1"
+      ],
+      "samples": [
+        "REFUTED",
+        "REFUTED",
+        "REFUTED"
+      ]
+    }
+  },
+  "factuality": 0.6666666666666666,
+  "trace": [
+    {
+      "step": "decompose",
+      "model": "openai/gpt-oss-120b",
+      "provider": "groq",
+      "inTok": 261,
+      "outTok": 260,
+      "ms": 1384,
+      "ok": true
+    },
+    {
+      "step": "plan:c2",
+      "model": "openai/gpt-oss-120b",
+      "provider": "groq",
+      "inTok": 195,
+      "outTok": 69,
+      "ms": 588,
+      "ok": true
+    },
+    {
+      "step": "plan:c1",
+      "model": "openai/gpt-oss-120b",
+      "provider": "groq",
+      "inTok": 194,
+      "outTok": 80,
+      "ms": 605,
+      "ok": true
+    },
+    {
+      "step": "argue:c2:r1:advocate",
+      "model": "openai/gpt-oss-120b",
+      "provider": "groq",
+      "inTok": 1328,
+      "outTok": 119,
+      "ms": 630,
+      "ok": true
+    },
+    {
+      "step": "argue:c1:r1:advocate",
+      "model": "openai/gpt-oss-120b",
+      "provider": "groq",
+      "inTok": 1166,
+      "outTok": 123,
+      "ms": 1200,
+      "ok": true
+    },
+    {
+      "step": "argue:c2:r1:skeptic",
+      "model": "openai/gpt-oss-120b",
+      "provider": "groq",
+      "inTok": 1400,
+      "outTok": 93,
+      "ms": 598,
+      "ok": true
+    },
+    {
+      "step": "argue:c1:r1:skeptic",
+      "model": "openai/gpt-oss-120b",
+      "provider": "groq",
+      "inTok": 1234,
+      "outTok": 96,
+      "ms": 724,
+      "ok": true
+    },
+    {
+      "step": "argue:c1:r2:advocate",
+      "model": "openai/gpt-oss-120b",
+      "provider": "groq",
+      "inTok": 1247,
+      "outTok": 94,
+      "ms": 1293,
+      "ok": true
+    },
+    {
+      "step": "argue:c2:r2:advocate",
+      "model": "openai/gpt-oss-120b",
+      "provider": "groq",
+      "inTok": 1411,
+      "outTok": 97,
+      "ms": 2638,
+      "ok": true
+    },
+    {
+      "step": "argue:c1:r2:skeptic",
+      "model": "openai/gpt-oss-120b",
+      "provider": "groq",
+      "inTok": 1306,
+      "outTok": 97,
+      "ms": 11215,
+      "ok": true
+    },
+    {
+      "step": "argue:c2:r2:skeptic",
+      "model": "openai/gpt-oss-120b",
+      "provider": "groq",
+      "inTok": 1487,
+      "outTok": 87,
+      "ms": 674,
+      "ok": true
+    },
+    {
+      "step": "judge:c1:s1",
+      "model": "openai/gpt-oss-120b",
+      "provider": "groq",
+      "inTok": 1431,
+      "outTok": 175,
+      "ms": 10657,
+      "ok": true
+    },
+    {
+      "step": "judge:c1:s3",
+      "model": "openai/gpt-oss-120b",
+      "provider": "groq",
+      "inTok": 1431,
+      "outTok": 224,
+      "ms": 22749,
+      "ok": true
+    },
+    {
+      "step": "judge:c1:s2",
+      "model": "openai/gpt-oss-120b",
+      "provider": "groq",
+      "inTok": 1431,
+      "outTok": 242,
+      "ms": 9061,
+      "ok": true
+    },
+    {
+      "step": "judge:c2:s2",
+      "model": "openai/gpt-oss-120b",
+      "provider": "groq",
+      "inTok": 1602,
+      "outTok": 229,
+      "ms": 24976,
+      "ok": true
+    },
+    {
+      "step": "judge:c2:s3",
+      "model": "openai/gpt-oss-120b",
+      "provider": "groq",
+      "inTok": 1602,
+      "outTok": 270,
+      "ms": 11020,
+      "ok": true
+    },
+    {
+      "step": "judge:c2:s1",
+      "model": "openai/gpt-oss-120b",
+      "provider": "groq",
+      "inTok": 1602,
+      "outTok": 204,
+      "ms": 1584,
+      "ok": true
+    },
+    {
+      "step": "plan:c3",
+      "model": "openai/gpt-oss-120b",
+      "provider": "groq",
+      "inTok": 195,
+      "outTok": 91,
+      "ms": 1437,
+      "ok": true
+    },
+    {
+      "step": "argue:c3:r1:advocate",
+      "model": "openai/gpt-oss-120b",
+      "provider": "groq",
+      "inTok": 1211,
+      "outTok": 118,
+      "ms": 813,
+      "ok": true
+    },
+    {
+      "step": "argue:c3:r1:skeptic",
+      "model": "openai/gpt-oss-120b",
+      "provider": "groq",
+      "inTok": 1292,
+      "outTok": 131,
+      "ms": 7177,
+      "ok": true
+    },
+    {
+      "step": "argue:c3:r2:advocate",
+      "model": "openai/gpt-oss-120b",
+      "provider": "groq",
+      "inTok": 1344,
+      "outTok": 133,
+      "ms": 10534,
+      "ok": true
+    },
+    {
+      "step": "argue:c3:r2:skeptic",
+      "model": "openai/gpt-oss-120b",
+      "provider": "groq",
+      "inTok": 1435,
+      "outTok": 124,
+      "ms": 11783,
+      "ok": true
+    },
+    {
+      "step": "judge:c3:s2",
+      "model": "openai/gpt-oss-120b",
+      "provider": "groq",
+      "inTok": 1591,
+      "outTok": 289,
+      "ms": 13366,
+      "ok": true
+    },
+    {
+      "step": "judge:c3:s1",
+      "model": "openai/gpt-oss-120b",
+      "provider": "groq",
+      "inTok": 1591,
+      "outTok": 183,
+      "ms": 10843,
+      "ok": true
+    },
+    {
+      "step": "judge:c3:s3",
+      "model": "openai/gpt-oss-120b",
+      "provider": "groq",
+      "inTok": 1591,
+      "outTok": 196,
+      "ms": 10957,
+      "ok": true
+    }
+  ],
+  "model": "gpt-oss-120b",
+  "provider": "groq",
+  "createdAt": "2026-10-13T20:12:21.589Z",
+  "executor": "cloud",
+  "partial": false
+}

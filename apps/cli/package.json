@@ -1,0 +1,28 @@
+{
+  "name": "@satya/cli",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Satya laptop executor: doctor, data, SciFact index, verify, evaluation, parity and gallery recording.",
+  "type": "module",
+  "bin": {
+    "satya": "./bin/satya.js"
+  },
+  "scripts": {
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@huggingface/transformers": "^4.3.1",
+    "@modelcontextprotocol/server": "^2.3.1",
+    "@satya/core": "*",
+    "@satya/mcp": "*",
+    "@satya/tools": "*",
+    "better-sqlite3": "^13.0.3",
+    "cli-table3": "^0.6.5",
+    "commander": "^15.0.0",
+    "hyparquet": "^1.31.4",
+    "tsx": "^4.23.15"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^9.6.0"
+  }
+}

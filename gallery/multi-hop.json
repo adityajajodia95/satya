@@ -1,0 +1,262 @@
+{
+  "title": "A multi-hop claim",
+  "runId": "371a5b9e-0bd5-4808-ab06-9e332e1763b8",
+  "inputText": "The director of the film Inception was born in London.",
+  "claims": [
+    {
+      "id": "c1",
+      "text": "The director of the film Inception was born in London.",
+      "quote": "The director of the film Inception was born in London",
+      "span": [
+        0,
+        53
+      ],
+      "checkworthy": true
+    }
+  ],
+  "evidence": {
+    "c1": [
+      {
+        "id": "E1",
+        "passage": {
+          "id": "49c20ff495478b744fa4e9bc858e02a3a3d4395b",
+          "source": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Christopher_Nolan",
+          "title": "Christopher Nolan",
+          "text": "from five to ten, a change known as \"The Dark Knight Rule\". Nolan received many awards and nominations for his work on the film. In the late 2000s, Nolan was reported to direct a film adaptation of the 1960s television series The Prisoner. The success of The Dark Knight allowed Warner Bros. to sign Nolan to write, direct and co-produce Inception (2010) – a film for which he had the idea around nine years before its release. Nolan described the film as \"a contemporary sci-fi actioner set within the architecture of the mind\". Starring a large ensemble cast led by Leonardo DiCaprio, the film became a critical and commercial success upon its release. Film critic Mark Kermode named it the best film of 2010, stating \"Inception is proof that people are not stupid, that cinema is not trash, and that it is possible for blockbusters and art to be the same thing.\" Philosophy professor David Kyle Johnson wrote that \"Inception became a classic almost as soon as it was projected on silver screens\", praising its exploration of philosophical ideas, including leap of faith and allegory of the cave. The film grossed over $836 million worldwide. Nominated for eight Academy Awards—including Best Picture and Best Original Screenplay—it won Best Cinematography, Best Sound Mixing, Best Sound Editing and Best Visual Effects. Nolan",
+          "published": null
+        },
+        "bm25Rank": 8,
+        "denseRank": 9,
+        "rrf": 0.02919863597612958,
+        "rerank": 7.263904774046845
+      },
+      {
+        "id": "E2",
+        "passage": {
+          "id": "2346a44fa0f7d4a75469987ff4e1401716c4f003",
+          "source": "web",
+          "url": "https://www.britannica.com/biography/Christopher-Nolan-British-director",
+          "title": "Christopher Nolan | Movies, The Odyssey, Batman, Brother, Next Movie, Biography, Oppenheimer, & Facts | Britannica",
+          "text": "Christopher Nolan (born July 30, 1970, in London, England) is a British film director and writer known for his noirish visual aesthetic and unconventional narratives. Nolan was raised in both London and Chicago and was interested in moviemaking from a young age. His breakthrough came with Memento (2000). His other notable films include The Dark Knight (2008), Inception (2010), Interstellar (2014), and Dunkirk (2017). In 2024 Nolan won an Academy Award for best director for Oppenheimer (2023), [...] Christopher Nolan (born July 30, 1970, London, England) is a British film director and writer acclaimed for his noirish visual aesthetic and unconventional, often highly conceptual narratives. His notable films include Inception (2010), Interstellar (2014), Dunkirk (2017), and several Batman movies. In 2024 Nolan won an Academy Award for best director for Oppenheimer (2023), which was also named best picture. Two years later he directed The Odyssey, an epic adaptation of the ancient Greek poem [...] Nolan was raised by an American mother and a British father, and his family spent time in both Chicago and London. As a child, he attended Haileybury, a boarding school just outside London. From a young age Nolan was interested in moviemaking and would use his father’s Super-8 camera to make shorts. He was influenced by George Lucas’s Star Wars trilogy and by the immersive dystopian",
+          "published": null
+        },
+        "bm25Rank": 1,
+        "denseRank": 1,
+        "rrf": 0.03278688524590164,
+        "rerank": 7.217851271023039
+      },
+      {
+        "id": "E3",
+        "passage": {
+          "id": "3e6a6bd0340d18bd9557dcb4a1c092f8327f7726",
+          "source": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Christopher_Nolan",
+          "title": "Christopher Nolan",
+          "text": "Sir Christopher Edward Nolan (born 30 July 1970) is a British and American filmmaker. Known for his Hollywood blockbusters with complex storytelling, Nolan is considered a leading filmmaker of the 21st century. His films have earned over $8 billion worldwide, making him the third-highest-grossing film director of all time. Nolan's accolades include two Academy Awards, a Golden Globe Award, and two British Academy Film Awards. He was also appointed a Commander of the British Empire (CBE) in 2019 and was knighted in 2024 for his contributions to film. Nolan developed an interest in filmmaking from a young age. After studying English literature at University College London, he made several short films before his feature film debut with Following (1998). Nolan gained international recognition with his second film, Memento (2000), and transitioned into studio filmmaking with Insomnia (2002). He became a high-profile director with The Dark Knight trilogy (2005–2012) and found further success with The Prestige (2006), Inception (2010), Interstellar (2014) and Dunkirk (2017). After the release of the critically polarising Tenet (2020), Nolan parted ways with longtime distributor Warner Bros. Pictures over their streaming release strategy and signed with Universal Pictures for the highly successful Oppenheimer (2023) and The Odyssey (2026). The former won him Academy Awards for Best Director and Best Picture. Three of Nolan's films have been inducted",
+          "published": null
+        },
+        "bm25Rank": 2,
+        "denseRank": 8,
+        "rrf": 0.030834914611005692,
+        "rerank": 7.0007142019790605
+      },
+      {
+        "id": "E4",
+        "passage": {
+          "id": "8560a2b2131178c33a9e7db83670991c364647a7",
+          "source": "web",
+          "url": "https://www.biography.com/movies-tv/a71942992/christopher-nolan-director",
+          "title": "Christopher Nolan: Biography, Director, Oscar Winner",
+          "text": "## Quick Facts FULL NAME: Christopher Edward Nolan BORN: July 30, 1970 BIRTHPLACE: London, England SPOUSE: Emma Thomas (1997-present) CHILDREN: Flora, Magnus, Rory, Oliver ASTROLOGICAL SIGN: Leo ## Early Life and Career Christopher Edward Nolan was born on July 30, 1970, in London, England. His father, Brendan James Nolan, was a British advertising executive, and his mother, Christina Jensen, was an American flight attendant and English teacher. [...] Growing up, Nolan spent much of his childhood traveling between Illinois and London, attending Haileybury School in Hertford Heath. He developed an interest in filmmaking at an early age, inspired by the sci-fi movies 2001: A Space Odyssey (1968) and Star Wars: Episode IV—A New Hope (1977). At age 7, Nolan began making his own stop-motion films with action figures and his father’s Super 8 camera. Just a few years later, he set his mind on being a professional filmmaker. [...] Christopher Nolan is a British-American filmmaker known for his complex storytelling in big-budget movies. Nolan first garnered attention for his early movies, Following (1998) and Memento (2000). After directing Insomnia, he became famous for Batman Begins (2005) and the subsequent Dark Knight trilogy based on the DC comic-book franchise. He has since helmed such movies as Inception (2010), Interstellar (2014). and Tenet (2020). Most recently, Nolan won two Oscars for the",
+          "published": null
+        },
+        "bm25Rank": 3,
+        "denseRank": 3,
+        "rrf": 0.031746031746031744,
+        "rerank": 5.2179297842204075
+      },
+      {
+        "id": "E5",
+        "passage": {
+          "id": "af91a4da4d58977bc3b16065c7951d632a417f27",
+          "source": "web",
+          "url": "https://www.christophernolan.net/bio",
+          "title": "BIO - Christopher Nolan",
+          "text": "Image 3: Nolan Fans ## Christopher Edward Nolan Name Christopher Nolan Born July 30, 1970 London, England, UK Residence Los Angeles, California, USA Education B.A. in English Literature Alma Mater Haileybury & ISC University College London Occupation Film Director Screenwriter Producer Years Active 1989 – present Influenced by Alfred Hitchcock Orson Welles Stanley Kubrick Ridley Scott Spouse Emma Thomas Relatives Jonathan Nolan (brother) [...] Christopher Nolan is an award-winning filmmaker who has been recognized for his work as a director, writer, and producer. Born in London, Nolan began making movies at an early age with his father’s Super-8mm camera. While studying English Literature at University College London, he shot 16mm films at UCL’s film society, where he learned the guerrilla film techniques he would later use to make his first feature, _Following_. The noir thriller was recognized at a number of international film [...] In 2005, Nolan co-wrote and directed _Batman Begins_, starring Christian Bale, Michael Caine, Liam Neeson, Gary Oldman, and Morgan Freeman. Lauded by critics and audiences alike, Nolan’s film re-imagined the classic Batman movie franchise and made the iconic hero relevant to our time. In 2008, Nolan directed, co-wrote, and produced _The Dark Knight_, which went on to gross more than one billion dollars at the global box office and received worldwide critical acclaim. Nolan was nominated",
+          "published": null
+        },
+        "bm25Rank": 4,
+        "denseRank": 6,
+        "rrf": 0.030776515151515152,
+        "rerank": 1.0984988046440827
+      }
+    ]
+  },
+  "debate": {
+    "c1": [
+      {
+        "claimId": "c1",
+        "side": "advocate",
+        "round": 1,
+        "text": "The director of Inception is Christopher Nolan. Multiple sources state that Nolan was born in London, England (e.g., Britannica notes he was born July 30, 1970, in London [E2]; a biography lists his birthplace as London, England [E4]; and a web profile also records his birth in London [E5]). Therefore, the claim that the director of Inception was born in London is supported.",
+        "cited": [
+          "E2",
+          "E4",
+          "E5"
+        ]
+      },
+      {
+        "claimId": "c1",
+        "side": "skeptic",
+        "round": 1,
+        "text": "Supported",
+        "cited": [
+          "E2",
+          "E4",
+          "E5"
+        ]
+      },
+      {
+        "claimId": "c1",
+        "side": "advocate",
+        "round": 2,
+        "text": "Multiple reputable sources confirm that Christopher Nolan, the director of Inception, was born in London. Britannica states he was born on July 30, 1970, in London, England [E2]. A biography lists his birthplace as London, England [E4]. Another web profile also records his birth in London [E5]. Therefore, the claim that the director of Inception was born in London is supported.",
+        "cited": [
+          "E2",
+          "E4",
+          "E5"
+        ]
+      },
+      {
+        "claimId": "c1",
+        "side": "skeptic",
+        "round": 2,
+        "text": "Supported",
+        "cited": [
+          "E2",
+          "E4",
+          "E5"
+        ]
+      }
+    ]
+  },
+  "verdicts": {
+    "c1": {
+      "claimId": "c1",
+      "label": "SUPPORTED",
+      "rawLabel": "SUPPORTED",
+      "confidence": 0.9997801482677459,
+      "abstained": false,
+      "rationale": "Multiple sources (E2, E4, E5) state that Christopher Nolan, the director of Inception, was born in London, England.",
+      "cited": [
+        "E2",
+        "E4",
+        "E5"
+      ],
+      "samples": [
+        "SUPPORTED",
+        "SUPPORTED",
+        "SUPPORTED"
+      ]
+    }
+  },
+  "factuality": 1,
+  "trace": [
+    {
+      "step": "decompose",
+      "model": "@cf/openai/gpt-oss-120b",
+      "provider": "workersai",
+      "inTok": 158,
+      "outTok": 284,
+      "neurons": 24.390872955322266,
+      "ms": 2238,
+      "ok": true
+    },
+    {
+      "step": "plan:c1",
+      "model": "@cf/openai/gpt-oss-120b",
+      "provider": "workersai",
+      "inTok": 144,
+      "outTok": 169,
+      "neurons": 16.104515075683594,
+      "ms": 1636,
+      "ok": true
+    },
+    {
+      "step": "argue:c1:r1:advocate",
+      "model": "@cf/openai/gpt-oss-120b",
+      "provider": "workersai",
+      "inTok": 1220,
+      "outTok": 177,
+      "neurons": 50.886138916015625,
+      "ms": 3276,
+      "ok": true
+    },
+    {
+      "step": "argue:c1:r1:skeptic",
+      "model": "@cf/openai/gpt-oss-120b",
+      "provider": "workersai",
+      "inTok": 1329,
+      "outTok": 104,
+      "neurons": 49.37702941894531,
+      "ms": 1023,
+      "ok": true
+    },
+    {
+      "step": "argue:c1:r2:advocate",
+      "model": "@cf/openai/gpt-oss-120b",
+      "provider": "workersai",
+      "inTok": 1320,
+      "outTok": 221,
+      "neurons": 57.067935943603516,
+      "ms": 2151,
+      "ok": true
+    },
+    {
+      "step": "argue:c1:r2:skeptic",
+      "model": "@cf/openai/gpt-oss-120b",
+      "provider": "workersai",
+      "inTok": 1430,
+      "outTok": 136,
+      "neurons": 54.7724609375,
+      "ms": 1649,
+      "ok": true
+    },
+    {
+      "step": "judge:c1:s3",
+      "model": "@cf/openai/gpt-oss-120b",
+      "provider": "workersai",
+      "inTok": 1451,
+      "outTok": 193,
+      "neurons": 59.327003479003906,
+      "ms": 1966,
+      "ok": true
+    },
+    {
+      "step": "judge:c1:s2",
+      "model": "@cf/openai/gpt-oss-120b",
+      "provider": "workersai",
+      "inTok": 1451,
+      "outTok": 173,
+      "neurons": 57.9633674621582,
+      "ms": 2317,
+      "ok": true
+    },
+    {
+      "step": "judge:c1:s1",
+      "model": "@cf/openai/gpt-oss-120b",
+      "provider": "workersai",
+      "inTok": 1451,
+      "outTok": 298,
+      "neurons": 66.48609161376953,
+      "ms": 6540,
+      "ok": true
+    }
+  ],
+  "model": "gpt-oss-120b",
+  "provider": "workersai",
+  "createdAt": "2026-10-14T01:06:07.393Z",
+  "executor": "cloud",
+  "partial": false
+}

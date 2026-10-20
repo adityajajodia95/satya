@@ -1,0 +1,23 @@
+{
+  "query": "Eiffel Tower completed",
+  "follow_up_questions": null,
+  "answer": null,
+  "images": [],
+  "results": [
+    {
+      "title": "Eiffel Tower - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Eiffel_Tower",
+      "content": "The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France. It was constructed from 1887 to 1889 as the centerpiece of the 1889 World's Fair.",
+      "score": 0.91,
+      "raw_content": null
+    },
+    {
+      "title": "Eiffel Tower | History, Height, & Facts | Britannica",
+      "url": "https://www.britannica.com/topic/Eiffel-Tower-Paris-France",
+      "content": "Eiffel Tower, Parisian landmark that is also a technological masterpiece in building-construction history.",
+      "score": 0.84,
+      "raw_content": null
+    }
+  ],
+  "response_time": 1.04
+}

@@ -1,0 +1,9 @@
+MCP Inspector (CLI) against: node apps/cli/bin/satya.js mcp   — 2026-10-13T17:18:05.164Z
+tools/list → 5 tools: wiki_search, wiki_page, arxiv_search, scholar_search, fetch_url
+all readOnlyHint: true; web_search exposed: false (no Tavily key on the laptop)
+tools/call wiki_search {"query":"Eiffel Tower"} → isError false, 5 results:
+  - Eiffel Tower | https://en.wikipedia.org/wiki/Eiffel_Tower
+  - List of names on the Eiffel Tower | https://en.wikipedia.org/wiki/List_of_names_on_the_Eiffel_Tower
+  - Eiffel Tower replicas and derivatives | https://en.wikipedia.org/wiki/Eiffel_Tower_replicas_and_derivatives
+  - Gustave Eiffel | https://en.wikipedia.org/wiki/Gustave_Eiffel
+  - Eiffel Tower (disambiguation) | https://en.wikipedia.org/wiki/Eiffel_Tower_(disambiguation)

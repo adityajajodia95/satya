@@ -1,0 +1,20 @@
+news-wrong-number: run 82fdd900-d0e1-4d18-9df2-66b222917615
+news-wrong-number: saved (SSR; factuality 0.6666666666666666)
+science-claim: run ec651cd1-283c-43c5-945d-e1c82d59a4ac
+science-claim: saved (SS; factuality 1)
+indian-history: run 1ec051db-832f-4e02-9e1c-02a555807c5d
+indian-history: saved (SSR; factuality 0.6666666666666666)
+misattributed-quote: run d5aad5ea-a270-4795-8afc-1bce9f3e4e24
+misattributed-quote: saved (R; factuality 0)
+health-myth: run d32a6e92-b5fc-4db9-993e-30e738876b0d
+health-myth: saved (RR; factuality 0)
+sports-record: run ace1bd2d-9f02-44e8-b423-fe62ec6b5538
+sports-record: run ended partial (capacity or error) — not saved; stopping
+recorded 5; remaining: sports-record, company-fact, multi-hop
+sports-record: run bf08cc70-8d36-4a12-ad43-f738a643981b
+sports-record: saved (SSS; factuality 1)
+company-fact: run de56ad81-a46b-4fb6-b1ea-408b2fecaa6e
+company-fact: saved (SR; factuality 0.5)
+multi-hop: run 371a5b9e-0bd5-4808-ab06-9e332e1763b8
+multi-hop: saved (S; factuality 1)
+recorded 3; remaining: none

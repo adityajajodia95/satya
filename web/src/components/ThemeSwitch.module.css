@@ -1,0 +1,31 @@
+.switch {
+  display: inline-flex;
+  align-items: center;
+  font: 600 14px/20px var(--sans);
+}
+.item {
+  display: inline-flex;
+  align-items: center;
+}
+.sep {
+  color: var(--muted);
+  padding: 0 4px;
+}
+.option,
+.active {
+  background: none;
+  border: 0;
+  padding: 2px 2px;
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+}
+.option {
+  color: var(--ink-2);
+}
+.option:hover {
+  color: var(--ink);
+}
+.active {
+  color: var(--ink);
+  border-bottom-color: var(--accent);
+}

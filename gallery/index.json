@@ -1,0 +1,93 @@
+{
+  "project": "satya",
+  "runs": [
+    {
+      "id": "82fdd900-d0e1-4d18-9df2-66b222917615",
+      "slug": "news-wrong-number",
+      "title": "A news paragraph with one wrong number",
+      "date": "2026-10-13T20:09:41.382Z",
+      "model": "gpt-oss-120b",
+      "provider": "workersai",
+      "file": "news-wrong-number.json",
+      "factuality": 0.6666666666666666,
+      "claims": 3
+    },
+    {
+      "id": "ec651cd1-283c-43c5-945d-e1c82d59a4ac",
+      "slug": "science-claim",
+      "title": "A science claim",
+      "date": "2026-10-13T20:11:18.479Z",
+      "model": "gpt-oss-120b",
+      "provider": "workersai",
+      "file": "science-claim.json",
+      "factuality": 1,
+      "claims": 2
+    },
+    {
+      "id": "1ec051db-832f-4e02-9e1c-02a555807c5d",
+      "slug": "indian-history",
+      "title": "An Indian-history paragraph",
+      "date": "2026-10-13T20:12:21.589Z",
+      "model": "gpt-oss-120b",
+      "provider": "groq",
+      "file": "indian-history.json",
+      "factuality": 0.6666666666666666,
+      "claims": 3
+    },
+    {
+      "id": "d5aad5ea-a270-4795-8afc-1bce9f3e4e24",
+      "slug": "misattributed-quote",
+      "title": "A misattributed quote",
+      "date": "2026-10-13T20:15:56.799Z",
+      "model": "gpt-oss-120b",
+      "provider": "workersai",
+      "file": "misattributed-quote.json",
+      "factuality": 0,
+      "claims": 1
+    },
+    {
+      "id": "d32a6e92-b5fc-4db9-993e-30e738876b0d",
+      "slug": "health-myth",
+      "title": "A health myth",
+      "date": "2026-10-13T20:16:40.452Z",
+      "model": "gpt-oss-120b",
+      "provider": "groq",
+      "file": "health-myth.json",
+      "factuality": 0,
+      "claims": 2
+    },
+    {
+      "id": "bf08cc70-8d36-4a12-ad43-f738a643981b",
+      "slug": "sports-record",
+      "title": "A sports record",
+      "date": "2026-10-14T01:03:09.151Z",
+      "model": "gpt-oss-120b",
+      "provider": "workersai",
+      "file": "sports-record.json",
+      "factuality": 1,
+      "claims": 3
+    },
+    {
+      "id": "de56ad81-a46b-4fb6-b1ea-408b2fecaa6e",
+      "slug": "company-fact",
+      "title": "A company fact",
+      "date": "2026-10-14T01:05:19.903Z",
+      "model": "gpt-oss-120b",
+      "provider": "workersai",
+      "file": "company-fact.json",
+      "factuality": 0.5,
+      "claims": 2
+    },
+    {
+      "id": "371a5b9e-0bd5-4808-ab06-9e332e1763b8",
+      "slug": "multi-hop",
+      "title": "A multi-hop claim",
+      "date": "2026-10-14T01:06:07.393Z",
+      "model": "gpt-oss-120b",
+      "provider": "workersai",
+      "file": "multi-hop.json",
+      "factuality": 1,
+      "claims": 1
+    }
+  ]
+}

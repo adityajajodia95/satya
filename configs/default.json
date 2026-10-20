@@ -1,0 +1,36 @@
+{
+  "retrieval": {
+    "chunkWords": 220,
+    "chunkOverlap": 40,
+    "bm25K": 20,
+    "denseK": 20,
+    "rrfK": 60,
+    "rerankTop": 20,
+    "finalK": 5,
+    "evidenceChars": 900,
+    "maxPassages": 60
+  },
+  "pipeline": {
+    "queriesPerClaim": 3,
+    "debateRounds": 2,
+    "judgeSamples": 3,
+    "abstainThreshold": 0.7004,
+    "maxClaims": 25,
+    "parallelClaims": 2
+  },
+  "tools": {
+    "enabled": ["web_search", "wiki_search", "wiki_page", "arxiv_search", "scholar_search", "fetch_url"],
+    "maxResults": 5,
+    "fetchMaxBytes": 150000,
+    "fetchTextChars": 20000,
+    "userAgent": "SatyaFactCheck/1.0 (+https://adityajajodia.com; adityajajodia95@gmail.com)"
+  },
+  "llm": {
+    "temperature": 0.2,
+    "judgeTemperature": 0.7,
+    "reasoning": {
+      "default": "low",
+      "judge": "medium"
+    }
+  }
+}

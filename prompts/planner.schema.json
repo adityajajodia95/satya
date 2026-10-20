@@ -1,0 +1,16 @@
+{
+  "type": "object",
+  "properties": {
+    "queries": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "scientific": {
+      "type": "boolean"
+    }
+  },
+  "required": ["queries", "scientific"],
+  "additionalProperties": false
+}

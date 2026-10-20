@@ -1,0 +1,30 @@
+.panel {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font: 400 14px var(--sans);
+  color: var(--ink-2);
+}
+.panel input {
+  border: 1px solid var(--rule);
+  border-radius: var(--radius);
+  background: var(--surface);
+  padding: 4px 8px;
+  width: 14rem;
+}
+.panel button {
+  border: 1px solid var(--rule);
+  border-radius: var(--radius);
+  background: var(--surface);
+  padding: 4px 10px;
+  cursor: pointer;
+  font: 600 14px var(--sans);
+}
+.panel .link {
+  border: 0;
+  background: none;
+  color: var(--accent);
+  padding: 0;
+  text-decoration: underline;
+}

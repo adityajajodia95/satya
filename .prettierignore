@@ -1,0 +1,21 @@
+node_modules
+dist
+.tsbuild
+coverage
+data
+results
+gallery
+docs
+package-lock.json
+*.generated.ts
+prompts/*.md
+packages/tools/test/fixtures
+**/worker-configuration.d.ts
+web/public
+web/dist
+
+# Playwright run artefacts (screenshots in qa/screens are kept as QA evidence)
+qa/test-results/
+qa/e2e-results.json
+qa/screens/
+qa/lighthouse/*.json

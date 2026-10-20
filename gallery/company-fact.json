@@ -1,0 +1,484 @@
+{
+  "title": "A company fact",
+  "runId": "de56ad81-a46b-4fb6-b1ea-408b2fecaa6e",
+  "inputText": "Infosys was founded in 1981 in Pune. The company is headquartered in Mumbai.",
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Infosys was founded in 1981 in Pune.",
+      "quote": "Infosys was founded in 1981 in Pune",
+      "span": [
+        0,
+        35
+      ],
+      "checkworthy": true
+    },
+    {
+      "id": "c2",
+      "text": "Infosys is headquartered in Mumbai.",
+      "quote": "The company is headquartered in Mumbai",
+      "span": [
+        37,
+        75
+      ],
+      "checkworthy": true
+    }
+  ],
+  "evidence": {
+    "c1": [
+      {
+        "id": "E1",
+        "passage": {
+          "id": "48afeafbac16245ceb267cab69e044f1633705a2",
+          "source": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Infosys",
+          "title": "Infosys",
+          "text": "Infosys Limited is an Indian multinational technology company that offers information technology, business consulting, and outsourcing services. Founded in 1981 by seven engineers, the company is headquartered in Bengaluru and considered one of the Big Six Indian IT companies. == History == Infosys was founded by N. R. Narayana Murthy, Nandan Nilekani, Kris Gopalakrishnan, S. D. Shibulal, K. Dinesh, N. S. Raghavan, and Ashok Arora, with an initial capital of $250. It was incorporated as Infosys Consultants Private Limited in Pune on 2 July 1981, before relocating to Bangalore in 1983. Arora left the company in 1989 and sold his shares to the other co-founders. In the 1980s, Infosys briefly made hardware products like electronic telex machines and keyboard concentrators. Its core business of offshore custom software development witnessed growth after the 1991 economic liberalisation of India. In February 1993, Infosys launched its initial public offering (IPO) with an offer price of ₹95 per share. The IPO was initially undersubscribed which led American investment bank Morgan Stanley to price stabilize the IPO by acquiring a 13% equity stake in INFY. The share price eventually opened at ₹145 per share in June 1993. Infosys released its banking automation software package Bancs2000 in 1995, middleware architecture product Entark in 1995, and Y2K problem toolset \"In2000\" a year later. In the mid to",
+          "published": null
+        },
+        "bm25Rank": 6,
+        "denseRank": 6,
+        "rrf": 0.030303030303030304,
+        "rerank": 10.307562170551341
+      },
+      {
+        "id": "E2",
+        "passage": {
+          "id": "02cedcfe16798131d77ac9e40368395c3cfdf04f",
+          "source": "web",
+          "url": "https://www.companieshistory.com/infosys",
+          "title": "Infosys",
+          "text": "Bengaluru, India Infosys Ltd. stands as India’s second-largest IT services company and a global leader in consulting, technology, and outsourcing. Seven engineers founded the company in Pune in 1981 with just $250 in capital. The company relocated to Bangalore in 1983 and has since grown into a multinational corporation serving clients across financial services, manufacturing, retail, and communications sectors. [...] N. R. Narayana Murthy and six engineers founded Infosys on July 2, 1981, in Pune, India. The seven co-founders started with just $250 in initial capital. ### What services does Infosys provide? Infosys provides IT consulting, digital transformation, application development, cloud services, data analytics, AI solutions, and business process outsourcing to global clients. ### How many employees work at Infosys? [...] The company operates 94 sales and marketing offices and 139 development centers worldwide. North America generates approximately 61% of Infosys revenue, followed by Europe at 25%. Infosys became the first Indian company listed on NASDAQ in 1999 and achieved a $100 billion market capitalization milestone in August 2021. ## Infosys History 1981 N. R. Narayana Murthy and six engineers founded Infosys Consultants Private Limited in Pune with an initial capital of $250. 1983",
+          "published": null
+        },
+        "bm25Rank": 1,
+        "denseRank": 2,
+        "rrf": 0.03252247488101534,
+        "rerank": 9.515823021366243
+      },
+      {
+        "id": "E3",
+        "passage": {
+          "id": "7b11bc489536917c5ed286548f8bdd0125443d75",
+          "source": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/N._R._Narayana_Murthy",
+          "title": "N. R. Narayana Murthy",
+          "text": "Nagavara Ramarao Narayana Murthy (born 20 August 1946) is an Indian billionaire businessman. He is the founder of Infosys, and was the chairman, chief executive officer (CEO), president and chief mentor of the company before retiring and becoming chairman emeritus. As of January 2025, his net worth was estimated at US$5.0 billion, according to Forbes. Murthy was born and raised in Sidlaghatta, Karnataka. He first worked at the Indian Institute of Management Ahmedabad, as chief systems programmer, and Patni Computer Systems in Pune, Maharashtra. He founded Infosys in 1981 and was the CEO from 1981 to 2002, as well as the chairman from 2002 to 2011. In 2011, he stepped down from the board and became the chairman emeritus. In June 2013, Murthy was appointed as the executive chairman for a period of five years. Murthy has been listed among the 12 greatest entrepreneurs of our time by Fortune magazine. He has been described as the \"father of the Indian IT sector\" by Time magazine and CNBC for his contribution to outsourcing in India. In 2005, he co-chaired the World Economic Forum in Davos, Switzerland. Murthy has been honoured with the Padma Vibhushan and Padma Shri awards. Murthy is the father-in-law of Rishi Sunak, former Prime Minister of the United Kingdom from 2022 to 2024. == Early life and education",
+          "published": null
+        },
+        "bm25Rank": 8,
+        "denseRank": null,
+        "rrf": 0.014705882352941176,
+        "rerank": 8.529121821897938
+      },
+      {
+        "id": "E4",
+        "passage": {
+          "id": "9cb53ac93f6364857f5ddb8d6d9dcbe291473c24",
+          "source": "web",
+          "url": "https://www.companieshistory.com/infosys/",
+          "title": "Infosys",
+          "text": "vehicle engineering. Infosys has acquired companies across 11 countries, with the United States and Australia representing the most active markets. The information technology and software sectors account for 64% of all acquisitions. Notable past acquisitions include GuideVision (ServiceNow consulting), Blue Acorn iCi (digital customer experience), and Kaleidoscope Innovation (product design). The company also divested Trifacta to Alteryx for $400 million in 2022. Infosys Revenue Infosys generated $19.28 billion in revenue during fiscal year 2025, representing a 3.86% increase from the previous year. The company has maintained consistent growth, more than doubling its revenue over the past decade. Infosys Market Cap Infosys holds a market capitalization of approximately $73.57 billion as of January 2026. The company ranks among the 300 most valuable companies globally and maintains its position as India’s second-largest IT firm by market value. FAQs Who founded Infosys and when? N. R. Narayana Murthy and six engineers founded Infosys on July 2, 1981, in Pune, India. The seven co-founders started with just $250 in initial capital. What services does Infosys provide? Infosys provides IT consulting, digital transformation, application development, cloud services, data analytics, AI solutions, and business process outsourcing to global clients. How many employees work at Infosys? Infosys employs approximately 323,578 professionals globally as of fiscal year 2025. About 85% of employees work from India, with 39.3% being",
+          "published": null
+        },
+        "bm25Rank": 10,
+        "denseRank": 11,
+        "rrf": 0.028370221327967807,
+        "rerank": 8.292204031801512
+      },
+      {
+        "id": "E5",
+        "passage": {
+          "id": "01f5364cb610d786c390ce4ee0a0a100aed33afc",
+          "source": "web",
+          "url": "https://www.companieshistory.com/infosys/",
+          "title": "Infosys",
+          "text": "About Us Privacy Policy Write For Us Cookie Policy Terms and Conditions Who Owns Net Worth Companies Target Market Mission Statement Competitors SWOT Analysis Business Finance AI Blog Insights Websites Statistics More iGaming Software Crypto Real Estate Lifestyle Websites Contact Us Infosys Revenue, Marketcap, Net Worth, Competitors 2026 Infosys Key Stats Infosys Ltd. stands as India’s second-largest IT services company and a global leader in consulting, technology, and outsourcing. Seven engineers founded the company in Pune in 1981 with just $250 in capital. The company relocated to Bangalore in 1983 and has since grown into a multinational corporation serving clients across financial services, manufacturing, retail, and communications sectors. The company operates 94 sales and marketing offices and 139 development centers worldwide. North America generates approximately 61% of Infosys revenue, followed by Europe at 25%. Infosys became the first Indian company listed on NASDAQ in 1999 and achieved a $100 billion market capitalization milestone in August 2021. Infosys History Infosys Co-founders Infosys Competitors The global IT services market features intense competition among established players. Infosys competes with multinational corporations and Indian IT giants across consulting, digital transformation, and outsourcing services. Tata Consultancy Services leads the Indian IT sector with higher revenue and market capitalization. Global competitors like Accenture and IBM offer broader consulting portfolios, while regional players like Wipro and HCL",
+          "published": null
+        },
+        "bm25Rank": 12,
+        "denseRank": 10,
+        "rrf": 0.02817460317460317,
+        "rerank": 8.249326028102923
+      }
+    ],
+    "c2": [
+      {
+        "id": "E1",
+        "passage": {
+          "id": "82120ef97d110d6a56753c39b8474065d475b55d",
+          "source": "web",
+          "url": "https://finance.yahoo.com/news/infosys-ceo-vishal-sikka-resigns-041915355.html",
+          "title": "Infosys CEO resigns after long-running feud with founders",
+          "text": "The public row at Infosys is reminiscent of Cyrus Mistry's unceremonious November ousting as boss of Tata Group over differences with the Tata family patriarch, Ratan Tata. Infosys was set up in 1981 by Murthy and six others after he borrowed 10,000 rupees ($156) from his wife. Headquartered in the southern city of Bengaluru, India's Silicon Valley, Infosys grew to become the country's second-largest IT services company. [...] 1. Crypto Crypto 2. AI AI Reuters # Infosys CEO resigns after long-running feud with founders Vishal Sikka attends a news conference in Mumbai, India, February 13, 2017. REUTERS/Danish Siddiqui · Reuters Reuters By Samantha Kareen Nair and Sankalp Phartiyal [...] \"This does not augur well for the future of the company, for the shareholders, big and small, and more importantly for the employees,\" said Gaurang Shah, head investment strategist at Mumbai-based brokerage Geojit Financial Services. (Additional reporting Tanvi Mehta, Jessica Kuruthukulangara and Gaurav Dogra in Bengaluru, Abhirup Roy, Rafael Nam and Euan Rocha in Mumbai and Krishna Das in New Delhi; Writing by Aditi Shah; Editing by Himani Sarkar and David Goodman) Terms and Privacy Policy",
+          "published": null
+        },
+        "bm25Rank": 4,
+        "denseRank": 3,
+        "rrf": 0.03149801587301587,
+        "rerank": 4.350308727427117
+      },
+      {
+        "id": "E2",
+        "passage": {
+          "id": "48afeafbac16245ceb267cab69e044f1633705a2",
+          "source": "web",
+          "url": "https://en.wikipedia.org/wiki/Infosys",
+          "title": "Infosys - Wikipedia",
+          "text": "Infosys Limited is an Indian multinationaltechnology company that offers information technology, business consulting, and outsourcing services. Founded in 1981 by seven engineers, the company is headquartered in Bengaluru and considered one of the Big Six \"Big Tech (India)\") Indian IT companies. ## History [edit] [...] Categories: Infosys Information technology consulting firms of India International information technology consulting firms Software companies of India Outsourcing companies Multinational companies headquartered in India Technology companies established in 1981 Indian companies established in 1981 Information technology companies of Bengaluru Outsourcing in India BSE SENSEX NIFTY 50 Companies listed on the New York Stock Exchange Indian brands [...] From Wikipedia, the free encyclopedia Indian multinational technology company Infosys LimitedImage 4: Infosys Logo Image 5: Infosys Pyramid.jpg)",
+          "published": null
+        },
+        "bm25Rank": 5,
+        "denseRank": 2,
+        "rrf": 0.0315136476426799,
+        "rerank": 4.163564401146426
+      },
+      {
+        "id": "E3",
+        "passage": {
+          "id": "ad7124c48b6c6a9bd5d2257ebf5e5dfe1c2aaaf3",
+          "source": "web",
+          "url": "https://www.facebook.com/Infosys/posts/the-new-infosys-office-in-mumbai-airoli-is-openwe-cant-wait-to-welcome-you-and-s/683972467098282",
+          "title": "Infosys - The new Infosys office in Mumbai Airoli is open!...",
+          "text": "## Infosys's Post ### Infosys August 24, 2023 · The new Infosys office in Mumbai Airoli is open! We can’t wait to welcome you and show you around. Catch the glimpse of this awesome new landmark right within your city of dreams and stop by to say Hello 😊 #InfyMumbai #InfosysMumbai #ForwardWithInfosys [...] Jyoti Manjunath Kori Welcome Infosys team to Mumbai. It's great opportunities for mumbaikars to work in Infosys 2y Er Sunil Pedgaonkar EngineerSahab Prefer Engineers from Mumbai for jobs 48w Genn Van Win-Hossenbux Congratulations! 🎉🎊 3y Vaishali Chourasia Congratulations and best wishes 🎊👏 Quite excited to visit!! 3y Kuldeep Kumar Pandey Congratulations Infosys !! Looking forward to see this office in jharkhand in the near future. Thanks to all of you! 3y [...] stop-color='%2302ADFC'/%3E%3Cstop offset='.5' stop-color='%230866FF'/%3E%3Cstop offset='1' stop-color='%232B7EFF'/%3E%3C/linearGradient%3E%3C/defs%3E%3C/svg%3E)",
+          "published": null
+        },
+        "bm25Rank": 7,
+        "denseRank": 1,
+        "rrf": 0.03131881575727918,
+        "rerank": 3.675665373769922
+      },
+      {
+        "id": "E4",
+        "passage": {
+          "id": "b8df13630f7eb1d2308507bb7bd363fe1b3a161a",
+          "source": "web",
+          "url": "https://finance.yahoo.com/news/indias-infosys-says-cfo-ranganath-resigns-060947337--finance.html",
+          "title": "India's Infosys says CFO Ranganath has tendered resignation",
+          "text": "MUMBAI (Reuters) - The Chief Financial Officer of Infosys Ltd has tendered his resignation just seven months after India's second-biggest software services exporter appointed a new Chief Executive Officer. The board of Bengaluru-headquartered Infosys said in a stock exchange filing on Saturday it had accepted the resignation of CFO M.D. Ranganath, appointed to the post in 2015. Ranganath, also known as Ranga, will continue as CFO till Nov. 16 this year, Infosys said, adding that its board will [...] 1. Crypto Crypto 2. AI AI AlphaSpace Get Finance Plus Reuters # India's Infosys says CFO Ranganath has tendered resignation FILE PHOTO: The logo of Infosys is pictured inside the company's headquarters in Bengaluru, India, April 13, 2017. REUTERS/Abhishek N. Chinnappa · Reuters · Reuters Reuters 1 min read INFY +1.07% CAP.PA +0.26% [...] that its board will immediately commence the search for a new CFO. Infosys, once the bellwether of India's showpiece $154 billion IT industry, last year witnessed a public row between founding executives and then-CEO Vishal Sikka over alleged corporate governance lapses. Sikka eventually exited the company in August 2017. Salil Parekh, a long-serving Capgemini executive, took over as Infosys CEO in January this year, at a time the company's board is chaired by another key co-founder, Nandan",
+          "published": null
+        },
+        "bm25Rank": 6,
+        "denseRank": 5,
+        "rrf": 0.030536130536130537,
+        "rerank": 3.357229538678312
+      },
+      {
+        "id": "E5",
+        "passage": {
+          "id": "778a73cd0c111c7a2a07b130d75f44be0e4a57f5",
+          "source": "web",
+          "url": "https://www.infosys.com/investors/reports-filings/documents/global-presence2023.pdf",
+          "title": "[PDF] Global Locations 2022-23 - Infosys",
+          "text": "Floor, South Tower, Godrej One Pirojshanagar Easter Express Highway Vikhroli - East, Mumbai, Maharashtra - 400079 Tel: +91 93 0730 5047 Gigaplex Estate Pvt Ltd, Airoli Knowlwedge Park, Building 1, Plot No IT-5,MIDC Industrial Area, Navi Mumbai - 400708 Mysuru Plot No : 350 to 354, 368 to 372 & 376 Plot No.347/A, 347/C, 348, 349, 373 to 375 Hebbal Electronics City Hootagalli Mysuru - 570 027 Tel: +91 82 1240 4101 Fax: +91 82 1240 4200 Nagpur SEZ Co-Developer, Plot No. 07, Sector-17, Special [...] 575 006 Phone +91 824 245 1485 +91 824 431 2222 Mohali Plot No. I-3, Sector 83-A, IT City, SAS Nagar, Mohali, Punjab - 160 062 Tel: +91 17 2430 6000 Fax: +91 17 2504 6860 Level 9 & 10, Landmark Plaza Building (F3 Tower), Plot No. A-40A, Phase-VIII B, Sahibzada Ajit Singh Nagar, Industrial Area Sector 75, Mohali, Punjab - 160 059 Tel: +91 17 2338 4000 Fax: +91 17 2504 6860 Mumbai 85, ‘C’ , Mittal Towers, 8th Floor Nariman Point Mumbai - 400 021 Tel: +91 22 4017 1017 11th Floor, South Tower, [...] Mohali Noida Jaipur Mumbai Hubli Nagpur Indore Coimbatore INDIA SOUTH AFRICA Global locations | 7 Infosys Annual Report 2022-23 Global locations – Infosys Limited Asia Pacific Australia Brisbane Level 4, 40 Creek St, Brisbane QLD 4000, Australia",
+          "published": null
+        },
+        "bm25Rank": 11,
+        "denseRank": 6,
+        "rrf": 0.029236022193768675,
+        "rerank": 2.5657949126964628
+      }
+    ]
+  },
+  "debate": {
+    "c1": [
+      {
+        "claimId": "c1",
+        "side": "advocate",
+        "round": 1,
+        "text": "The claim is supported. Both E1 and E2 state that Infosys was founded in 1981 in Pune by seven engineers, with incorporation on 2 July 1981 in Pune before moving to Bangalore in 1983.",
+        "cited": [
+          "E1",
+          "E2"
+        ]
+      },
+      {
+        "claimId": "c1",
+        "side": "skeptic",
+        "round": 1,
+        "text": "supported",
+        "cited": [
+          "E1",
+          "E2"
+        ]
+      },
+      {
+        "claimId": "c1",
+        "side": "advocate",
+        "round": 2,
+        "text": "SUPPORTED",
+        "cited": [
+          "E1",
+          "E2"
+        ]
+      },
+      {
+        "claimId": "c1",
+        "side": "skeptic",
+        "round": 2,
+        "text": "supported",
+        "cited": [
+          "E1",
+          "E2"
+        ]
+      }
+    ],
+    "c2": [
+      {
+        "claimId": "c2",
+        "side": "advocate",
+        "round": 1,
+        "text": "The claim is not supported.",
+        "cited": [
+          "E1",
+          "E2",
+          "E4"
+        ]
+      },
+      {
+        "claimId": "c2",
+        "side": "skeptic",
+        "round": 1,
+        "text": "contradicted",
+        "cited": [
+          "E1",
+          "E2",
+          "E4"
+        ]
+      },
+      {
+        "claimId": "c2",
+        "side": "advocate",
+        "round": 2,
+        "text": "The claim is not supported by the provided evidence.",
+        "cited": []
+      },
+      {
+        "claimId": "c2",
+        "side": "skeptic",
+        "round": 2,
+        "text": "contradicted",
+        "cited": [
+          "E1",
+          "E2",
+          "E4"
+        ]
+      }
+    ]
+  },
+  "verdicts": {
+    "c1": {
+      "claimId": "c1",
+      "label": "SUPPORTED",
+      "rawLabel": "SUPPORTED",
+      "confidence": 0.9999899864196777,
+      "abstained": false,
+      "rationale": "Evidence E1 states that Infosys was incorporated in Pune on 2 July 1981, and E2 confirms it was founded in Pune in 1981.",
+      "cited": [
+        "E1",
+        "E2"
+      ],
+      "samples": [
+        "SUPPORTED",
+        "SUPPORTED",
+        "SUPPORTED"
+      ]
+    },
+    "c2": {
+      "claimId": "c2",
+      "label": "REFUTED",
+      "rawLabel": "REFUTED",
+      "confidence": 0.9961784601211547,
+      "abstained": false,
+      "rationale": "The provided evidence (E1) states that Infosys is headquartered in Bengaluru, not Mumbai, directly contradicting the claim.",
+      "cited": [
+        "E1",
+        "E2",
+        "E4"
+      ],
+      "samples": [
+        "REFUTED",
+        "REFUTED",
+        "REFUTED"
+      ]
+    }
+  },
+  "factuality": 0.5,
+  "trace": [
+    {
+      "step": "decompose",
+      "model": "@cf/openai/gpt-oss-120b",
+      "provider": "workersai",
+      "inTok": 164,
+      "outTok": 245,
+      "neurons": 21.922691345214844,
+      "ms": 8354,
+      "ok": true
+    },
+    {
+      "step": "plan:c1",
+      "model": "@cf/openai/gpt-oss-120b",
+      "provider": "workersai",
+      "inTok": 143,
+      "outTok": 176,
+      "neurons": 16.549970626831055,
+      "ms": 1557,
+      "ok": true
+    },
+    {
+      "step": "plan:c2",
+      "model": "@cf/openai/gpt-oss-120b",
+      "provider": "workersai",
+      "inTok": 139,
+      "outTok": 188,
+      "neurons": 17.24087905883789,
+      "ms": 1656,
+      "ok": true
+    },
+    {
+      "step": "argue:c1:r1:advocate",
+      "model": "@cf/openai/gpt-oss-120b",
+      "provider": "workersai",
+      "inTok": 1151,
+      "outTok": 159,
+      "neurons": 47.46342468261719,
+      "ms": 2616,
+      "ok": true
+    },
+    {
+      "step": "argue:c2:r1:advocate",
+      "model": "@cf/openai/gpt-oss-120b",
+      "provider": "workersai",
+      "inTok": 1404,
+      "outTok": 215,
+      "neurons": 59.33155822753906,
+      "ms": 4195,
+      "ok": true
+    },
+    {
+      "step": "argue:c2:r1:skeptic",
+      "model": "@cf/openai/gpt-oss-120b",
+      "provider": "workersai",
+      "inTok": 1432,
+      "outTok": 117,
+      "neurons": 53.54064178466797,
+      "ms": 1024,
+      "ok": true
+    },
+    {
+      "step": "argue:c1:r1:skeptic",
+      "model": "@cf/openai/gpt-oss-120b",
+      "provider": "workersai",
+      "inTok": 1220,
+      "outTok": 146,
+      "neurons": 48.772499084472656,
+      "ms": 2228,
+      "ok": true
+    },
+    {
+      "step": "argue:c2:r2:advocate",
+      "model": "@cf/openai/gpt-oss-120b",
+      "provider": "workersai",
+      "inTok": 1424,
+      "outTok": 157,
+      "neurons": 56.01337432861328,
+      "ms": 1470,
+      "ok": true
+    },
+    {
+      "step": "argue:c1:r2:advocate",
+      "model": "@cf/openai/gpt-oss-120b",
+      "provider": "workersai",
+      "inTok": 1211,
+      "outTok": 89,
+      "neurons": 44.59977722167969,
+      "ms": 4641,
+      "ok": true
+    },
+    {
+      "step": "argue:c2:r2:skeptic",
+      "model": "@cf/openai/gpt-oss-120b",
+      "provider": "workersai",
+      "inTok": 1460,
+      "outTok": 137,
+      "neurons": 55.79518127441406,
+      "ms": 2306,
+      "ok": true
+    },
+    {
+      "step": "argue:c1:r2:skeptic",
+      "model": "@cf/openai/gpt-oss-120b",
+      "provider": "workersai",
+      "inTok": 1240,
+      "outTok": 167,
+      "neurons": 50.84067916870117,
+      "ms": 4008,
+      "ok": true
+    },
+    {
+      "step": "judge:c1:s3",
+      "model": "@cf/openai/gpt-oss-120b",
+      "provider": "workersai",
+      "inTok": 1261,
+      "outTok": 166,
+      "neurons": 51.440673828125,
+      "ms": 1917,
+      "ok": true
+    },
+    {
+      "step": "judge:c2:s1",
+      "model": "@cf/openai/gpt-oss-120b",
+      "provider": "workersai",
+      "inTok": 1482,
+      "outTok": 204,
+      "neurons": 61.06336212158203,
+      "ms": 2253,
+      "ok": true
+    },
+    {
+      "step": "judge:c1:s1",
+      "model": "@cf/openai/gpt-oss-120b",
+      "provider": "workersai",
+      "inTok": 1261,
+      "outTok": 214,
+      "neurons": 54.713401794433594,
+      "ms": 2939,
+      "ok": true
+    },
+    {
+      "step": "judge:c2:s3",
+      "model": "@cf/openai/gpt-oss-120b",
+      "provider": "workersai",
+      "inTok": 1482,
+      "outTok": 228,
+      "neurons": 62.69972229003906,
+      "ms": 3092,
+      "ok": true
+    },
+    {
+      "step": "judge:c2:s2",
+      "model": "@cf/openai/gpt-oss-120b",
+      "provider": "workersai",
+      "inTok": 1482,
+      "outTok": 262,
+      "neurons": 65.01790618896484,
+      "ms": 3236,
+      "ok": true
+    },
+    {
+      "step": "judge:c1:s2",
+      "model": "@cf/openai/gpt-oss-120b",
+      "provider": "workersai",
+      "inTok": 1261,
+      "outTok": 191,
+      "neurons": 53.14522171020508,
+      "ms": 8695,
+      "ok": true
+    }
+  ],
+  "model": "gpt-oss-120b",
+  "provider": "workersai",
+  "createdAt": "2026-10-14T01:05:19.903Z",
+  "executor": "cloud",
+  "partial": false
+}

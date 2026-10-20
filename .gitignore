@@ -1,0 +1,26 @@
+node_modules/
+dist/
+.tsbuild/
+coverage/
+.wrangler/
+.dev.vars*
+.env
+.env.*
+!.env.example
+/data/
+*.log
+.DS_Store
+results/eval-logs/
+
+# Playwright run artefacts (screenshots in qa/screens are kept as QA evidence)
+qa/test-results/
+qa/e2e-results.json
+qa/screens/
+qa/lighthouse/*.json
+
+# Acceptance-run logs are QA evidence
+!results/acceptance/*.log
+
+# Copied from gallery/ and results/ at build time (scripts/copy-data.mjs)
+web/public/gallery/
+web/public/benchmarks.json

@@ -1,0 +1,6 @@
+# dataset system split [sample]   — preliminary laptop share (SciFact, closed corpus)
+scifact llm_only test 80
+scifact single_agent_rag test 80
+scifact satya_full dev 50
+scifact satya_full test 80
+scifact satya_no_debate test 80

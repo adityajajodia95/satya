@@ -1,0 +1,22 @@
+# dataset system split [sample]   — complete §11 matrix (resumes everything already done)
+scifact satya_full dev
+scifact llm_only test
+scifact single_agent_rag test
+scifact satya_full test
+scifact satya_no_debate test
+fever satya_full dev
+hover satya_full dev
+TUNE
+fever llm_only test
+fever single_agent_rag test
+fever satya_full test
+fever satya_no_debate test
+hover llm_only test
+hover single_agent_rag test
+hover satya_full test
+hover satya_no_debate test
+scifact dense_only test
+scifact no_rerank test
+scifact rounds_1 test
+scifact rounds_3 test
+REPORT

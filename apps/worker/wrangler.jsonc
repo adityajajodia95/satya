@@ -1,0 +1,22 @@
+// satya-api (Satya_Development.md §7 M9–M11). Secrets (never here): SATYA_ADMIN_TOKEN, SATYA_OWNER_TOKEN,
+// TAVILY_API_KEY — set with `wrangler secret put`.
+{
+  "$schema": "../../node_modules/wrangler/config-schema.json",
+  "name": "satya-api",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-10-01",
+  "compatibility_flags": ["nodejs_compat"],
+  "workers_dev": false,
+  "services": [{ "binding": "GATEWAY", "service": "aj-gateway" }],
+  "workflows": [{ "binding": "SATYA_WORKFLOW", "name": "satya-workflow", "class_name": "SatyaWorkflow" }],
+  "durable_objects": {
+    "bindings": [
+      { "name": "RUNHUB", "class_name": "RunHubDO" },
+      { "name": "ARCHIVE", "class_name": "ArchiveDO" },
+    ],
+  },
+  "migrations": [{ "tag": "v1", "new_sqlite_classes": ["RunHubDO", "ArchiveDO"] }],
+  // 30 18 * * * = 00:00 IST: nightly parity evaluation from leftover free capacity.
+  "triggers": { "crons": ["30 18 * * *"] },
+  "observability": { "enabled": true },
+}

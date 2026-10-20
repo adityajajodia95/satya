@@ -1,0 +1,480 @@
+{
+  "title": "A health myth",
+  "runId": "d32a6e92-b5fc-4db9-993e-30e738876b0d",
+  "inputText": "Humans use only 10 percent of their brains. Regular vitamin C supplements prevent most people from catching colds.",
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Humans use only 10 percent of their brains.",
+      "quote": "Humans use only 10 percent of their brains",
+      "span": [
+        0,
+        42
+      ],
+      "checkworthy": true
+    },
+    {
+      "id": "c2",
+      "text": "Regular vitamin C supplements prevent most people from catching colds.",
+      "quote": "Regular vitamin C supplements prevent most people from catching colds",
+      "span": [
+        44,
+        113
+      ],
+      "checkworthy": true
+    }
+  ],
+  "evidence": {
+    "c1": [
+      {
+        "id": "E1",
+        "passage": {
+          "id": "345a4f47f58704d8847c98ce4e791fb969245f5c",
+          "source": "web",
+          "url": "https://mcgovern.mit.edu/2024/01/26/do-we-use-only-10-percent-of-our-brain/",
+          "title": "Do we only use 10 percent of our brain? - MIT McGovern Institute",
+          "text": "Open Support Support Us Meet Our Supporters Events Open Events Events Calendar McGovern Institute Annual Symposium Edward M. Scolnick Prize in Neuroscience Phillip A. Sharp Lecture in Neural Circuits Contact Us The human brain houses incredibly complex and advanced functions—but do we only access a fraction of it? Do we only use 10 percent of our brain? by Rubina Veerakone | January 26, 2024March 4, 2024 Categories: Cognitive Neuroscience, Mark Harnett, Ask the Brain Facebook Twitter Linkedin Email The human brain houses incredibly complex and advanced functions—but do we only access a fraction of it? Movies like “Limitless” and “Lucy” play on the notion that humans use only 10 percent of their brains—and those who unlock a higher percentage wield powers like infinite memory or telekinesis. It’s enticing to think that so much of the brain remains untapped and is ripe for boosting human potential. But the idea that we use 10 percent of our brain is 100 percent a myth. In fact, scientists believe that we use our entire brain every day. Mila Halgren is a graduate student in the lab of Mark Harnett, an associate professor of brain and cognitive sciences and an investigator at the McGovern Institute. The Harnett lab studies the computational power of neurons, that is, how neural networks rapidly process massive amounts of information.",
+          "published": null
+        },
+        "bm25Rank": 5,
+        "denseRank": 2,
+        "rrf": 0.0315136476426799,
+        "rerank": 7.392302614583478
+      },
+      {
+        "id": "E2",
+        "passage": {
+          "id": "5f81290dce6691233bf9650a46b01abdca332e4e",
+          "source": "web",
+          "url": "https://mcgovern.mit.edu/2024/01/26/do-we-use-only-10-percent-of-our-brain",
+          "title": "Do we only use 10 percent of our brain? - MIT McGovern Institute",
+          "text": "Movies like “Limitless” and “Lucy” play on the notion that humans use only 10 percent of their brains—and those who unlock a higher percentage wield powers like infinite memory or telekinesis. It’s enticing to think that so much of the brain remains untapped and is ripe for boosting human potential. > But the idea that we use 10 percent of our brain is 100 percent a myth. [...] Contact Us Search The human brain houses incredibly complex and advanced functions—but do we only access a fraction of it? # Do we only use 10 percent of our brain? by Rubina Veerakone | Categories: Cognitive Neuroscience, Mark Harnett, Ask the Brain Facebook Twitter Linkedin Email The human brain houses incredibly complex and advanced functions—but do we only access a fraction of it? Blue brain with pie chart showing a piece labeled ten percent [...] The myth is thought to have gained traction when scientists first began exploring the brain’s abilities but lacked the tools to capture its exact workings. In 1907, William James, a founder of American psychology, suggested in his book “The Energies of Men” that “we are making use of only a small part of our possible mental and physical resources.” This influential work likely sparked the idea that humans access a mere fraction of the brain—setting this common",
+          "published": null
+        },
+        "bm25Rank": 3,
+        "denseRank": 1,
+        "rrf": 0.032266458495966696,
+        "rerank": 7.004259107590276
+      },
+      {
+        "id": "E3",
+        "passage": {
+          "id": "5056a822755ac8f0e1717f125053b905fd02e694",
+          "source": "web",
+          "url": "https://www.nature.com/scitable/blog/mind-read/lucy_is_wrong_we_use",
+          "title": "\"Lucy\" is Wrong; We Use Way More Than 10% of Our Brains | Mind Read | Learn Science at Scitable",
+          "text": "Image credit: Fandango (Lucy), Lifehacker (brain), NIMH/Wikimedia Commons (fMRI), Beyond the Dish (glial cells) \"It is estimated most human beings only use ten percent of their brain's capacity,\" lectures Professor Norman, played by actor Morgan Freeman, in the trailer for the new thriller Lucy. \"Imagine if we could access 100 percent. Interesting things begin to happen.\" [...] This page has been archived and is no longer updated Mind Read Subscribe To Scitable Forum Topic Email # \"Lucy\" is Wrong; We Use Way More Than 10% of Our Brains \"It is estimated most human beings only use ten percent of their brain's capacity,\" lectures Professor Norman, played by actor Morgan Freeman, in the trailer for the new thriller Lucy. \"Imagine if we could access 100 percent. Interesting things begin to happen.\" [...] In a way, the idea that we only use 10% of our brains is rather inspiring. It may motivate us to try harder or tap into some mysterious, intact reservoir of creativity and potential. There are even products) that promise to unlock that other 90%.",
+          "published": null
+        },
+        "bm25Rank": 6,
+        "denseRank": 10,
+        "rrf": 0.029437229437229435,
+        "rerank": 6.513316132327872
+      },
+      {
+        "id": "E4",
+        "passage": {
+          "id": "d7daf7de9b3caded6c5676c164a5c11306beeef1",
+          "source": "web",
+          "url": "https://www.psychologicalscience.org/uncategorized/myth-we-only-use-10-of-our-brains.html",
+          "title": "Myth: We Only Use 10% of Our Brains – Association for Psychological Science – APS",
+          "text": "Note that James is saying we often don’t feel fully energized, both physically and mentally. He in no way claims that we only use a small portion of our brain. In fact, he was observing how decorum, social norms, and routine fail to engage all of people’s resources. His statement is actually consistent with what we now know about attention and flow states, but James clearly was not claiming that most people perpetually use only 10% of their brainpower. ## Related Brain Myths [...] If we only use 10% of our brain, then a PET scan should look like Slide 2 in the accompanying PowerPoint slides. The blue outline is the skull, and the circle of color indicates active brain structures. Most of the brain would be dark because of inactivity. (You are looking down on top of this person’s head). But that isn’t how the PET scan actually looks. Slide 3 shows an actual scan of a healthy person. The entire brain is constantly active, even in periods of sleep: regulating, monitoring, [...] monitoring, sensing, interpreting, reasoning, planning, and acting. Even people with degenerative neural disorders such as Alzheimer’s and Parkinson’s disease still use more than 10% of their brains.",
+          "published": null
+        },
+        "bm25Rank": 13,
+        "denseRank": 5,
+        "rrf": 0.029083245521601686,
+        "rerank": 5.926010864422651
+      },
+      {
+        "id": "E5",
+        "passage": {
+          "id": "bad8c8b074626284f348afd7dea3d97f4d5c5185",
+          "source": "web",
+          "url": "https://faculty.washington.edu/chudler/tenper.html",
+          "title": "Neuroscience For Kids - 10% of the Brain Myth",
+          "text": "this topic, please see: The Ten-Percent Myth from the Skeptical Inquirer The Ten-Percent Myth Do People Use 10 Percent of Their Brains? - Scientific American The Life and Times of the 10% Neuromyth Humans use 100 percent of their brains--despite the popular myth - Ask a Scientist Higbee, K.L. and Clay, S.L., College students' beliefs in the ten-percent myth, Journal of Psychology, 132:469-476, 1998. B.L. Beyerstein, Whence Cometh the Myth that We Only Use 10% of Our Brains? in Mind Myths. Exploring Popular Assumptions about the Mind and Brain edited by S. Della Sala, Chichester: John Wiley and Sons, pages 3-24, 1999. This chapter is required reading for anyone who wants more information on the 10% myth. \"In fact, most of us use only about 10 percent of our brains, if that.\" --- Uri Geller (in Uri Geller's Mindpower Kit, New York: Penguin Books, 1996.) \"Professor William James of Harvard used to say that the average person develops only 10 percent of his latent mental ability.\" --- Lowell Thomas (in the forward to Dale Carnegie's book How to Win Friends and Influence People, New York: Simon and Schuster, 1937.) Copyright © 1996-2023, Eric H. Chudler All Rights Reserved. home | search | explore | experiment | questions / answers | contact | links | donate newsletter | brain awareness week",
+          "published": null
+        },
+        "bm25Rank": 2,
+        "denseRank": 15,
+        "rrf": 0.02946236559139785,
+        "rerank": 4.833897040185776
+      }
+    ],
+    "c2": [
+      {
+        "id": "E1",
+        "passage": {
+          "id": "9d5aed04dd2f8ae746d8606df27e341ac5517a25",
+          "source": "web",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8078152",
+          "title": "Vitamin C for preventing and treating the common cold",
+          "text": "Vitamin C has been proposed for treating respiratory infections since it was isolated in the 1930s. It became particularly popular in the 1970s when Nobel laureate Linus Pauling concluded from earlier placebo‐controlled trials that vitamin C would prevent and alleviate the common cold. Over two dozen new trials were undertaken thereafter. Vitamin C has been widely sold and used as a preventive and therapeutic agent. [...] This review is restricted to placebo‐controlled trials testing 0.2 g/day or more of vitamin C. Regular ingestion of vitamin C had no effect on common cold incidence in the ordinary population, based on 29 trial comparisons involving 11,306 participants. However, regular supplementation had a modest but consistent effect in reducing the duration of common cold symptoms, which is based on 31 study comparisons with 9745 common cold episodes. In five trials with 598 participants exposed to short [...] exposed to short periods of extreme physical stress (including marathon runners and skiers) vitamin C halved the common cold risk. The published trials have not reported adverse effects of vitamin C.",
+          "published": null
+        },
+        "bm25Rank": 6,
+        "denseRank": 7,
+        "rrf": 0.03007688828584351,
+        "rerank": 3.639025813498342
+      },
+      {
+        "id": "E2",
+        "passage": {
+          "id": "2d8db51d5f9a7dd9996be350d46d66162a573036",
+          "source": "web",
+          "url": "https://www.cochrane.org/evidence/CD000980_vitamin-c-preventing-and-treating-common-cold",
+          "title": "Vitamin C for preventing and treating the common cold | Cochrane",
+          "text": "isolated in the 1930s. It became particularly popular in the 1970s when Nobel laureate Linus Pauling concluded from earlier placebo-controlled trials that vitamin C would prevent and alleviate the common cold. Over two dozen new trials were undertaken thereafter. Vitamin C has been widely sold and used as a preventive and therapeutic agent. This review is restricted to placebo-controlled trials testing 0.2 g/day or more of vitamin C. Regular ingestion of vitamin C had no effect on common cold incidence in the ordinary population, based on 29 trial comparisons involving 11,306 participants. However, regular supplementation had a modest but consistent effect in reducing the duration of common cold symptoms, which is based on 31 study comparisons with 9745 common cold episodes. In five trials with 598 participants exposed to short periods of extreme physical stress (including marathon runners and skiers) vitamin C halved the common cold risk. The published trials have not reported adverse effects of vitamin C. Trials of high doses of vitamin C administered therapeutically, starting after the onset of symptoms, showed no consistent effect on the duration or severity of common cold symptoms. However, only a few therapeutic trials have been carried out and none have examined children, although the effect of prophylactic vitamin C has been greater in children. One large trial with adults reported benefit",
+          "published": null
+        },
+        "bm25Rank": 13,
+        "denseRank": 13,
+        "rrf": 0.0273972602739726,
+        "rerank": 3.3890271416983753
+      },
+      {
+        "id": "E3",
+        "passage": {
+          "id": "f7cff977220c752c1b4aa6d9579e7368f6905e26",
+          "source": "web",
+          "url": "https://www.cochrane.org/evidence/CD000980_vitamin-c-preventing-and-treating-common-cold",
+          "title": "Vitamin C for preventing and treating the common cold | Cochrane",
+          "text": "0.48 (95% CI 0.35 to 0.64). Thirty-one comparisons examined the effect of regular vitamin C on common cold duration (9745 episodes). In adults the duration of colds was reduced by 8% (3% to 12%) and in children by 14% (7% to 21%). In children, 1 to 2 g/day vitamin C shortened colds by 18%. The severity of colds was also reduced by regular vitamin C administration. Seven comparisons examined the effect of therapeutic vitamin C (3249 episodes). No consistent effect of vitamin C was seen on the duration or severity of colds in the therapeutic trials. The majority of included trials were randomised, double-blind trials. The exclusion of trials that were either not randomised or not double-blind had no effect on the conclusions. The failure of vitamin C supplementation to reduce the incidence of colds in the general population indicates that routine vitamin C supplementation is not justified, yet vitamin C may be useful for people exposed to brief periods of severe physical exercise. Regular supplementation trials have shown that vitamin C reduces the duration of colds, but this was not replicated in the few therapeutic trials that have been carried out. Nevertheless, given the consistent effect of vitamin C on the duration and severity of colds in the regular supplementation studies, and the low cost and safety, it may",
+          "published": null
+        },
+        "bm25Rank": 1,
+        "denseRank": 11,
+        "rrf": 0.03047794966520434,
+        "rerank": 3.3165639847929484
+      },
+      {
+        "id": "E4",
+        "passage": {
+          "id": "740b90fe3d88cfb207c87de8287bd841f6da8bdd",
+          "source": "scholar",
+          "url": "https://www.semanticscholar.org/paper/999619212d04d847722a999e49ab2fbd37f68c63",
+          "title": "Vitamin C for the common cold and pneumonia.",
+          "text": "This article provides an overview of vitamin C for preventing and treating respiratory infections. Studies in a wide variety of animals have shown vitamin C to be protective against infections. In controlled trials in the general human population, >1 g/day vitamin C did not prevent common colds. However, in 5 trials with participants undertaking heavy physical activity, vitamin C halved the incidence of colds. In 15 trials (N = 6244), regular supplementation of ≥1 g/day of vitamin C decreased the severity of colds by 15%. Results of therapeutic trials, in which vitamin C was initiated after common cold symptoms began, have been inconsistent. However, two therapeutic trials found that 6-8 g/day of vitamin C was twice as effective at reducing the duration of colds than 3-4 g/day. In three controlled trials, vitamin C prevented pneumonia, but the contexts were atypical: participants were schoolboys in a boarding school in the UK before WW-II, soldiers hospitalized for influenza A, and US marine recruits. It is unlikely that vitamin C would reduce the risk of pneumonia in the general population, however, four trials reported a treatment benefit for pneumonia patients, although the findings encourage further research rather than providing firm evidence of efficacy. Vitamin C has been tested for COVID-19 and sepsis with conflicting results. Given the evidence that vitamin C reduces the",
+          "published": "2025"
+        },
+        "bm25Rank": 3,
+        "denseRank": 5,
+        "rrf": 0.03125763125763126,
+        "rerank": 3.234970982356856
+      },
+      {
+        "id": "E5",
+        "passage": {
+          "id": "7e3d90b9c1e057f308504bf985ec92b227e2774e",
+          "source": "web",
+          "url": "https://link.springer.com/article/10.1186/s12889-023-17229-8",
+          "title": "Vitamin C reduces the severity of common colds: a meta-analysis | BMC Public Health | Springer Nature Link",
+          "text": "Placebo controlled trials were included in our meta-analysis regardless of whether or not they were randomised. Trials of children and adults of either sex were eligible for inclusion. We investigated orally administered vitamin C in doses ≥ 1 g daily over a period of supplementation for people in good health at baseline. This enabled us to focus on the effect of regular vitamin C intake on colds that occur during the period of vitamin C supplementation. The minimum dose limit was set because [...] Kim TK, Lim HR, Byun JS. Vitamin C supplementation reduces the odds of developing a common cold in Republic of Korea Army recruits: randomised controlled trial. BMJ Mil Health. 2022;168(2):117–23. . Article PubMed Google Scholar Saeed H, Abdelrahim MEA. A meta-analysis of the effectiveness of vitamin C in the prevention and treatment of childhood upper respiratory tract infections. J Clin Nurs Res. 2023;7(1):30–7. . Article Google Scholar [...] Our analysis was focused on trials in which vitamin C was administered regularly to people in good health. The subsequent severity of cold episodes during the supplementation period was recorded. The evidence of benefit from regular vitamin C supplementation is very strong (Fig. 2). However, if vitamin C alleviates cold symptoms, it seems impractical to take 1 g/day vitamin C regularly over many months to alleviate symptoms from",
+          "published": null
+        },
+        "bm25Rank": 2,
+        "denseRank": 10,
+        "rrf": 0.0304147465437788,
+        "rerank": 3.1462146187683855
+      }
+    ]
+  },
+  "debate": {
+    "c1": [
+      {
+        "claimId": "c1",
+        "side": "advocate",
+        "round": 1,
+        "text": "The provided evidence does not support the claim that humans use only 10 percent of their brains. Multiple sources explicitly state that the 10 % figure is a myth and that brain imaging shows activity across virtually the entire organ. Therefore, the claim is not supported by the evidence.",
+        "cited": [
+          "E2",
+          "E4",
+          "E5"
+        ]
+      },
+      {
+        "claimId": "c1",
+        "side": "skeptic",
+        "round": 1,
+        "text": "All cited sources refute the claim, stating that the 10% figure is a myth and brain imaging shows activity throughout the brain.",
+        "cited": [
+          "E2",
+          "E4",
+          "E5"
+        ]
+      },
+      {
+        "claimId": "c1",
+        "side": "advocate",
+        "round": 2,
+        "text": "The claim that humans use only 10 percent of their brains is not supported. All provided sources explicitly label the 10% figure as a myth and note that brain imaging shows activity across virtually the entire brain.",
+        "cited": [
+          "E2",
+          "E4",
+          "E5"
+        ]
+      },
+      {
+        "claimId": "c1",
+        "side": "skeptic",
+        "round": 2,
+        "text": "All provided sources label the 10% figure as a myth and note that brain imaging shows activity across virtually the entire brain, directly contradicting the claim that humans use only 10 percent of their brains.",
+        "cited": [
+          "E2",
+          "E4",
+          "E5"
+        ]
+      }
+    ],
+    "c2": [
+      {
+        "claimId": "c2",
+        "side": "advocate",
+        "round": 1,
+        "text": "The evidence does not support the claim that regular vitamin C supplements prevent most people from catching colds. Multiple large placebo‑controlled trials (29 comparisons, 11,306 participants) found no effect on cold incidence in the ordinary population, and systematic reviews conclude routine supplementation is not justified for prevention.[E1][E2][E3][E4]",
+        "cited": [
+          "E1",
+          "E2",
+          "E3",
+          "E4"
+        ]
+      },
+      {
+        "claimId": "c2",
+        "side": "skeptic",
+        "round": 1,
+        "text": "The claim is contradicted: large placebo‑controlled reviews (29 trial comparisons, 11,306 participants) found regular vitamin C had no effect on cold incidence in the general population, indicating it does not prevent most people from catching colds.",
+        "cited": [
+          "E1",
+          "E2",
+          "E3",
+          "E4"
+        ]
+      },
+      {
+        "claimId": "c2",
+        "side": "advocate",
+        "round": 2,
+        "text": "The evidence does not support the claim. Large placebo‑controlled reviews involving thousands of participants show that regular vitamin C supplementation has no effect on the incidence of colds in the general population, indicating it does not prevent most people from catching colds.",
+        "cited": [
+          "E1",
+          "E2",
+          "E3",
+          "E4"
+        ]
+      },
+      {
+        "claimId": "c2",
+        "side": "skeptic",
+        "round": 2,
+        "text": "The claim is contradicted: large placebo‑controlled reviews (29 trial comparisons, 11,306 participants) found regular vitamin C had no effect on cold incidence in the ordinary population, so it does not prevent most people from catching colds.",
+        "cited": [
+          "E1",
+          "E2",
+          "E3",
+          "E4"
+        ]
+      }
+    ]
+  },
+  "verdicts": {
+    "c1": {
+      "claimId": "c1",
+      "label": "REFUTED",
+      "rawLabel": "REFUTED",
+      "confidence": 0.9997278451919556,
+      "abstained": false,
+      "rationale": "All provided sources (e.g., E2 and E4) state that the notion that humans use only 10% of their brains is a myth and that brain imaging shows activity across virtually the entire brain, directly contradicting the claim.",
+      "cited": [
+        "E2",
+        "E4"
+      ],
+      "samples": [
+        "REFUTED",
+        "REFUTED",
+        "REFUTED"
+      ]
+    },
+    "c2": {
+      "claimId": "c2",
+      "label": "REFUTED",
+      "rawLabel": "REFUTED",
+      "confidence": 0.9923184752464294,
+      "abstained": false,
+      "rationale": "Systematic reviews of placebo‑controlled trials (e.g., 29 trial comparisons with 11,306 participants) found that regular vitamin C supplementation had no effect on the incidence of the common cold in the general population, indicating it does not prevent most people from catching colds.",
+      "cited": [
+        "E1",
+        "E2",
+        "E3",
+        "E4"
+      ],
+      "samples": [
+        "REFUTED",
+        "REFUTED",
+        "REFUTED"
+      ]
+    }
+  },
+  "factuality": 0,
+  "trace": [
+    {
+      "step": "decompose",
+      "model": "openai/gpt-oss-120b",
+      "provider": "groq",
+      "inTok": 249,
+      "outTok": 205,
+      "ms": 897,
+      "ok": true
+    },
+    {
+      "step": "plan:c1",
+      "model": "openai/gpt-oss-120b",
+      "provider": "groq",
+      "inTok": 193,
+      "outTok": 82,
+      "ms": 317,
+      "ok": true
+    },
+    {
+      "step": "plan:c2",
+      "model": "openai/gpt-oss-120b",
+      "provider": "groq",
+      "inTok": 195,
+      "outTok": 83,
+      "ms": 523,
+      "ok": true
+    },
+    {
+      "step": "argue:c2:r1:advocate",
+      "model": "openai/gpt-oss-120b",
+      "provider": "groq",
+      "inTok": 1226,
+      "outTok": 131,
+      "ms": 495,
+      "ok": true
+    },
+    {
+      "step": "argue:c1:r1:advocate",
+      "model": "openai/gpt-oss-120b",
+      "provider": "groq",
+      "inTok": 1342,
+      "outTok": 109,
+      "ms": 1230,
+      "ok": true
+    },
+    {
+      "step": "argue:c2:r1:skeptic",
+      "model": "openai/gpt-oss-120b",
+      "provider": "groq",
+      "inTok": 1319,
+      "outTok": 130,
+      "ms": 649,
+      "ok": true
+    },
+    {
+      "step": "argue:c1:r1:skeptic",
+      "model": "openai/gpt-oss-120b",
+      "provider": "groq",
+      "inTok": 1420,
+      "outTok": 85,
+      "ms": 1135,
+      "ok": true
+    },
+    {
+      "step": "argue:c1:r2:advocate",
+      "model": "openai/gpt-oss-120b",
+      "provider": "groq",
+      "inTok": 1436,
+      "outTok": 111,
+      "ms": 681,
+      "ok": true
+    },
+    {
+      "step": "argue:c2:r2:advocate",
+      "model": "openai/gpt-oss-120b",
+      "provider": "groq",
+      "inTok": 1357,
+      "outTok": 114,
+      "ms": 7645,
+      "ok": true
+    },
+    {
+      "step": "argue:c2:r2:skeptic",
+      "model": "openai/gpt-oss-120b",
+      "provider": "groq",
+      "inTok": 1433,
+      "outTok": 146,
+      "ms": 9883,
+      "ok": true
+    },
+    {
+      "step": "argue:c1:r2:skeptic",
+      "model": "openai/gpt-oss-120b",
+      "provider": "groq",
+      "inTok": 1504,
+      "outTok": 100,
+      "ms": 21728,
+      "ok": true
+    },
+    {
+      "step": "judge:c2:s2",
+      "model": "openai/gpt-oss-120b",
+      "provider": "groq",
+      "inTok": 1574,
+      "outTok": 224,
+      "ms": 12915,
+      "ok": true
+    },
+    {
+      "step": "judge:c2:s1",
+      "model": "openai/gpt-oss-120b",
+      "provider": "groq",
+      "inTok": 1574,
+      "outTok": 207,
+      "ms": 12994,
+      "ok": true
+    },
+    {
+      "step": "judge:c1:s1",
+      "model": "openai/gpt-oss-120b",
+      "provider": "groq",
+      "inTok": 1637,
+      "outTok": 201,
+      "ms": 26764,
+      "ok": true
+    },
+    {
+      "step": "judge:c1:s2",
+      "model": "openai/gpt-oss-120b",
+      "provider": "groq",
+      "inTok": 1637,
+      "outTok": 161,
+      "ms": 26842,
+      "ok": true
+    },
+    {
+      "step": "judge:c1:s3",
+      "model": "openai/gpt-oss-120b",
+      "provider": "groq",
+      "inTok": 1637,
+      "outTok": 203,
+      "ms": 27072,
+      "ok": true
+    },
+    {
+      "step": "judge:c2:s3",
+      "model": "openai/gpt-oss-120b",
+      "provider": "groq",
+      "inTok": 1574,
+      "outTok": 195,
+      "ms": 11928,
+      "ok": true
+    }
+  ],
+  "model": "gpt-oss-120b",
+  "provider": "groq",
+  "createdAt": "2026-10-13T20:16:40.452Z",
+  "executor": "cloud",
+  "partial": false
+}

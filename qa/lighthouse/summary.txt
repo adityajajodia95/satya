@@ -1,0 +1,11 @@
+# Lighthouse 12.8.2 on https://aj-demos.pages.dev, 20 Oct 2026 (Playwright Chromium; desktop + mobile presets)
+landing-desktop performance=100 accessibility=100 best-practices=100
+landing-mobile performance=100 accessibility=100 best-practices=100
+satya-about-desktop performance=100 accessibility=100 best-practices=100
+satya-about-mobile performance=90 accessibility=100 best-practices=100
+satya-archive-desktop performance=91 accessibility=100 best-practices=100
+satya-archive-mobile performance=82 accessibility=100 best-practices=100
+satya-benchmarks-desktop performance=84 accessibility=100 best-practices=100
+satya-benchmarks-mobile performance=88 accessibility=100 best-practices=100
+satya-desktop performance=100 accessibility=100 best-practices=100
+satya-mobile performance=95 accessibility=100 best-practices=100

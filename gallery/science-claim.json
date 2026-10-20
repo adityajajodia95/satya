@@ -1,0 +1,508 @@
+{
+  "title": "A science claim",
+  "runId": "ec651cd1-283c-43c5-945d-e1c82d59a4ac",
+  "inputText": "At sea level, pure water boils at 100 degrees Celsius. Sunlight takes about eight minutes to reach the Earth.",
+  "claims": [
+    {
+      "id": "c1",
+      "text": "At sea level, pure water boils at 100 degrees Celsius.",
+      "quote": "At sea level, pure water boils at 100 degrees Celsius",
+      "span": [
+        0,
+        53
+      ],
+      "checkworthy": true
+    },
+    {
+      "id": "c2",
+      "text": "Sunlight takes about eight minutes to reach the Earth.",
+      "quote": "Sunlight takes about eight minutes to reach the Earth",
+      "span": [
+        55,
+        108
+      ],
+      "checkworthy": true
+    }
+  ],
+  "evidence": {
+    "c1": [
+      {
+        "id": "E1",
+        "passage": {
+          "id": "e83bbd294b0d3723e924989eca1c9097b5022589",
+          "source": "web",
+          "url": "https://brainly.com/question/64393216",
+          "title": "[FREE] At normal atmospheric pressure, the boiling point of pure water is ........... and its melting point is - brainly.com",
+          "text": "1. Boiling Point: The boiling point of pure water at normal atmospheric pressure is 100 degrees Celsius (°C) or 212 degrees Fahrenheit (°F). This means that at sea level, where the atmospheric pressure is 1 atm, water will transition from its liquid phase to its gas phase (steam) at this temperature. [...] 1. Boiling Point: The boiling point of pure water at this pressure is 100 degrees Celsius (°C) or 212 degrees Fahrenheit (°F). This means that at sea level, where the atmospheric pressure is 1 atm, water begins to transition from its liquid state to its gaseous state (steam) at this temperature. 2. Melting Point: [...] The boiling point of pure water at normal atmospheric pressure is 100 degrees Celsius (°C), and its melting point is 0 degrees Celsius (°C). These points are critical for understanding how water changes states. They also serve as essential temperature reference points in science. ## Explanation At normal atmospheric pressure, which is approximately 1 atmosphere (atm), pure water exhibits specific boiling and melting points, which are essential for understanding phase transitions.",
+          "published": null
+        },
+        "bm25Rank": 1,
+        "denseRank": 4,
+        "rrf": 0.032018442622950824,
+        "rerank": 7.142838377146166
+      },
+      {
+        "id": "E2",
+        "passage": {
+          "id": "96ccabf0eca74f76c0621781788594a52809ee90",
+          "source": "web",
+          "url": "https://simple.wikipedia.org/wiki/Water",
+          "title": "Water - Simple English Wikipedia, the free encyclopedia",
+          "text": "At sea level, water boils at 100 °C (212 °F). But when you go up higher like up the mountains, the air pressure gets lower. When pressure is lower, water boils at a lower temperature. For every 274 meters (or about 900 feet) you go up, the boiling point goes down by about 1 °C. For example, at 274 meters (about 900 feet), the boiling point becomes 99 °C (210.2 °F) instead of 100 °C (212 °F). That is why food takes longer to cook at higher altitudes. The water boils before it gets really hot. A [...] | Properties | | Chemical formula | H 2O | | Molar mass | 18.01528(33) g/mol | | Appearance | White crystal-like solid, almost colorless liquid with a hint of blue, colorless gas | | Odor | None | | Density | Liquid: 0.9998396 g/mL at 0 °C 0.9970474 g/mL at 25 °C 0.961893 g/mL at 95 °C Solid: 0.9167 g/ml at 0 °C | | Melting point | 0.00 °C (32.00 °F; 273.15 K) | | Boiling point | 99.98 °C (211.96 °F; 373.13 K) | | Solubility in water | N/A | [...] At normal air pressure (1 atmosphere), water freezes into ice at 0 °C (32 °F) and boils into steam at 100 °C (212 °F). The freezing point",
+          "published": null
+        },
+        "bm25Rank": 11,
+        "denseRank": 3,
+        "rrf": 0.029957522915269395,
+        "rerank": 5.638652840203656
+      },
+      {
+        "id": "E3",
+        "passage": {
+          "id": "dfb83972baa1da48a9fdba1adc0d3ebb8d579d80",
+          "source": "web",
+          "url": "https://en.wikipedia.org/wiki/Water",
+          "title": "Water - Wikipedia",
+          "text": "At sea level, the boiling point of water is 100°C (212°F). As atmospheric pressure decreases with altitude, the boiling point decreases by 1°C every 274 meters. High-altitude cooking takes longer than sea-level cooking. For example, at 1,524 metres (5,000 ft), cooking time must be increased by a fourth to achieve the desired result.( Conversely, a pressure cooker can be used to decrease cooking times by raising the boiling temperature.( In a vacuum, water will boil at room temperature.( [...] Boiling point99.98°C (211.96°F; 373.13 K)( SolubilityPoorly soluble in haloalkanes, aliphatic and aromatic hydrocarbons, ethers.( Improved solubility in carboxylates, alcohols \"Alcohol (chemistry)\"), ketones, amines. Miscible with methanol, ethanol, propanol, isopropanol, acetone, glycerol, 1,4-dioxane, tetrahydrofuran, sulfolane, acetaldehyde, dimethylformamide, dimethoxyethane, dimethyl sulfoxide, acetonitrile. [...] Solutes such as salts and sugars found in water affect the physical properties of water. The boiling and freezing points of water are affected by solutes, as well as air pressure, which is in turn affected by altitude. Water boils at lower temperatures with the lower air pressure that occurs at higher elevations. One mole \"Mole (unit)\") of sucrose (sugar) per kilogram of water raises the boiling point of water by 0.51°C (0.918°F), and one mole of salt per kg raises the boiling point by 1.02°C",
+          "published": null
+        },
+        "bm25Rank": 15,
+        "denseRank": 5,
+        "rrf": 0.02871794871794872,
+        "rerank": 4.612842162283029
+      },
+      {
+        "id": "E4",
+        "passage": {
+          "id": "ca06ebfb2f69522a11ba783a8847d905569b4927",
+          "source": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Boiling_point",
+          "title": "Boiling point",
+          "text": "The boiling point of a substance is the temperature at which the vapor pressure of a liquid equals the pressure surrounding the liquid and the liquid changes into a vapor. The boiling point of a liquid varies depending upon the surrounding environmental pressure. A liquid in a partial vacuum, i.e., under a lower pressure, has a lower boiling point than when that liquid is at atmospheric pressure. Because of this, water boils at 100 °C, rounded from scientific precision of 99.97 °C (211.95 °F), under standard pressure at sea level, but at 93.4 °C (200.1 °F) at 1,905 metres (6,250 ft) altitude. For a given pressure, different liquids will boil at different temperatures. The normal boiling point (also called the atmospheric boiling point or the atmospheric pressure boiling point) of a liquid is the special case in which the vapor pressure of the liquid equals the defined atmospheric pressure at sea level, one atmosphere. At that temperature, the vapor pressure of the liquid becomes sufficient to overcome atmospheric pressure and allow bubbles of vapor to form inside the bulk of the liquid. The standard boiling point has been defined by IUPAC since 1982 as the temperature at which boiling occurs under a pressure of one bar. The heat of vaporization is the energy required to transform a given quantity (a",
+          "published": null
+        },
+        "bm25Rank": 14,
+        "denseRank": 13,
+        "rrf": 0.027212143650499815,
+        "rerank": 3.3983629462410847
+      },
+      {
+        "id": "E5",
+        "passage": {
+          "id": "14aec569737026ce3d8b387aa0bc5ef3dae6ebeb",
+          "source": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/High-altitude_cooking",
+          "title": "High-altitude cooking",
+          "text": "temperatures. At sea level, water boils at 100 °C (212 °F). For every 152.4-metre (500 ft) increase in elevation, water's boiling point is lowered by approximately",
+          "published": null
+        },
+        "bm25Rank": 4,
+        "denseRank": 2,
+        "rrf": 0.031754032258064516,
+        "rerank": 3.2502575533873337
+      }
+    ],
+    "c2": [
+      {
+        "id": "E1",
+        "passage": {
+          "id": "11a6682b568af9e2a07475a4a4844a99d4a7e595",
+          "source": "web",
+          "url": "https://testbook.com/question-answer/how-much-time-does-sunlight-take-to-reach-the-eart--5ec37f58f60d5d641ec637de",
+          "title": "[Solved] How much time does sunlight take to reach the Earth?",
+          "text": "Pass Skill Academy Free Live Classes Free Live Tests & Quizzes Previous Year Papers Doubts Practice Refer & Earn All Exams Our Selections Careers Home General Knowledge Geography (World Geography) Question How much time does sunlight take to reach the Earth? 8 minutes 14.4 sec 8 minutes 12.2 sec 8 minutes 06 sec 8 minutes 16.6 sec Answer (Detailed Solution Below) Detailed Solution The correct answer is 4 i.e. 8 minutes 16.6 sec. Solar system: Planets and other objects go round the Sun, and these make up the solar system, with the Sun at the centre. The solar system contains different types of objects including: A star — the Sun Planets, which go around the Sun Satellites, which go around the planets Interesting Facts about the Sun: The Sun is 109 times bigger than the Earth and weighs 2×1027 tons. The core of the Sun has a temperature of about 15 million degrees C. Sunlight takes 8 min 16.6 sec to reach Earth. The density of the Sun is ¼ of that of the Earth. In its composition, 71% hydrogen and 26.5% of helium are found. The Sun is about 150 million km away from the Earth. Light travels with tremendous speed of about 3,00,000 kilometres per second. Even at this speed, the Sun rays take about eight minutes to",
+          "published": null
+        },
+        "bm25Rank": 2,
+        "denseRank": 1,
+        "rrf": 0.03252247488101534,
+        "rerank": 7.990135040070087
+      },
+      {
+        "id": "E2",
+        "passage": {
+          "id": "39df3ea677042d73621c00db4d0f6575c2f3f79f",
+          "source": "web",
+          "url": "https://www.youtube.com/watch?v=Yer_9es33oE",
+          "title": "How long does it take light to travel from the sun to earth",
+          "text": "Light from the Sun takes about 8 minutes and 20 seconds to reach Earth due to the vast distance between the two, which is roughly 149.6 million kilometers. This delay, called the \"light travel time,\" means that we always see the Sun as it was over 8 minutes ago. Despite light’s immense speed, the scale of space distances makes such delays inevitable, offering a glimpse into the vastness of our solar system. [...] ### Transcript [0:04] light travels from the Sun to Earth At a speed of about 299,792,458 [0:22] million miles this distance is commonly referred to as an astronomical unit AU to figure out how long it takes for [0:30] light to reach us from the sun we can think of the time it takes for light to cover this distance given the speed of light and the sun earth distance it [0:39] takes light roughly 500 seconds to make the journey that's about 8 minutes and 20 seconds this means that when we look [...] [0:47] at the sun we are actually seeing it as it was over 8 minutes ago the light we are observing now left the surface of [0:55] the Sun a little more than 8 minutes earlier although the distance between Earth and the Sun changes slightly due to the Earth's elliptical orbit",
+          "published": null
+        },
+        "bm25Rank": 3,
+        "denseRank": 4,
+        "rrf": 0.03149801587301587,
+        "rerank": 6.308033714472499
+      },
+      {
+        "id": "E3",
+        "passage": {
+          "id": "400616cc282678d212eddc981c7f07bdf1d65a9a",
+          "source": "wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Sunlight",
+          "title": "Sunlight",
+          "text": "Sunlight is the portion of the electromagnetic radiation which is emitted by the Sun (i.e. solar radiation) and received by the Earth, in particular the visible light perceptible to the human eye as well as invisible infrared (typically perceived by humans as warmth) and ultraviolet (which can have physiological effects such as sunburn) lights. However, according to the American Meteorological Society, there are \"conflicting conventions as to whether all three [...] are referred to as light, or whether that term should only be applied to the visible portion of the spectrum\". Upon reaching the Earth, sunlight is scattered and filtered through the Earth's atmosphere as daylight when the Sun is above the horizon. When direct solar radiation is not blocked by clouds, it is experienced as sunshine, a combination of bright light and radiant heat (atmospheric). When blocked by clouds or reflected off other objects, sunlight is diffused. Sources estimate a global average of between 164 watts to 340 watts per square meter over a 24-hour day; this figure is estimated by NASA to be about a quarter of Earth's average total solar irradiance. Sunlight takes about 8.3 minutes to reach Earth from the surface of the Sun. A photon starting at the center of the Sun and changing direction every time it encounters a charged particle would take between",
+          "published": null
+        },
+        "bm25Rank": 7,
+        "denseRank": 12,
+        "rrf": 0.028814262023217248,
+        "rerank": 6.293136867483859
+      },
+      {
+        "id": "E4",
+        "passage": {
+          "id": "95c3e43c18243bfe1bed22b835ee1668ff24d954",
+          "source": "web",
+          "url": "https://www.sterngucker.de/en/sun/light-travel-time-sun-earth",
+          "title": "Light from the Sun to the Earth: 8 min 19 s (full calculation)",
+          "text": "On average, light takes 8 minutes 19 seconds (499 seconds) to travel from the Sun to the Earth. Because Earth’s orbit is an ellipse, the value varies between 8:11 minutes (early January) and 8:27 minutes (early July). The basis is 149.6 million kilometres and a speed of light of exactly 299,792.458 km/s. The energy in this light had previously been travelling for around 170,000 years inside the Sun. [...] \\ Affiliate link: if you buy through this link we may earn a small commission from Astroshop or High Point Scientific, at no extra cost to you. ## Questions about light travel time: answered briefly and exactly ### How long does light take from the Sun to the Earth? On average 8 minutes and 19 seconds, that is 499 seconds. Depending on the Earth’s position in its orbit, the value varies between 8:11 minutes in early January and 8:27 minutes in early July. [...] In short: if the Sun went out right now, we would only notice 8 minutes and 19 seconds later. Toggle ## Light travel time Sun–Earth: 8 minutes and 19 seconds",
+          "published": null
+        },
+        "bm25Rank": 12,
+        "denseRank": 3,
+        "rrf": 0.02976190476190476,
+        "rerank": 6.19574008522866
+      },
+      {
+        "id": "E5",
+        "passage": {
+          "id": "4ac000f0818d4c9fa1128e403707cd5e81b77620",
+          "source": "web",
+          "url": "https://testbook.com/question-answer/how-much-time-does-sunlight-take-to-reach-the-eart--5ec37f58f60d5d641ec637de",
+          "title": "[Solved] How much time does sunlight take to reach the Earth?",
+          "text": "and 26.5% of helium are found. The Sun is about 150 million km away from the Earth. Light travels with tremendous speed of about 3,00,000 kilometres per second. Even at this speed, the Sun rays take about eight minutes to reach the Earth. The source of energy of the Sun is nuclear fusion, in which small nuclei of hydrogen atom fuse into a helium atom. ​ Last updated on Aug 19, 2026 -> The BSSC CGL Vacancy has been revised on 21st November 2025. Now, the total vacancy stands at 1883. -> The BSSC CGL Exam Date 2026 will be released soon at bssc.bihar.gov.in. -> The BSSC CGL is conducted for recruitment to various graduate-level posts. -> Prepare for the exam through the BSSC CGL Previous Years’ Paper. Also, attempt the BSSC CGL Mock Tests. More Geography (World Geography) Questions BSSC CGL Important Links More General Knowledge Questions SSC CGL SSC CHSL SSC JE SSC CPO IBPS PO IBPS Clerk IBPS RRB PO IBPS RRB Clerk IBPS SO SBI PO SBI Clerk CUET UGC NET RBI Grade B RBI Assistant UPSC IAS UPSC CAPF AC UPSC CDS UPSC IES UPSC NDA RRB NTPC RRB Group D RRB JE RRB SSE LIC AAO LIC Assistant NABARD Development Assistant SEBI Grade A UPSC CSE Coaching BPSC Coaching AE JE electrical Coaching AE",
+          "published": null
+        },
+        "bm25Rank": 9,
+        "denseRank": 10,
+        "rrf": 0.02877846790890269,
+        "rerank": 6.118586614283191
+      }
+    ]
+  },
+  "debate": {
+    "c1": [
+      {
+        "claimId": "c1",
+        "side": "advocate",
+        "round": 1,
+        "text": "All provided sources state that at sea level (standard atmospheric pressure) pure water boils at about 100 °C. E1 explicitly says the boiling point at sea level is 100 °C. E2 notes water boils at 100 °C at sea level. E3 repeats that the sea‑level boiling point is 100 °C. E4 confirms water boils at 100 °C (rounded from 99.97 °C) under standard pressure at sea level. E5 also lists 100 °C as the sea‑level boiling temperature. These consistent statements support the claim.",
+        "cited": [
+          "E1",
+          "E2",
+          "E3",
+          "E4",
+          "E5"
+        ]
+      },
+      {
+        "claimId": "c1",
+        "side": "skeptic",
+        "round": 1,
+        "text": "supported",
+        "cited": [
+          "E1",
+          "E2",
+          "E3",
+          "E4",
+          "E5"
+        ]
+      },
+      {
+        "claimId": "c1",
+        "side": "advocate",
+        "round": 2,
+        "text": "All sources state that at sea level (standard atmospheric pressure) pure water boils at approximately 100 °C. E1 explicitly gives 100 °C as the boiling point at sea level. E2 notes water boils at 100 °C at sea level. E3 repeats the 100 °C sea‑level boiling point. E4 confirms water boils at 100 °C (rounded from 99.97 °C) under standard pressure at sea level. E5 also lists 100 °C as the sea‑level boiling temperature.",
+        "cited": [
+          "E1",
+          "E2",
+          "E3",
+          "E4",
+          "E5"
+        ]
+      },
+      {
+        "claimId": "c1",
+        "side": "skeptic",
+        "round": 2,
+        "text": "supported",
+        "cited": [
+          "E1",
+          "E2",
+          "E3",
+          "E4",
+          "E5"
+        ]
+      }
+    ],
+    "c2": [
+      {
+        "claimId": "c2",
+        "side": "advocate",
+        "round": 1,
+        "text": "Multiple sources state that sunlight (light from the Sun) takes roughly eight minutes to reach Earth. The web Q&A lists the answer as 8 minutes 16.6 seconds [E1]. Another source gives 8 minutes 20 seconds [E2]. A detailed calculation notes an average of 8 minutes 19 seconds (499 s) [E4]. A general‑knowledge page also says the Sun’s rays take about eight minutes [E5]. These consistent figures support the claim.",
+        "cited": [
+          "E1",
+          "E2",
+          "E4",
+          "E5"
+        ]
+      },
+      {
+        "claimId": "c2",
+        "side": "skeptic",
+        "round": 1,
+        "text": "supported",
+        "cited": [
+          "E1",
+          "E2",
+          "E4",
+          "E5"
+        ]
+      },
+      {
+        "claimId": "c2",
+        "side": "advocate",
+        "round": 2,
+        "text": "SUPPORTED",
+        "cited": [
+          "E1",
+          "E2",
+          "E4",
+          "E5"
+        ]
+      },
+      {
+        "claimId": "c2",
+        "side": "skeptic",
+        "round": 2,
+        "text": "supported",
+        "cited": [
+          "E1",
+          "E2",
+          "E4",
+          "E5"
+        ]
+      }
+    ]
+  },
+  "verdicts": {
+    "c1": {
+      "claimId": "c1",
+      "label": "SUPPORTED",
+      "rawLabel": "SUPPORTED",
+      "confidence": 0.9997630357742309,
+      "abstained": false,
+      "rationale": "Multiple sources state that at sea level (standard atmospheric pressure) pure water boils at approximately 100 °C.",
+      "cited": [
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E5"
+      ],
+      "samples": [
+        "SUPPORTED",
+        "SUPPORTED",
+        "SUPPORTED"
+      ]
+    },
+    "c2": {
+      "claimId": "c2",
+      "label": "SUPPORTED",
+      "rawLabel": "SUPPORTED",
+      "confidence": 0.9998983979225158,
+      "abstained": false,
+      "rationale": "Multiple sources report that sunlight takes roughly eight minutes to travel from the Sun to Earth (e.g., 8 min 16.6 s [E1], 8 min 20 s [E2], 8 min 19 s average [E4], and about eight minutes [E5]).",
+      "cited": [
+        "E1",
+        "E2",
+        "E4",
+        "E5"
+      ],
+      "samples": [
+        "SUPPORTED",
+        "SUPPORTED",
+        "SUPPORTED"
+      ]
+    }
+  },
+  "factuality": 1,
+  "trace": [
+    {
+      "step": "decompose",
+      "model": "@cf/openai/gpt-oss-120b",
+      "provider": "workersai",
+      "inTok": 170,
+      "outTok": 309,
+      "neurons": 26.477235794067383,
+      "ms": 6385,
+      "ok": true
+    },
+    {
+      "step": "plan:c1",
+      "model": "@cf/openai/gpt-oss-120b",
+      "provider": "workersai",
+      "inTok": 145,
+      "outTok": 198,
+      "neurons": 18.113605499267578,
+      "ms": 3910,
+      "ok": true
+    },
+    {
+      "step": "plan:c2",
+      "model": "@cf/openai/gpt-oss-120b",
+      "provider": "workersai",
+      "inTok": 143,
+      "outTok": 189,
+      "neurons": 17.43633460998535,
+      "ms": 7893,
+      "ok": true
+    },
+    {
+      "step": "argue:c2:r1:advocate",
+      "model": "@cf/openai/gpt-oss-120b",
+      "provider": "workersai",
+      "inTok": 1271,
+      "outTok": 273,
+      "neurons": 59.05430603027344,
+      "ms": 6794,
+      "ok": true
+    },
+    {
+      "step": "argue:c1:r1:advocate",
+      "model": "@cf/openai/gpt-oss-120b",
+      "provider": "workersai",
+      "inTok": 1197,
+      "outTok": 299,
+      "neurons": 58.472503662109375,
+      "ms": 7161,
+      "ok": true
+    },
+    {
+      "step": "argue:c1:r1:skeptic",
+      "model": "@cf/openai/gpt-oss-120b",
+      "provider": "workersai",
+      "inTok": 1338,
+      "outTok": 157,
+      "neurons": 53.27702331542969,
+      "ms": 1673,
+      "ok": true
+    },
+    {
+      "step": "argue:c2:r1:skeptic",
+      "model": "@cf/openai/gpt-oss-120b",
+      "provider": "workersai",
+      "inTok": 1399,
+      "outTok": 174,
+      "neurons": 56.37701416015625,
+      "ms": 5462,
+      "ok": true
+    },
+    {
+      "step": "argue:c2:r2:advocate",
+      "model": "@cf/openai/gpt-oss-120b",
+      "provider": "workersai",
+      "inTok": 1390,
+      "outTok": 114,
+      "neurons": 51.99974060058594,
+      "ms": 3939,
+      "ok": true
+    },
+    {
+      "step": "argue:c1:r2:advocate",
+      "model": "@cf/openai/gpt-oss-120b",
+      "provider": "workersai",
+      "inTok": 1329,
+      "outTok": 224,
+      "neurons": 57.55884552001953,
+      "ms": 5831,
+      "ok": true
+    },
+    {
+      "step": "argue:c1:r2:skeptic",
+      "model": "@cf/openai/gpt-oss-120b",
+      "provider": "workersai",
+      "inTok": 1464,
+      "outTok": 138,
+      "neurons": 55.990638732910156,
+      "ms": 2833,
+      "ok": true
+    },
+    {
+      "step": "argue:c2:r2:skeptic",
+      "model": "@cf/openai/gpt-oss-120b",
+      "provider": "workersai",
+      "inTok": 1419,
+      "outTok": 157,
+      "neurons": 55.854278564453125,
+      "ms": 3611,
+      "ok": true
+    },
+    {
+      "step": "judge:c1:s1",
+      "model": "@cf/openai/gpt-oss-120b",
+      "provider": "workersai",
+      "inTok": 1485,
+      "outTok": 239,
+      "neurons": 63.54518127441406,
+      "ms": 1995,
+      "ok": true
+    },
+    {
+      "step": "judge:c1:s2",
+      "model": "@cf/openai/gpt-oss-120b",
+      "provider": "workersai",
+      "inTok": 1485,
+      "outTok": 231,
+      "neurons": 62.999725341796875,
+      "ms": 2237,
+      "ok": true
+    },
+    {
+      "step": "judge:c1:s3",
+      "model": "@cf/openai/gpt-oss-120b",
+      "provider": "workersai",
+      "inTok": 1485,
+      "outTok": 266,
+      "neurons": 65.3860855102539,
+      "ms": 5425,
+      "ok": true
+    },
+    {
+      "step": "judge:c2:s3",
+      "model": "@cf/openai/gpt-oss-120b",
+      "provider": "workersai",
+      "inTok": 1440,
+      "outTok": 246,
+      "neurons": 62.59063720703125,
+      "ms": 6136,
+      "ok": true
+    },
+    {
+      "step": "judge:c2:s1",
+      "model": "@cf/openai/gpt-oss-120b",
+      "provider": "workersai",
+      "inTok": 1440,
+      "outTok": 289,
+      "neurons": 65.5224609375,
+      "ms": 6910,
+      "ok": true
+    },
+    {
+      "step": "judge:c2:s2",
+      "model": "@cf/openai/gpt-oss-120b",
+      "provider": "workersai",
+      "inTok": 1440,
+      "outTok": 221,
+      "neurons": 60.88609313964844,
+      "ms": 7357,
+      "ok": true
+    }
+  ],
+  "model": "gpt-oss-120b",
+  "provider": "workersai",
+  "createdAt": "2026-10-13T20:11:18.479Z",
+  "executor": "cloud",
+  "partial": false
+}

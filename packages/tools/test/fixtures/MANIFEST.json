@@ -1,0 +1,74 @@
+{
+  "pages/wikipedia-eiffel.html": {
+    "url": "https://en.wikipedia.org/wiki/Eiffel_Tower",
+    "recorded": "2026-10-13T14:47:12.350Z",
+    "sha256": "f2ed76ae0e1c34ab6c52a1c94cb5e86ec9dee0ac07cfc19050c8f30d2518b924",
+    "bytes": 150000
+  },
+  "pages/mdn-html.html": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML",
+    "recorded": "2026-10-13T14:47:13.676Z",
+    "sha256": "c8f4817e3ae84635cafd9f1441bef2d2f3e53ca2f47bc6cbda95d82af15ae3c9",
+    "bytes": 150000
+  },
+  "pages/cdc-flu.html": {
+    "url": "https://www.cdc.gov/flu/about/index.html",
+    "recorded": "2026-10-13T14:47:15.857Z",
+    "sha256": "1a50419aa570c697cf109d615e8d4f658748530115ab9eb92587a344617d7dd3",
+    "bytes": 73392
+  },
+  "pages/nasa-moon.html": {
+    "url": "https://science.nasa.gov/moon/facts/",
+    "recorded": "2026-10-13T14:47:17.225Z",
+    "sha256": "00bc8929a34a3664cc42d507f9bb28b5dfa413910442810dc4cb9945b17d0f77",
+    "bytes": 150000
+  },
+  "tavily.json": {
+    "url": "PLACEHOLDER: hand-written in the documented response shape (https://docs.tavily.com/documentation/api-reference/endpoint/search); re-record once TAVILY_API_KEY is set",
+    "recorded": "2026-10-13",
+    "sha256": "2d6dc2206d9638be6c45db2fee9628be31062bcab81a60ff698197a845fdfb17",
+    "bytes": 834
+  },
+  "wiki_search.json": {
+    "url": "https://en.wikipedia.org/w/api.php?action=query&list=search&format=json&srsearch=Eiffel+Tower+completed+1889&srlimit=5",
+    "recorded": "2026-10-13T14:50:26.913Z",
+    "sha256": "fa5313ba8e21b9c29c707ca41ed4a12be1c7d9abd8b9407830dba430426eab02",
+    "bytes": 2251
+  },
+  "wiki_page.json": {
+    "url": "https://en.wikipedia.org/w/api.php?action=query&prop=extracts&explaintext=1&redirects=1&format=json&titles=Eiffel+tower",
+    "recorded": "2026-10-13T14:50:28.986Z",
+    "sha256": "106bf20c255912bb75bfcb8069bea2f62717b6ab63016f00b482b147b8520772",
+    "bytes": 45710
+  },
+  "wiki_page_missing.json": {
+    "url": "https://en.wikipedia.org/w/api.php?action=query&prop=extracts&explaintext=1&redirects=1&format=json&titles=Zzqxv+no+such+page+4821",
+    "recorded": "2026-10-13T14:50:30.454Z",
+    "sha256": "98d740be7e07bd5669fe81a497aa3546a45ab4c4e27fb11229937bf7fe47aaa3",
+    "bytes": 101
+  },
+  "pages/govuk-passport.html": {
+    "url": "https://www.gov.uk/apply-renew-passport",
+    "recorded": "2026-10-13T14:55:05.187Z",
+    "sha256": "9894f12c0c6b759908785ad06f6b2d7356fcae412cd1c68280c788a9f860b9ea",
+    "bytes": 66361
+  },
+  "scholar.json": {
+    "url": "https://api.semanticscholar.org/graph/v1/paper/search?query=scientific+claim+verification&limit=5&fields=title%2Cabstract%2Cyear%2Curl",
+    "recorded": "2026-10-13T15:06:01.209Z",
+    "sha256": "a72df2734f68d74eb31790ebf4d8465920ea18b96339b59d0712797be63a3f4f",
+    "bytes": 10762
+  },
+  "arxiv.xml": {
+    "url": "https://info.arxiv.org/help/api/user-manual.html (published example response)",
+    "recorded": "2026-10-13T15:17:27.543Z",
+    "sha256": "347a4b77248aaf58b0f7ea44eb9740ae61b0e6810ddfd84a6c466404049191dc",
+    "bytes": 3065
+  },
+  "arxiv_error.xml": {
+    "url": "https://info.arxiv.org/help/api/user-manual.html (published example response)",
+    "recorded": "2026-10-13T15:17:27.544Z",
+    "sha256": "25da7a1e47269792741f33477be103957330917def6026a29002ddef5559879a",
+    "bytes": 1608
+  }
+}

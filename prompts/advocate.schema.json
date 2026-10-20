@@ -1,0 +1,16 @@
+{
+  "type": "object",
+  "properties": {
+    "argument": {
+      "type": "string"
+    },
+    "cited": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "required": ["argument", "cited"],
+  "additionalProperties": false
+}

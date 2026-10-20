@@ -1,0 +1,41 @@
+# Typecheck, lint, format and unit tests on every push and pull request. Integration tests (real models)
+# and the Playwright suite (deployed site) are run locally — see README and QA_REPORT.md.
+name: ci
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          path: Satya
+      # web/ depends on aj-demo-kit via file:../../aj-demo-kit — check it out next to this repo.
+      - uses: actions/checkout@v4
+        with:
+          repository: adityajajodia95/aj-demo-kit
+          ref: v1.0.1
+          path: aj-demo-kit
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+          cache-dependency-path: Satya/package-lock.json
+      - name: Build aj-demo-kit
+        working-directory: aj-demo-kit
+        run: npm ci
+      - name: Install
+        working-directory: Satya
+        run: npm ci
+      - name: Check (types, lint, format, unit tests)
+        working-directory: Satya
+        run: npm run check
+      - name: Build the web app
+        working-directory: Satya/web
+        run: npm run build

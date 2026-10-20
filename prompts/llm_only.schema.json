@@ -1,0 +1,17 @@
+{
+  "type": "object",
+  "properties": {
+    "label": {
+      "type": "string",
+      "enum": ["SUPPORTED", "REFUTED", "NOT_ENOUGH_INFO"]
+    },
+    "rationale": {
+      "type": "string"
+    },
+    "confidence": {
+      "type": "number"
+    }
+  },
+  "required": ["label", "rationale", "confidence"],
+  "additionalProperties": false
+}

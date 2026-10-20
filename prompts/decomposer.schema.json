@@ -1,0 +1,26 @@
+{
+  "type": "object",
+  "properties": {
+    "claims": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "text": {
+            "type": "string"
+          },
+          "quote": {
+            "type": "string"
+          },
+          "checkworthy": {
+            "type": "boolean"
+          }
+        },
+        "required": ["text", "quote", "checkworthy"],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": ["claims"],
+  "additionalProperties": false
+}

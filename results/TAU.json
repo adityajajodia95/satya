@@ -1,0 +1,14 @@
+{
+  "tau": 0.7004,
+  "previous": 0.55,
+  "minCoverage": 0.7,
+  "coverage": 0.9285714285714286,
+  "selectiveAccuracy": 0.6826923076923077,
+  "answered": 104,
+  "tauExact": 0.7004232991891939,
+  "devItems": {
+    "scifact": 112
+  },
+  "configHash": "7ca8be20f151",
+  "tunedAt": "2026-10-14T01:50:51.616Z"
+}
