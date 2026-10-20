@@ -1,5 +1,6 @@
 import { execFileSync } from "node:child_process";
-import { readFileSync } from "node:fs";
+import { createHash } from "node:crypto";
+import { existsSync, readFileSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import { describe, expect, it } from "vitest";
 import {
@@ -51,14 +52,28 @@ describe("render", () => {
 });
 
 describe("templates (kept exactly as the spec)", () => {
+  // The spec is a private planning document (docs/, not published). Its template blocks are pinned by SHA-256 in
+  // a fixture: CI checks every prompt against the pinned hash; where the spec exists, the pins are checked too.
+  const pinned = JSON.parse(
+    readFileSync(new URL("./fixtures/spec-template-sha256.json", import.meta.url), "utf8"),
+  ) as { templates: Record<string, string> };
+  const sha256 = (text: string) => createHash("sha256").update(text).digest("hex");
+  const specUrl = new URL("../../../docs/Satya_Development.md", import.meta.url);
+
   it.each(["decomposer", "planner", "advocate", "skeptic", "judge"] as const)(
-    "%s.md is byte-identical to the template in docs/Satya_Development.md",
+    "%s.md is byte-identical to the spec template (pinned SHA-256)",
     (name) => {
-      const specUrl = new URL("../../../docs/Satya_Development.md", import.meta.url);
+      expect(sha256(templateFor(name))).toBe(pinned.templates[name]);
+    },
+  );
+
+  it.skipIf(!existsSync(specUrl)).each(["decomposer", "planner", "advocate", "skeptic", "judge"] as const)(
+    "the pinned hash of %s matches the template in docs/Satya_Development.md",
+    (name) => {
       const doc = readFileSync(specUrl, "utf8").replace(/\r\n/g, "\n");
       const block = doc.match(new RegExp("`" + name + "\\.md`\\n```\\n([\\s\\S]*?)\\n```"));
       expect(block?.[1]).toBeDefined();
-      expect(templateFor(name)).toBe(block?.[1]);
+      expect(sha256(block![1]!)).toBe(pinned.templates[name]);
     },
   );
 

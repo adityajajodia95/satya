@@ -1,0 +1,10 @@
+{
+  "source": "SHA-256 of each prompt template block in the private planning document docs/Satya_Development.md",
+  "templates": {
+    "decomposer": "23511f9cef2e4c03b6f4f4044f5231a896111a3bde069925bc1239039e50a548",
+    "planner": "315271aaba49a87e198244d24538e2e5719a4379531047ef0f9e5e339dc5d465",
+    "advocate": "deeb4b53bf02bd31eedb93f76fc85c8bdc5589f3f4986510f1dce9d05b33449d",
+    "skeptic": "c6435b9c09e45849b118e086e09eaefb5639976878c452627fb50ad4d4aad969",
+    "judge": "b7b87f6b06a6c5bdbbce3aee680f6f98bedb39ea5809b65047ab0f5304e15a10"
+  }
+}
