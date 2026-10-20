@@ -142,7 +142,7 @@ Metrics also reported: macro-F1, calibration (ECE), risk–coverage (AURC) and s
 
 ## 7. Engineering quality
 
-- **Automated tests:** 227 for the pipeline, retrieval, agents, tools, MCP, API and web app; 41 for the gateway; 12 for the shared UI kit; 6 real-model integration tests; a golden test that the cloud and laptop execute the identical step sequence.
+- **Automated tests:** 232 for the pipeline, retrieval, agents, tools, MCP, API and web app; 41 for the gateway; 12 for the shared UI kit; 6 real-model integration tests; a golden test that the cloud and laptop execute the identical step sequence.
 - **Browser tests:** 136 end-to-end tests on the deployed site — desktop and mobile, light and dark — covering recorded, live, partial, failed, capacity-exhausted and waking states; every test fails on any console error or Content-Security-Policy violation.
 - **Accessibility:** Lighthouse accessibility 100 on every page; automated WCAG 2.1 AA checks in both themes; full keyboard use.
 - **Failure handling, forced in tests:** retries with backoff, timeouts, circuit breakers, provider failover, partial reports when capacity runs out mid-check.

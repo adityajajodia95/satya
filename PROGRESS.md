@@ -210,6 +210,14 @@ Plan agreed with the owner: route the research agent's tools through MCP; score 
 
 - Later (20 Oct, owner request): **landing page removed** — https://aj-demos.pages.dev/ now redirects (302) to the Satya page; the status page links back to Satya. (The landing page was data-driven; restore it from git history if more demos go live.)
 
+### 20 Oct 2026 — documentation, final check and publication
+
+- **Final check:** all suites green (Satya 232, gateway 41, kit 12, real-model integration 6); deployed API guards verified (no session 401, empty text 400, wrong owner token 401), cache hit, MCP `tools/list` + `tools/call`; a fresh live check (Everest highest → SUPPORTED 1.00, in Brazil → REFUTED 0.99, 66 s, 17 calls); E2E **136/136** on the deployed site; Lighthouse accessibility 100 on every page.
+- **DOCUMENTATION.md** — the full project document: flow and architecture diagrams (Mermaid), models and design decisions with reasons, evaluation and results, engineering quality, **usage limits and why** (3 live checks per visitor per day), **owner mode** (link `https://aj-demos.pages.dev/satya/?owner`; the token is never written down), operations, repository map. Website: the 3-per-day limit and its reason under "Check facts", and a "Usage limits — and why" section on How it's built.
+- **Published (public):** <https://github.com/adityajajodia95/satya>, <https://github.com/adityajajodia95/aj-platform>, <https://github.com/adityajajodia95/aj-demo-kit> (tag v1.0.1). Published as **clean copies** (one commit per publish) so the private planning documents in `docs/` never appear in any public commit; local repositories and their full history are unchanged. Secret scan of the published files: 0 hits. READMEs added to aj-platform and aj-demo-kit; repo descriptions, homepage and topics set.
+- **CI on GitHub:** all three repos green. The spec-fidelity prompt tests now compare against SHA-256 pins of the spec templates (`packages/core/test/fixtures/spec-template-sha256.json`), so CI verifies them without the private spec; locally the pins themselves are checked against the spec. Deploy workflows skip (with a notice) until `CLOUDFLARE_API_TOKEN` / `CLOUDFLARE_ACCOUNT_ID` are added as repository secrets.
+- **Publishing later changes:** commit in the local repo, then `node ../_publish/publish.mjs ../<Repo> adityajajodia95/<repo> "<message>"` (from `Projects/_publish`; never force-pushes `main`; private paths in its `PRIVATE` list are excluded).
+
 ### Resume claims → evidence (for the documentation)
 
 | Claim                                                         | Where it is implemented                                                                                                 | Proof                                                                                                             |

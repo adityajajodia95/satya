@@ -461,7 +461,7 @@ export function About() {
         </h2>
         <ul className={s.list}>
           <li>
-            <strong>Tests at every level:</strong> 227 automated tests for the pipeline, retrieval, agents,
+            <strong>Tests at every level:</strong> 232 automated tests for the pipeline, retrieval, agents,
             tools, MCP, API and web app, plus 41 for the gateway and real-model integration tests; a test
             checks that the cloud and laptop run the identical step sequence.
           </li>
